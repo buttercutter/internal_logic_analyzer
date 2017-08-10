@@ -41,12 +41,12 @@ int main(int argc, char** argv)
         tfp->open(vcdname.c_str());
     }
 
-    uut->CLOCK = 0;
+    uut->clk = 0;
     uut->eval();
 
     while (!Verilated::gotFinish())
     {
-        uut->CLOCK = uut->CLOCK ? 0 : 1;       // Toggle clock
+        uut->clk = uut->clk ? 0 : 1;       // Toggle clock
         uut->eval();            // Evaluate model
 
         if (tfp != NULL)

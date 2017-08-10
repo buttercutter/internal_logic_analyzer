@@ -5,15 +5,15 @@
 module internal_logic_analyzer(clk, reset, i_trigger, i_holdoff, i_data, o_data);  // Used to **log** or write internal FPGA signals into memory
 
 input clk, reset, i_trigger;   	// clock, reset(to signal start writing) and trigger(to signal stop writing) input signals
-input [(HOLDOFF_WIDTH-1) : 0] i_holdoff;	// a programmable user holdoff value that determines how much more to write upon receiving trigger signal before stopping memory write
-input [(DATA_WIDTH-1) : 0] i_data;	// connected to internal FPGA signals of interest
-output[(DATA_WIDTH-1) : 0] o_data;	// to be viewed using gtkwave
+input [(`HOLDOFF_WIDTH-1) : 0] i_holdoff;	// a programmable user holdoff value that determines how much more to write upon receiving trigger signal before stopping memory write
+input [(`DATA_WIDTH-1) : 0] i_data;	// connected to internal FPGA signals of interest
+output[(`DATA_WIDTH-1) : 0] o_data;	// to be viewed using gtkwave
 
-wire [(ADDR_WIDTH-1) : 0] waddr;	// memory address for writing purpose
+wire [(`ADDR_WIDTH-1) : 0] waddr;	// memory address for writing purpose
 wire primed;	// '1' indicates memory has been initialized, '0' indicates otherwise
 wire stopped; 	// just a stop flag for stopping memory writing
 
-reg [(DATA_WIDTH-1) : 0] ram [(MEMORY_SIZE-1) : 0]; 	// memory used as circular buffer
+reg [(`DATA_WIDTH-1) : 0] ram [(`MEMORY_SIZE-1) : 0]; 	// memory used as circular buffer
 
 // Writing into a slightly modified circular buffer with no read pointer concept
 write_mem wr (.clk(clk), .reset(reset), .write_enable(!stopped), .i_data(i_data), .waddr(waddr), .memory(ram), .primed(primed)); 

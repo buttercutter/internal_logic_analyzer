@@ -3,13 +3,13 @@
 module stop (clk, reset, waddr, primed, i_trigger, i_holdoff, stopped);
 
 input clk, reset, primed, i_trigger;
-input [(ADDR_WIDTH-1) : 0] waddr;
-input [(HOLDOFF_WIDTH-1) : 0] i_holdoff;
+input [(`ADDR_WIDTH-1) : 0] waddr;
+input [(`HOLDOFF_WIDTH-1) : 0] i_holdoff;
 
 output reg stopped;
 
 reg triggered;
-reg [(HOLDOFF_WIDTH-1) : 0] holdoff_counter = 0;
+reg [(`HOLDOFF_WIDTH-1) : 0] holdoff_counter = 0;
 
 always @(posedge clk)
 begin
@@ -24,7 +24,7 @@ begin
     if ((reset) || !(triggered))	
 	holdoff_counter <= 0;
     else 	
-	holdoff_counter <= holdoff_counter + (!stopped);   // increments only when memory writing is not stopped
+	holdoff_counter <= holdoff_counter + `HOLDOFF_WIDTH'(!stopped);   // increments only when memory writing is not stopped
 end
 
 always @(posedge clk)
