@@ -1,9 +1,8 @@
 `include "define.v"
 
-module stop (clk, reset, waddr, primed, i_trigger, i_holdoff, stopped);
+module stop (clk, reset, primed, i_trigger, i_holdoff, stopped);
 
 input clk, reset, primed, i_trigger;
-input [(`ADDR_WIDTH-1) : 0] waddr;
 input [(`HOLDOFF_WIDTH-1) : 0] i_holdoff;
 
 output reg stopped;
@@ -32,7 +31,7 @@ begin
     if ((reset) || !(triggered))	
 	stopped <= 0;
     else 	
-	stopped <= (holdoff_counter >= i_holdoff); 
+	stopped <= (holdoff_counter >= i_holdoff) && primed; 
 end
 
 endmodule
