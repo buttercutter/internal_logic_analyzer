@@ -30,7 +30,7 @@ begin
     else if (!primed) begin 
 	$display("waddr = %b" , waddr);
 	primed <= &waddr;	// the very *first*(!primed) wrapping around (&waddr) of address space
-	if (&waddr) $display("primed at time = ", $realtime); 
+	$display("primed = ", primed); 
     end
 end
 
