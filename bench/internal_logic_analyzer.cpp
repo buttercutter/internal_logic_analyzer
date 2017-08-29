@@ -58,21 +58,29 @@ void update_clk(void) {
 	num_of_clk_passed++;
 }
 
+void cout_debug_msg() 
+{
+    cout << "uut->o_data = " << uut->o_data << " , num_of_clk_passed = " << num_of_clk_passed << endl;  
+    cout << "uut->o_primed = " << (int)uut->o_primed << endl; 
+}
+
 bool test_buffer()
 {
-    // test for primed condition
-    if (!((int)uut->o_primed) && (uut->i_trigger) && (uut->i_holdoff == 0)) {
-	cout << "num_of_clk_passed = " << num_of_clk_passed << " , uut->o_primed = " << (int)uut->o_primed << endl;
-	cout << "Memory is not yet fully initialized. Scope could not stop recording at this point of time" << endl;
-	return false;
+    if ((num_of_clk_passed >= BUFFER_SIZE) && (num_of_clk_passed <= 2*BUFFER_SIZE)) {
+    	// test for counter data correctness in the circular buffer
+    	if (uut->o_data != (num_of_clk_passed-1)) {	
+	    cout << "Data in the circular buffer is not correct for buffer items at " << (fmod(num_of_clk_passed , (BUFFER_SIZE+1))) << endl;
+	    return false;
+    	}    
     }
-    cout << "uut->o_data = " << uut->o_data << " , num_of_clk_passed = " << num_of_clk_passed << endl;
-    // test for counter data correctness in the circular buffer
-    if (uut->o_data != (num_of_clk_passed-1)) {
-	
-	cout << "Data in the circular buffer is not correct for buffer items at " << (fmod(num_of_clk_passed , (BUFFER_SIZE+1))) << endl;
-	return false;
-    }    
+
+    if (num_of_clk_passed < BUFFER_SIZE) {
+        // test for primed condition
+    	if (!((int)uut->o_primed) && (uut->i_trigger) && (uut->i_holdoff == 0)) {
+	    cout << "Memory is not yet fully initialized. Scope could not stop recording at this point of time" << endl;
+	    return false;
+	}
+    }
 
     // test for trigger location
     //if () {
@@ -119,8 +127,12 @@ int main(int argc, char** argv)
 
 	update_clk();            // Time passes...
 
-	// test for correct recording operation by reading out the data in circular buffer
-	if (test_buffer() == false) break;
+   	cout_debug_msg();
+
+	// test for correct recording operation by reading out the data in circular buffer after (BUFFER_SIZE)th clock cycles
+	bool buffer_is_ok = test_buffer();
+
+	if (!(buffer_is_ok) || (num_of_clk_passed == 2*BUFFER_SIZE)) break;
 	
     }
 

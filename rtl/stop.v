@@ -16,7 +16,7 @@ begin
 	triggered <= 1'b0;
     else begin
 	triggered <= (i_trigger) && (primed);  // Following a reset, once the scope has filled its memory, it enters the PRIMED state. Once it reaches this state, it will be sensitive to i_trigger.
-	//$display("(i_trigger) && (primed) = " , (i_trigger) && (primed));
+	$display("i_trigger = " , i_trigger);
 	$display("triggered = " , triggered);
     end
 end
@@ -26,15 +26,15 @@ begin
     if (reset)	
 	holdoff_counter <= 0;
     else 	
-	holdoff_counter <= holdoff_counter + `HOLDOFF_WIDTH'(!stopped);   // increments only when memory writing is not stopped
+	holdoff_counter <= holdoff_counter + `HOLDOFF_WIDTH'(triggered);   // starts counter only after scope is triggered
 end
 
 always @(posedge clk)
 begin
-    if (reset)	
+    if (reset) // || !(triggered))	
 	stopped <= 0;
     else begin
-	stopped <= (holdoff_counter >= i_holdoff) && triggered; 
+	stopped <= (holdoff_counter >= i_holdoff) && (triggered); 
 	$display("stopped = " , stopped);
     end
 end

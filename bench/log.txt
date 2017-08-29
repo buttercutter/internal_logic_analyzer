@@ -1,7189 +1,8222 @@
+waddr =    0
+i_trigger = 0
 triggered = 0
-waddr = 0000000000
 primed = 0
-stopped = 0
 this_addr =    0
 raddr =    0
 uut->o_data = 0 , num_of_clk_passed = 1
+uut->o_primed = 0
+waddr =    1
+i_trigger = 0
 triggered = 0
-waddr = 0000000001
 primed = 0
-stopped = 0
 this_addr =    0
 raddr =    0
 uut->o_data = 1 , num_of_clk_passed = 2
+uut->o_primed = 0
+waddr =    2
+i_trigger = 0
 triggered = 0
-waddr = 0000000010
 primed = 0
-stopped = 0
 this_addr =    1
 raddr =    0
 uut->o_data = 2 , num_of_clk_passed = 3
+uut->o_primed = 0
+waddr =    3
+i_trigger = 0
 triggered = 0
-waddr = 0000000011
 primed = 0
-stopped = 0
 this_addr =    2
 raddr =    0
 uut->o_data = 3 , num_of_clk_passed = 4
+uut->o_primed = 0
+waddr =    4
+i_trigger = 0
 triggered = 0
-waddr = 0000000100
 primed = 0
-stopped = 0
 this_addr =    3
 raddr =    0
 uut->o_data = 4 , num_of_clk_passed = 5
+uut->o_primed = 0
+waddr =    5
+i_trigger = 0
 triggered = 0
-waddr = 0000000101
 primed = 0
-stopped = 0
 this_addr =    4
 raddr =    0
 uut->o_data = 5 , num_of_clk_passed = 6
+uut->o_primed = 0
+waddr =    6
+i_trigger = 0
 triggered = 0
-waddr = 0000000110
 primed = 0
-stopped = 0
 this_addr =    5
 raddr =    0
 uut->o_data = 6 , num_of_clk_passed = 7
+uut->o_primed = 0
+waddr =    7
+i_trigger = 0
 triggered = 0
-waddr = 0000000111
 primed = 0
-stopped = 0
 this_addr =    6
 raddr =    0
 uut->o_data = 7 , num_of_clk_passed = 8
+uut->o_primed = 0
+waddr =    8
+i_trigger = 0
 triggered = 0
-waddr = 0000001000
 primed = 0
-stopped = 0
 this_addr =    7
 raddr =    0
 uut->o_data = 8 , num_of_clk_passed = 9
+uut->o_primed = 0
+waddr =    9
+i_trigger = 0
 triggered = 0
-waddr = 0000001001
 primed = 0
-stopped = 0
 this_addr =    8
 raddr =    0
 uut->o_data = 9 , num_of_clk_passed = 10
+uut->o_primed = 0
+waddr =   10
+i_trigger = 0
 triggered = 0
-waddr = 0000001010
 primed = 0
-stopped = 0
 this_addr =    9
 raddr =    0
 uut->o_data = 10 , num_of_clk_passed = 11
+uut->o_primed = 0
+waddr =   11
+i_trigger = 0
 triggered = 0
-waddr = 0000001011
 primed = 0
-stopped = 0
 this_addr =   10
 raddr =    0
 uut->o_data = 11 , num_of_clk_passed = 12
+uut->o_primed = 0
+waddr =   12
+i_trigger = 0
 triggered = 0
-waddr = 0000001100
 primed = 0
-stopped = 0
 this_addr =   11
 raddr =    0
 uut->o_data = 12 , num_of_clk_passed = 13
+uut->o_primed = 0
+waddr =   13
+i_trigger = 0
 triggered = 0
-waddr = 0000001101
 primed = 0
-stopped = 0
 this_addr =   12
 raddr =    0
 uut->o_data = 13 , num_of_clk_passed = 14
+uut->o_primed = 0
+waddr =   14
+i_trigger = 0
 triggered = 0
-waddr = 0000001110
 primed = 0
-stopped = 0
 this_addr =   13
 raddr =    0
 uut->o_data = 14 , num_of_clk_passed = 15
+uut->o_primed = 0
+waddr =   15
+i_trigger = 0
 triggered = 0
-waddr = 0000001111
 primed = 0
-stopped = 0
 this_addr =   14
 raddr =    0
 uut->o_data = 15 , num_of_clk_passed = 16
+uut->o_primed = 0
+waddr =   16
+i_trigger = 0
 triggered = 0
-waddr = 0000010000
 primed = 0
-stopped = 0
 this_addr =   15
 raddr =    0
 uut->o_data = 16 , num_of_clk_passed = 17
+uut->o_primed = 0
+waddr =   17
+i_trigger = 0
 triggered = 0
-waddr = 0000010001
 primed = 0
-stopped = 0
 this_addr =   16
 raddr =    0
 uut->o_data = 17 , num_of_clk_passed = 18
+uut->o_primed = 0
+waddr =   18
+i_trigger = 0
 triggered = 0
-waddr = 0000010010
 primed = 0
-stopped = 0
 this_addr =   17
 raddr =    0
 uut->o_data = 18 , num_of_clk_passed = 19
+uut->o_primed = 0
+waddr =   19
+i_trigger = 0
 triggered = 0
-waddr = 0000010011
 primed = 0
-stopped = 0
 this_addr =   18
 raddr =    0
 uut->o_data = 19 , num_of_clk_passed = 20
+uut->o_primed = 0
+waddr =   20
+i_trigger = 0
 triggered = 0
-waddr = 0000010100
 primed = 0
-stopped = 0
 this_addr =   19
 raddr =    0
 uut->o_data = 20 , num_of_clk_passed = 21
+uut->o_primed = 0
+waddr =   21
+i_trigger = 0
 triggered = 0
-waddr = 0000010101
 primed = 0
-stopped = 0
 this_addr =   20
 raddr =    0
 uut->o_data = 21 , num_of_clk_passed = 22
+uut->o_primed = 0
+waddr =   22
+i_trigger = 0
 triggered = 0
-waddr = 0000010110
 primed = 0
-stopped = 0
 this_addr =   21
 raddr =    0
 uut->o_data = 22 , num_of_clk_passed = 23
+uut->o_primed = 0
+waddr =   23
+i_trigger = 0
 triggered = 0
-waddr = 0000010111
 primed = 0
-stopped = 0
 this_addr =   22
 raddr =    0
 uut->o_data = 23 , num_of_clk_passed = 24
+uut->o_primed = 0
+waddr =   24
+i_trigger = 0
 triggered = 0
-waddr = 0000011000
 primed = 0
-stopped = 0
 this_addr =   23
 raddr =    0
 uut->o_data = 24 , num_of_clk_passed = 25
+uut->o_primed = 0
+waddr =   25
+i_trigger = 0
 triggered = 0
-waddr = 0000011001
 primed = 0
-stopped = 0
 this_addr =   24
 raddr =    0
 uut->o_data = 25 , num_of_clk_passed = 26
+uut->o_primed = 0
+waddr =   26
+i_trigger = 0
 triggered = 0
-waddr = 0000011010
 primed = 0
-stopped = 0
 this_addr =   25
 raddr =    0
 uut->o_data = 26 , num_of_clk_passed = 27
+uut->o_primed = 0
+waddr =   27
+i_trigger = 0
 triggered = 0
-waddr = 0000011011
 primed = 0
-stopped = 0
 this_addr =   26
 raddr =    0
 uut->o_data = 27 , num_of_clk_passed = 28
+uut->o_primed = 0
+waddr =   28
+i_trigger = 0
 triggered = 0
-waddr = 0000011100
 primed = 0
-stopped = 0
 this_addr =   27
 raddr =    0
 uut->o_data = 28 , num_of_clk_passed = 29
+uut->o_primed = 0
+waddr =   29
+i_trigger = 0
 triggered = 0
-waddr = 0000011101
 primed = 0
-stopped = 0
 this_addr =   28
 raddr =    0
 uut->o_data = 29 , num_of_clk_passed = 30
+uut->o_primed = 0
+waddr =   30
+i_trigger = 0
 triggered = 0
-waddr = 0000011110
 primed = 0
-stopped = 0
 this_addr =   29
 raddr =    0
 uut->o_data = 30 , num_of_clk_passed = 31
+uut->o_primed = 0
+waddr =   31
+i_trigger = 0
 triggered = 0
-waddr = 0000011111
 primed = 0
-stopped = 0
 this_addr =   30
 raddr =    0
 uut->o_data = 31 , num_of_clk_passed = 32
+uut->o_primed = 0
+waddr =   32
+i_trigger = 0
 triggered = 0
-waddr = 0000100000
 primed = 0
-stopped = 0
 this_addr =   31
 raddr =    0
 uut->o_data = 32 , num_of_clk_passed = 33
+uut->o_primed = 0
+waddr =   33
+i_trigger = 0
 triggered = 0
-waddr = 0000100001
 primed = 0
-stopped = 0
 this_addr =   32
 raddr =    0
 uut->o_data = 33 , num_of_clk_passed = 34
+uut->o_primed = 0
+waddr =   34
+i_trigger = 0
 triggered = 0
-waddr = 0000100010
 primed = 0
-stopped = 0
 this_addr =   33
 raddr =    0
 uut->o_data = 34 , num_of_clk_passed = 35
+uut->o_primed = 0
+waddr =   35
+i_trigger = 0
 triggered = 0
-waddr = 0000100011
 primed = 0
-stopped = 0
 this_addr =   34
 raddr =    0
 uut->o_data = 35 , num_of_clk_passed = 36
+uut->o_primed = 0
+waddr =   36
+i_trigger = 0
 triggered = 0
-waddr = 0000100100
 primed = 0
-stopped = 0
 this_addr =   35
 raddr =    0
 uut->o_data = 36 , num_of_clk_passed = 37
+uut->o_primed = 0
+waddr =   37
+i_trigger = 0
 triggered = 0
-waddr = 0000100101
 primed = 0
-stopped = 0
 this_addr =   36
 raddr =    0
 uut->o_data = 37 , num_of_clk_passed = 38
+uut->o_primed = 0
+waddr =   38
+i_trigger = 0
 triggered = 0
-waddr = 0000100110
 primed = 0
-stopped = 0
 this_addr =   37
 raddr =    0
 uut->o_data = 38 , num_of_clk_passed = 39
+uut->o_primed = 0
+waddr =   39
+i_trigger = 0
 triggered = 0
-waddr = 0000100111
 primed = 0
-stopped = 0
 this_addr =   38
 raddr =    0
 uut->o_data = 39 , num_of_clk_passed = 40
+uut->o_primed = 0
+waddr =   40
+i_trigger = 0
 triggered = 0
-waddr = 0000101000
 primed = 0
-stopped = 0
 this_addr =   39
 raddr =    0
 uut->o_data = 40 , num_of_clk_passed = 41
+uut->o_primed = 0
+waddr =   41
+i_trigger = 0
 triggered = 0
-waddr = 0000101001
 primed = 0
-stopped = 0
 this_addr =   40
 raddr =    0
 uut->o_data = 41 , num_of_clk_passed = 42
+uut->o_primed = 0
+waddr =   42
+i_trigger = 0
 triggered = 0
-waddr = 0000101010
 primed = 0
-stopped = 0
 this_addr =   41
 raddr =    0
 uut->o_data = 42 , num_of_clk_passed = 43
+uut->o_primed = 0
+waddr =   43
+i_trigger = 0
 triggered = 0
-waddr = 0000101011
 primed = 0
-stopped = 0
 this_addr =   42
 raddr =    0
 uut->o_data = 43 , num_of_clk_passed = 44
+uut->o_primed = 0
+waddr =   44
+i_trigger = 0
 triggered = 0
-waddr = 0000101100
 primed = 0
-stopped = 0
 this_addr =   43
 raddr =    0
 uut->o_data = 44 , num_of_clk_passed = 45
+uut->o_primed = 0
+waddr =   45
+i_trigger = 0
 triggered = 0
-waddr = 0000101101
 primed = 0
-stopped = 0
 this_addr =   44
 raddr =    0
 uut->o_data = 45 , num_of_clk_passed = 46
+uut->o_primed = 0
+waddr =   46
+i_trigger = 0
 triggered = 0
-waddr = 0000101110
 primed = 0
-stopped = 0
 this_addr =   45
 raddr =    0
 uut->o_data = 46 , num_of_clk_passed = 47
+uut->o_primed = 0
+waddr =   47
+i_trigger = 0
 triggered = 0
-waddr = 0000101111
 primed = 0
-stopped = 0
 this_addr =   46
 raddr =    0
 uut->o_data = 47 , num_of_clk_passed = 48
+uut->o_primed = 0
+waddr =   48
+i_trigger = 0
 triggered = 0
-waddr = 0000110000
 primed = 0
-stopped = 0
 this_addr =   47
 raddr =    0
 uut->o_data = 48 , num_of_clk_passed = 49
+uut->o_primed = 0
+waddr =   49
+i_trigger = 0
 triggered = 0
-waddr = 0000110001
 primed = 0
-stopped = 0
 this_addr =   48
 raddr =    0
 uut->o_data = 49 , num_of_clk_passed = 50
+uut->o_primed = 0
+waddr =   50
+i_trigger = 0
 triggered = 0
-waddr = 0000110010
 primed = 0
-stopped = 0
 this_addr =   49
 raddr =    0
 uut->o_data = 50 , num_of_clk_passed = 51
+uut->o_primed = 0
+waddr =   51
+i_trigger = 0
 triggered = 0
-waddr = 0000110011
 primed = 0
-stopped = 0
 this_addr =   50
 raddr =    0
 uut->o_data = 51 , num_of_clk_passed = 52
+uut->o_primed = 0
+waddr =   52
+i_trigger = 0
 triggered = 0
-waddr = 0000110100
 primed = 0
-stopped = 0
 this_addr =   51
 raddr =    0
 uut->o_data = 52 , num_of_clk_passed = 53
+uut->o_primed = 0
+waddr =   53
+i_trigger = 0
 triggered = 0
-waddr = 0000110101
 primed = 0
-stopped = 0
 this_addr =   52
 raddr =    0
 uut->o_data = 53 , num_of_clk_passed = 54
+uut->o_primed = 0
+waddr =   54
+i_trigger = 0
 triggered = 0
-waddr = 0000110110
 primed = 0
-stopped = 0
 this_addr =   53
 raddr =    0
 uut->o_data = 54 , num_of_clk_passed = 55
+uut->o_primed = 0
+waddr =   55
+i_trigger = 0
 triggered = 0
-waddr = 0000110111
 primed = 0
-stopped = 0
 this_addr =   54
 raddr =    0
 uut->o_data = 55 , num_of_clk_passed = 56
+uut->o_primed = 0
+waddr =   56
+i_trigger = 0
 triggered = 0
-waddr = 0000111000
 primed = 0
-stopped = 0
 this_addr =   55
 raddr =    0
 uut->o_data = 56 , num_of_clk_passed = 57
+uut->o_primed = 0
+waddr =   57
+i_trigger = 0
 triggered = 0
-waddr = 0000111001
 primed = 0
-stopped = 0
 this_addr =   56
 raddr =    0
 uut->o_data = 57 , num_of_clk_passed = 58
+uut->o_primed = 0
+waddr =   58
+i_trigger = 0
 triggered = 0
-waddr = 0000111010
 primed = 0
-stopped = 0
 this_addr =   57
 raddr =    0
 uut->o_data = 58 , num_of_clk_passed = 59
+uut->o_primed = 0
+waddr =   59
+i_trigger = 0
 triggered = 0
-waddr = 0000111011
 primed = 0
-stopped = 0
 this_addr =   58
 raddr =    0
 uut->o_data = 59 , num_of_clk_passed = 60
+uut->o_primed = 0
+waddr =   60
+i_trigger = 0
 triggered = 0
-waddr = 0000111100
 primed = 0
-stopped = 0
 this_addr =   59
 raddr =    0
 uut->o_data = 60 , num_of_clk_passed = 61
+uut->o_primed = 0
+waddr =   61
+i_trigger = 0
 triggered = 0
-waddr = 0000111101
 primed = 0
-stopped = 0
 this_addr =   60
 raddr =    0
 uut->o_data = 61 , num_of_clk_passed = 62
+uut->o_primed = 0
+waddr =   62
+i_trigger = 0
 triggered = 0
-waddr = 0000111110
 primed = 0
-stopped = 0
 this_addr =   61
 raddr =    0
 uut->o_data = 62 , num_of_clk_passed = 63
+uut->o_primed = 0
+waddr =   63
+i_trigger = 0
 triggered = 0
-waddr = 0000111111
 primed = 0
-stopped = 0
 this_addr =   62
 raddr =    0
 uut->o_data = 63 , num_of_clk_passed = 64
+uut->o_primed = 0
+waddr =   64
+i_trigger = 0
 triggered = 0
-waddr = 0001000000
 primed = 0
-stopped = 0
 this_addr =   63
 raddr =    0
 uut->o_data = 64 , num_of_clk_passed = 65
+uut->o_primed = 0
+waddr =   65
+i_trigger = 0
 triggered = 0
-waddr = 0001000001
 primed = 0
-stopped = 0
 this_addr =   64
 raddr =    0
 uut->o_data = 65 , num_of_clk_passed = 66
+uut->o_primed = 0
+waddr =   66
+i_trigger = 0
 triggered = 0
-waddr = 0001000010
 primed = 0
-stopped = 0
 this_addr =   65
 raddr =    0
 uut->o_data = 66 , num_of_clk_passed = 67
+uut->o_primed = 0
+waddr =   67
+i_trigger = 0
 triggered = 0
-waddr = 0001000011
 primed = 0
-stopped = 0
 this_addr =   66
 raddr =    0
 uut->o_data = 67 , num_of_clk_passed = 68
+uut->o_primed = 0
+waddr =   68
+i_trigger = 0
 triggered = 0
-waddr = 0001000100
 primed = 0
-stopped = 0
 this_addr =   67
 raddr =    0
 uut->o_data = 68 , num_of_clk_passed = 69
+uut->o_primed = 0
+waddr =   69
+i_trigger = 0
 triggered = 0
-waddr = 0001000101
 primed = 0
-stopped = 0
 this_addr =   68
 raddr =    0
 uut->o_data = 69 , num_of_clk_passed = 70
+uut->o_primed = 0
+waddr =   70
+i_trigger = 0
 triggered = 0
-waddr = 0001000110
 primed = 0
-stopped = 0
 this_addr =   69
 raddr =    0
 uut->o_data = 70 , num_of_clk_passed = 71
+uut->o_primed = 0
+waddr =   71
+i_trigger = 0
 triggered = 0
-waddr = 0001000111
 primed = 0
-stopped = 0
 this_addr =   70
 raddr =    0
 uut->o_data = 71 , num_of_clk_passed = 72
+uut->o_primed = 0
+waddr =   72
+i_trigger = 0
 triggered = 0
-waddr = 0001001000
 primed = 0
-stopped = 0
 this_addr =   71
 raddr =    0
 uut->o_data = 72 , num_of_clk_passed = 73
+uut->o_primed = 0
+waddr =   73
+i_trigger = 0
 triggered = 0
-waddr = 0001001001
 primed = 0
-stopped = 0
 this_addr =   72
 raddr =    0
 uut->o_data = 73 , num_of_clk_passed = 74
+uut->o_primed = 0
+waddr =   74
+i_trigger = 0
 triggered = 0
-waddr = 0001001010
 primed = 0
-stopped = 0
 this_addr =   73
 raddr =    0
 uut->o_data = 74 , num_of_clk_passed = 75
+uut->o_primed = 0
+waddr =   75
+i_trigger = 0
 triggered = 0
-waddr = 0001001011
 primed = 0
-stopped = 0
 this_addr =   74
 raddr =    0
 uut->o_data = 75 , num_of_clk_passed = 76
+uut->o_primed = 0
+waddr =   76
+i_trigger = 0
 triggered = 0
-waddr = 0001001100
 primed = 0
-stopped = 0
 this_addr =   75
 raddr =    0
 uut->o_data = 76 , num_of_clk_passed = 77
+uut->o_primed = 0
+waddr =   77
+i_trigger = 0
 triggered = 0
-waddr = 0001001101
 primed = 0
-stopped = 0
 this_addr =   76
 raddr =    0
 uut->o_data = 77 , num_of_clk_passed = 78
+uut->o_primed = 0
+waddr =   78
+i_trigger = 0
 triggered = 0
-waddr = 0001001110
 primed = 0
-stopped = 0
 this_addr =   77
 raddr =    0
 uut->o_data = 78 , num_of_clk_passed = 79
+uut->o_primed = 0
+waddr =   79
+i_trigger = 0
 triggered = 0
-waddr = 0001001111
 primed = 0
-stopped = 0
 this_addr =   78
 raddr =    0
 uut->o_data = 79 , num_of_clk_passed = 80
+uut->o_primed = 0
+waddr =   80
+i_trigger = 0
 triggered = 0
-waddr = 0001010000
 primed = 0
-stopped = 0
 this_addr =   79
 raddr =    0
 uut->o_data = 80 , num_of_clk_passed = 81
+uut->o_primed = 0
+waddr =   81
+i_trigger = 0
 triggered = 0
-waddr = 0001010001
 primed = 0
-stopped = 0
 this_addr =   80
 raddr =    0
 uut->o_data = 81 , num_of_clk_passed = 82
+uut->o_primed = 0
+waddr =   82
+i_trigger = 0
 triggered = 0
-waddr = 0001010010
 primed = 0
-stopped = 0
 this_addr =   81
 raddr =    0
 uut->o_data = 82 , num_of_clk_passed = 83
+uut->o_primed = 0
+waddr =   83
+i_trigger = 0
 triggered = 0
-waddr = 0001010011
 primed = 0
-stopped = 0
 this_addr =   82
 raddr =    0
 uut->o_data = 83 , num_of_clk_passed = 84
+uut->o_primed = 0
+waddr =   84
+i_trigger = 0
 triggered = 0
-waddr = 0001010100
 primed = 0
-stopped = 0
 this_addr =   83
 raddr =    0
 uut->o_data = 84 , num_of_clk_passed = 85
+uut->o_primed = 0
+waddr =   85
+i_trigger = 0
 triggered = 0
-waddr = 0001010101
 primed = 0
-stopped = 0
 this_addr =   84
 raddr =    0
 uut->o_data = 85 , num_of_clk_passed = 86
+uut->o_primed = 0
+waddr =   86
+i_trigger = 0
 triggered = 0
-waddr = 0001010110
 primed = 0
-stopped = 0
 this_addr =   85
 raddr =    0
 uut->o_data = 86 , num_of_clk_passed = 87
+uut->o_primed = 0
+waddr =   87
+i_trigger = 0
 triggered = 0
-waddr = 0001010111
 primed = 0
-stopped = 0
 this_addr =   86
 raddr =    0
 uut->o_data = 87 , num_of_clk_passed = 88
+uut->o_primed = 0
+waddr =   88
+i_trigger = 0
 triggered = 0
-waddr = 0001011000
 primed = 0
-stopped = 0
 this_addr =   87
 raddr =    0
 uut->o_data = 88 , num_of_clk_passed = 89
+uut->o_primed = 0
+waddr =   89
+i_trigger = 0
 triggered = 0
-waddr = 0001011001
 primed = 0
-stopped = 0
 this_addr =   88
 raddr =    0
 uut->o_data = 89 , num_of_clk_passed = 90
+uut->o_primed = 0
+waddr =   90
+i_trigger = 0
 triggered = 0
-waddr = 0001011010
 primed = 0
-stopped = 0
 this_addr =   89
 raddr =    0
 uut->o_data = 90 , num_of_clk_passed = 91
+uut->o_primed = 0
+waddr =   91
+i_trigger = 0
 triggered = 0
-waddr = 0001011011
 primed = 0
-stopped = 0
 this_addr =   90
 raddr =    0
 uut->o_data = 91 , num_of_clk_passed = 92
+uut->o_primed = 0
+waddr =   92
+i_trigger = 0
 triggered = 0
-waddr = 0001011100
 primed = 0
-stopped = 0
 this_addr =   91
 raddr =    0
 uut->o_data = 92 , num_of_clk_passed = 93
+uut->o_primed = 0
+waddr =   93
+i_trigger = 0
 triggered = 0
-waddr = 0001011101
 primed = 0
-stopped = 0
 this_addr =   92
 raddr =    0
 uut->o_data = 93 , num_of_clk_passed = 94
+uut->o_primed = 0
+waddr =   94
+i_trigger = 0
 triggered = 0
-waddr = 0001011110
 primed = 0
-stopped = 0
 this_addr =   93
 raddr =    0
 uut->o_data = 94 , num_of_clk_passed = 95
+uut->o_primed = 0
+waddr =   95
+i_trigger = 0
 triggered = 0
-waddr = 0001011111
 primed = 0
-stopped = 0
 this_addr =   94
 raddr =    0
 uut->o_data = 95 , num_of_clk_passed = 96
+uut->o_primed = 0
+waddr =   96
+i_trigger = 0
 triggered = 0
-waddr = 0001100000
 primed = 0
-stopped = 0
 this_addr =   95
 raddr =    0
 uut->o_data = 96 , num_of_clk_passed = 97
+uut->o_primed = 0
+waddr =   97
+i_trigger = 0
 triggered = 0
-waddr = 0001100001
 primed = 0
-stopped = 0
 this_addr =   96
 raddr =    0
 uut->o_data = 97 , num_of_clk_passed = 98
+uut->o_primed = 0
+waddr =   98
+i_trigger = 0
 triggered = 0
-waddr = 0001100010
 primed = 0
-stopped = 0
 this_addr =   97
 raddr =    0
 uut->o_data = 98 , num_of_clk_passed = 99
+uut->o_primed = 0
+waddr =   99
+i_trigger = 0
 triggered = 0
-waddr = 0001100011
 primed = 0
-stopped = 0
 this_addr =   98
 raddr =    0
 uut->o_data = 99 , num_of_clk_passed = 100
+uut->o_primed = 0
+waddr =  100
+i_trigger = 0
 triggered = 0
-waddr = 0001100100
 primed = 0
-stopped = 0
 this_addr =   99
 raddr =    0
 uut->o_data = 100 , num_of_clk_passed = 101
+uut->o_primed = 0
+waddr =  101
+i_trigger = 0
 triggered = 0
-waddr = 0001100101
 primed = 0
-stopped = 0
 this_addr =  100
 raddr =    0
 uut->o_data = 101 , num_of_clk_passed = 102
+uut->o_primed = 0
+waddr =  102
+i_trigger = 0
 triggered = 0
-waddr = 0001100110
 primed = 0
-stopped = 0
 this_addr =  101
 raddr =    0
 uut->o_data = 102 , num_of_clk_passed = 103
+uut->o_primed = 0
+waddr =  103
+i_trigger = 0
 triggered = 0
-waddr = 0001100111
 primed = 0
-stopped = 0
 this_addr =  102
 raddr =    0
 uut->o_data = 103 , num_of_clk_passed = 104
+uut->o_primed = 0
+waddr =  104
+i_trigger = 0
 triggered = 0
-waddr = 0001101000
 primed = 0
-stopped = 0
 this_addr =  103
 raddr =    0
 uut->o_data = 104 , num_of_clk_passed = 105
+uut->o_primed = 0
+waddr =  105
+i_trigger = 0
 triggered = 0
-waddr = 0001101001
 primed = 0
-stopped = 0
 this_addr =  104
 raddr =    0
 uut->o_data = 105 , num_of_clk_passed = 106
+uut->o_primed = 0
+waddr =  106
+i_trigger = 0
 triggered = 0
-waddr = 0001101010
 primed = 0
-stopped = 0
 this_addr =  105
 raddr =    0
 uut->o_data = 106 , num_of_clk_passed = 107
+uut->o_primed = 0
+waddr =  107
+i_trigger = 0
 triggered = 0
-waddr = 0001101011
 primed = 0
-stopped = 0
 this_addr =  106
 raddr =    0
 uut->o_data = 107 , num_of_clk_passed = 108
+uut->o_primed = 0
+waddr =  108
+i_trigger = 0
 triggered = 0
-waddr = 0001101100
 primed = 0
-stopped = 0
 this_addr =  107
 raddr =    0
 uut->o_data = 108 , num_of_clk_passed = 109
+uut->o_primed = 0
+waddr =  109
+i_trigger = 0
 triggered = 0
-waddr = 0001101101
 primed = 0
-stopped = 0
 this_addr =  108
 raddr =    0
 uut->o_data = 109 , num_of_clk_passed = 110
+uut->o_primed = 0
+waddr =  110
+i_trigger = 0
 triggered = 0
-waddr = 0001101110
 primed = 0
-stopped = 0
 this_addr =  109
 raddr =    0
 uut->o_data = 110 , num_of_clk_passed = 111
+uut->o_primed = 0
+waddr =  111
+i_trigger = 0
 triggered = 0
-waddr = 0001101111
 primed = 0
-stopped = 0
 this_addr =  110
 raddr =    0
 uut->o_data = 111 , num_of_clk_passed = 112
+uut->o_primed = 0
+waddr =  112
+i_trigger = 0
 triggered = 0
-waddr = 0001110000
 primed = 0
-stopped = 0
 this_addr =  111
 raddr =    0
 uut->o_data = 112 , num_of_clk_passed = 113
+uut->o_primed = 0
+waddr =  113
+i_trigger = 0
 triggered = 0
-waddr = 0001110001
 primed = 0
-stopped = 0
 this_addr =  112
 raddr =    0
 uut->o_data = 113 , num_of_clk_passed = 114
+uut->o_primed = 0
+waddr =  114
+i_trigger = 0
 triggered = 0
-waddr = 0001110010
 primed = 0
-stopped = 0
 this_addr =  113
 raddr =    0
 uut->o_data = 114 , num_of_clk_passed = 115
+uut->o_primed = 0
+waddr =  115
+i_trigger = 0
 triggered = 0
-waddr = 0001110011
 primed = 0
-stopped = 0
 this_addr =  114
 raddr =    0
 uut->o_data = 115 , num_of_clk_passed = 116
+uut->o_primed = 0
+waddr =  116
+i_trigger = 0
 triggered = 0
-waddr = 0001110100
 primed = 0
-stopped = 0
 this_addr =  115
 raddr =    0
 uut->o_data = 116 , num_of_clk_passed = 117
+uut->o_primed = 0
+waddr =  117
+i_trigger = 0
 triggered = 0
-waddr = 0001110101
 primed = 0
-stopped = 0
 this_addr =  116
 raddr =    0
 uut->o_data = 117 , num_of_clk_passed = 118
+uut->o_primed = 0
+waddr =  118
+i_trigger = 0
 triggered = 0
-waddr = 0001110110
 primed = 0
-stopped = 0
 this_addr =  117
 raddr =    0
 uut->o_data = 118 , num_of_clk_passed = 119
+uut->o_primed = 0
+waddr =  119
+i_trigger = 0
 triggered = 0
-waddr = 0001110111
 primed = 0
-stopped = 0
 this_addr =  118
 raddr =    0
 uut->o_data = 119 , num_of_clk_passed = 120
+uut->o_primed = 0
+waddr =  120
+i_trigger = 0
 triggered = 0
-waddr = 0001111000
 primed = 0
-stopped = 0
 this_addr =  119
 raddr =    0
 uut->o_data = 120 , num_of_clk_passed = 121
+uut->o_primed = 0
+waddr =  121
+i_trigger = 0
 triggered = 0
-waddr = 0001111001
 primed = 0
-stopped = 0
 this_addr =  120
 raddr =    0
 uut->o_data = 121 , num_of_clk_passed = 122
+uut->o_primed = 0
+waddr =  122
+i_trigger = 0
 triggered = 0
-waddr = 0001111010
 primed = 0
-stopped = 0
 this_addr =  121
 raddr =    0
 uut->o_data = 122 , num_of_clk_passed = 123
+uut->o_primed = 0
+waddr =  123
+i_trigger = 0
 triggered = 0
-waddr = 0001111011
 primed = 0
-stopped = 0
 this_addr =  122
 raddr =    0
 uut->o_data = 123 , num_of_clk_passed = 124
+uut->o_primed = 0
+waddr =  124
+i_trigger = 0
 triggered = 0
-waddr = 0001111100
 primed = 0
-stopped = 0
 this_addr =  123
 raddr =    0
 uut->o_data = 124 , num_of_clk_passed = 125
+uut->o_primed = 0
+waddr =  125
+i_trigger = 0
 triggered = 0
-waddr = 0001111101
 primed = 0
-stopped = 0
 this_addr =  124
 raddr =    0
 uut->o_data = 125 , num_of_clk_passed = 126
+uut->o_primed = 0
+waddr =  126
+i_trigger = 0
 triggered = 0
-waddr = 0001111110
 primed = 0
-stopped = 0
 this_addr =  125
 raddr =    0
 uut->o_data = 126 , num_of_clk_passed = 127
+uut->o_primed = 0
+waddr =  127
+i_trigger = 0
 triggered = 0
-waddr = 0001111111
 primed = 0
-stopped = 0
 this_addr =  126
 raddr =    0
 uut->o_data = 127 , num_of_clk_passed = 128
+uut->o_primed = 0
+waddr =  128
+i_trigger = 0
 triggered = 0
-waddr = 0010000000
 primed = 0
-stopped = 0
 this_addr =  127
 raddr =    0
 uut->o_data = 128 , num_of_clk_passed = 129
+uut->o_primed = 0
+waddr =  129
+i_trigger = 0
 triggered = 0
-waddr = 0010000001
 primed = 0
-stopped = 0
 this_addr =  128
 raddr =    0
 uut->o_data = 129 , num_of_clk_passed = 130
+uut->o_primed = 0
+waddr =  130
+i_trigger = 0
 triggered = 0
-waddr = 0010000010
 primed = 0
-stopped = 0
 this_addr =  129
 raddr =    0
 uut->o_data = 130 , num_of_clk_passed = 131
+uut->o_primed = 0
+waddr =  131
+i_trigger = 0
 triggered = 0
-waddr = 0010000011
 primed = 0
-stopped = 0
 this_addr =  130
 raddr =    0
 uut->o_data = 131 , num_of_clk_passed = 132
+uut->o_primed = 0
+waddr =  132
+i_trigger = 0
 triggered = 0
-waddr = 0010000100
 primed = 0
-stopped = 0
 this_addr =  131
 raddr =    0
 uut->o_data = 132 , num_of_clk_passed = 133
+uut->o_primed = 0
+waddr =  133
+i_trigger = 0
 triggered = 0
-waddr = 0010000101
 primed = 0
-stopped = 0
 this_addr =  132
 raddr =    0
 uut->o_data = 133 , num_of_clk_passed = 134
+uut->o_primed = 0
+waddr =  134
+i_trigger = 0
 triggered = 0
-waddr = 0010000110
 primed = 0
-stopped = 0
 this_addr =  133
 raddr =    0
 uut->o_data = 134 , num_of_clk_passed = 135
+uut->o_primed = 0
+waddr =  135
+i_trigger = 0
 triggered = 0
-waddr = 0010000111
 primed = 0
-stopped = 0
 this_addr =  134
 raddr =    0
 uut->o_data = 135 , num_of_clk_passed = 136
+uut->o_primed = 0
+waddr =  136
+i_trigger = 0
 triggered = 0
-waddr = 0010001000
 primed = 0
-stopped = 0
 this_addr =  135
 raddr =    0
 uut->o_data = 136 , num_of_clk_passed = 137
+uut->o_primed = 0
+waddr =  137
+i_trigger = 0
 triggered = 0
-waddr = 0010001001
 primed = 0
-stopped = 0
 this_addr =  136
 raddr =    0
 uut->o_data = 137 , num_of_clk_passed = 138
+uut->o_primed = 0
+waddr =  138
+i_trigger = 0
 triggered = 0
-waddr = 0010001010
 primed = 0
-stopped = 0
 this_addr =  137
 raddr =    0
 uut->o_data = 138 , num_of_clk_passed = 139
+uut->o_primed = 0
+waddr =  139
+i_trigger = 0
 triggered = 0
-waddr = 0010001011
 primed = 0
-stopped = 0
 this_addr =  138
 raddr =    0
 uut->o_data = 139 , num_of_clk_passed = 140
+uut->o_primed = 0
+waddr =  140
+i_trigger = 0
 triggered = 0
-waddr = 0010001100
 primed = 0
-stopped = 0
 this_addr =  139
 raddr =    0
 uut->o_data = 140 , num_of_clk_passed = 141
+uut->o_primed = 0
+waddr =  141
+i_trigger = 0
 triggered = 0
-waddr = 0010001101
 primed = 0
-stopped = 0
 this_addr =  140
 raddr =    0
 uut->o_data = 141 , num_of_clk_passed = 142
+uut->o_primed = 0
+waddr =  142
+i_trigger = 0
 triggered = 0
-waddr = 0010001110
 primed = 0
-stopped = 0
 this_addr =  141
 raddr =    0
 uut->o_data = 142 , num_of_clk_passed = 143
+uut->o_primed = 0
+waddr =  143
+i_trigger = 0
 triggered = 0
-waddr = 0010001111
 primed = 0
-stopped = 0
 this_addr =  142
 raddr =    0
 uut->o_data = 143 , num_of_clk_passed = 144
+uut->o_primed = 0
+waddr =  144
+i_trigger = 0
 triggered = 0
-waddr = 0010010000
 primed = 0
-stopped = 0
 this_addr =  143
 raddr =    0
 uut->o_data = 144 , num_of_clk_passed = 145
+uut->o_primed = 0
+waddr =  145
+i_trigger = 0
 triggered = 0
-waddr = 0010010001
 primed = 0
-stopped = 0
 this_addr =  144
 raddr =    0
 uut->o_data = 145 , num_of_clk_passed = 146
+uut->o_primed = 0
+waddr =  146
+i_trigger = 0
 triggered = 0
-waddr = 0010010010
 primed = 0
-stopped = 0
 this_addr =  145
 raddr =    0
 uut->o_data = 146 , num_of_clk_passed = 147
+uut->o_primed = 0
+waddr =  147
+i_trigger = 0
 triggered = 0
-waddr = 0010010011
 primed = 0
-stopped = 0
 this_addr =  146
 raddr =    0
 uut->o_data = 147 , num_of_clk_passed = 148
+uut->o_primed = 0
+waddr =  148
+i_trigger = 0
 triggered = 0
-waddr = 0010010100
 primed = 0
-stopped = 0
 this_addr =  147
 raddr =    0
 uut->o_data = 148 , num_of_clk_passed = 149
+uut->o_primed = 0
+waddr =  149
+i_trigger = 0
 triggered = 0
-waddr = 0010010101
 primed = 0
-stopped = 0
 this_addr =  148
 raddr =    0
 uut->o_data = 149 , num_of_clk_passed = 150
+uut->o_primed = 0
+waddr =  150
+i_trigger = 0
 triggered = 0
-waddr = 0010010110
 primed = 0
-stopped = 0
 this_addr =  149
 raddr =    0
 uut->o_data = 150 , num_of_clk_passed = 151
+uut->o_primed = 0
+waddr =  151
+i_trigger = 0
 triggered = 0
-waddr = 0010010111
 primed = 0
-stopped = 0
 this_addr =  150
 raddr =    0
 uut->o_data = 151 , num_of_clk_passed = 152
+uut->o_primed = 0
+waddr =  152
+i_trigger = 0
 triggered = 0
-waddr = 0010011000
 primed = 0
-stopped = 0
 this_addr =  151
 raddr =    0
 uut->o_data = 152 , num_of_clk_passed = 153
+uut->o_primed = 0
+waddr =  153
+i_trigger = 0
 triggered = 0
-waddr = 0010011001
 primed = 0
-stopped = 0
 this_addr =  152
 raddr =    0
 uut->o_data = 153 , num_of_clk_passed = 154
+uut->o_primed = 0
+waddr =  154
+i_trigger = 0
 triggered = 0
-waddr = 0010011010
 primed = 0
-stopped = 0
 this_addr =  153
 raddr =    0
 uut->o_data = 154 , num_of_clk_passed = 155
+uut->o_primed = 0
+waddr =  155
+i_trigger = 0
 triggered = 0
-waddr = 0010011011
 primed = 0
-stopped = 0
 this_addr =  154
 raddr =    0
 uut->o_data = 155 , num_of_clk_passed = 156
+uut->o_primed = 0
+waddr =  156
+i_trigger = 0
 triggered = 0
-waddr = 0010011100
 primed = 0
-stopped = 0
 this_addr =  155
 raddr =    0
 uut->o_data = 156 , num_of_clk_passed = 157
+uut->o_primed = 0
+waddr =  157
+i_trigger = 0
 triggered = 0
-waddr = 0010011101
 primed = 0
-stopped = 0
 this_addr =  156
 raddr =    0
 uut->o_data = 157 , num_of_clk_passed = 158
+uut->o_primed = 0
+waddr =  158
+i_trigger = 0
 triggered = 0
-waddr = 0010011110
 primed = 0
-stopped = 0
 this_addr =  157
 raddr =    0
 uut->o_data = 158 , num_of_clk_passed = 159
+uut->o_primed = 0
+waddr =  159
+i_trigger = 0
 triggered = 0
-waddr = 0010011111
 primed = 0
-stopped = 0
 this_addr =  158
 raddr =    0
 uut->o_data = 159 , num_of_clk_passed = 160
+uut->o_primed = 0
+waddr =  160
+i_trigger = 0
 triggered = 0
-waddr = 0010100000
 primed = 0
-stopped = 0
 this_addr =  159
 raddr =    0
 uut->o_data = 160 , num_of_clk_passed = 161
+uut->o_primed = 0
+waddr =  161
+i_trigger = 0
 triggered = 0
-waddr = 0010100001
 primed = 0
-stopped = 0
 this_addr =  160
 raddr =    0
 uut->o_data = 161 , num_of_clk_passed = 162
+uut->o_primed = 0
+waddr =  162
+i_trigger = 0
 triggered = 0
-waddr = 0010100010
 primed = 0
-stopped = 0
 this_addr =  161
 raddr =    0
 uut->o_data = 162 , num_of_clk_passed = 163
+uut->o_primed = 0
+waddr =  163
+i_trigger = 0
 triggered = 0
-waddr = 0010100011
 primed = 0
-stopped = 0
 this_addr =  162
 raddr =    0
 uut->o_data = 163 , num_of_clk_passed = 164
+uut->o_primed = 0
+waddr =  164
+i_trigger = 0
 triggered = 0
-waddr = 0010100100
 primed = 0
-stopped = 0
 this_addr =  163
 raddr =    0
 uut->o_data = 164 , num_of_clk_passed = 165
+uut->o_primed = 0
+waddr =  165
+i_trigger = 0
 triggered = 0
-waddr = 0010100101
 primed = 0
-stopped = 0
 this_addr =  164
 raddr =    0
 uut->o_data = 165 , num_of_clk_passed = 166
+uut->o_primed = 0
+waddr =  166
+i_trigger = 0
 triggered = 0
-waddr = 0010100110
 primed = 0
-stopped = 0
 this_addr =  165
 raddr =    0
 uut->o_data = 166 , num_of_clk_passed = 167
+uut->o_primed = 0
+waddr =  167
+i_trigger = 0
 triggered = 0
-waddr = 0010100111
 primed = 0
-stopped = 0
 this_addr =  166
 raddr =    0
 uut->o_data = 167 , num_of_clk_passed = 168
+uut->o_primed = 0
+waddr =  168
+i_trigger = 0
 triggered = 0
-waddr = 0010101000
 primed = 0
-stopped = 0
 this_addr =  167
 raddr =    0
 uut->o_data = 168 , num_of_clk_passed = 169
+uut->o_primed = 0
+waddr =  169
+i_trigger = 0
 triggered = 0
-waddr = 0010101001
 primed = 0
-stopped = 0
 this_addr =  168
 raddr =    0
 uut->o_data = 169 , num_of_clk_passed = 170
+uut->o_primed = 0
+waddr =  170
+i_trigger = 0
 triggered = 0
-waddr = 0010101010
 primed = 0
-stopped = 0
 this_addr =  169
 raddr =    0
 uut->o_data = 170 , num_of_clk_passed = 171
+uut->o_primed = 0
+waddr =  171
+i_trigger = 0
 triggered = 0
-waddr = 0010101011
 primed = 0
-stopped = 0
 this_addr =  170
 raddr =    0
 uut->o_data = 171 , num_of_clk_passed = 172
+uut->o_primed = 0
+waddr =  172
+i_trigger = 0
 triggered = 0
-waddr = 0010101100
 primed = 0
-stopped = 0
 this_addr =  171
 raddr =    0
 uut->o_data = 172 , num_of_clk_passed = 173
+uut->o_primed = 0
+waddr =  173
+i_trigger = 0
 triggered = 0
-waddr = 0010101101
 primed = 0
-stopped = 0
 this_addr =  172
 raddr =    0
 uut->o_data = 173 , num_of_clk_passed = 174
+uut->o_primed = 0
+waddr =  174
+i_trigger = 0
 triggered = 0
-waddr = 0010101110
 primed = 0
-stopped = 0
 this_addr =  173
 raddr =    0
 uut->o_data = 174 , num_of_clk_passed = 175
+uut->o_primed = 0
+waddr =  175
+i_trigger = 0
 triggered = 0
-waddr = 0010101111
 primed = 0
-stopped = 0
 this_addr =  174
 raddr =    0
 uut->o_data = 175 , num_of_clk_passed = 176
+uut->o_primed = 0
+waddr =  176
+i_trigger = 0
 triggered = 0
-waddr = 0010110000
 primed = 0
-stopped = 0
 this_addr =  175
 raddr =    0
 uut->o_data = 176 , num_of_clk_passed = 177
+uut->o_primed = 0
+waddr =  177
+i_trigger = 0
 triggered = 0
-waddr = 0010110001
 primed = 0
-stopped = 0
 this_addr =  176
 raddr =    0
 uut->o_data = 177 , num_of_clk_passed = 178
+uut->o_primed = 0
+waddr =  178
+i_trigger = 0
 triggered = 0
-waddr = 0010110010
 primed = 0
-stopped = 0
 this_addr =  177
 raddr =    0
 uut->o_data = 178 , num_of_clk_passed = 179
+uut->o_primed = 0
+waddr =  179
+i_trigger = 0
 triggered = 0
-waddr = 0010110011
 primed = 0
-stopped = 0
 this_addr =  178
 raddr =    0
 uut->o_data = 179 , num_of_clk_passed = 180
+uut->o_primed = 0
+waddr =  180
+i_trigger = 0
 triggered = 0
-waddr = 0010110100
 primed = 0
-stopped = 0
 this_addr =  179
 raddr =    0
 uut->o_data = 180 , num_of_clk_passed = 181
+uut->o_primed = 0
+waddr =  181
+i_trigger = 0
 triggered = 0
-waddr = 0010110101
 primed = 0
-stopped = 0
 this_addr =  180
 raddr =    0
 uut->o_data = 181 , num_of_clk_passed = 182
+uut->o_primed = 0
+waddr =  182
+i_trigger = 0
 triggered = 0
-waddr = 0010110110
 primed = 0
-stopped = 0
 this_addr =  181
 raddr =    0
 uut->o_data = 182 , num_of_clk_passed = 183
+uut->o_primed = 0
+waddr =  183
+i_trigger = 0
 triggered = 0
-waddr = 0010110111
 primed = 0
-stopped = 0
 this_addr =  182
 raddr =    0
 uut->o_data = 183 , num_of_clk_passed = 184
+uut->o_primed = 0
+waddr =  184
+i_trigger = 0
 triggered = 0
-waddr = 0010111000
 primed = 0
-stopped = 0
 this_addr =  183
 raddr =    0
 uut->o_data = 184 , num_of_clk_passed = 185
+uut->o_primed = 0
+waddr =  185
+i_trigger = 0
 triggered = 0
-waddr = 0010111001
 primed = 0
-stopped = 0
 this_addr =  184
 raddr =    0
 uut->o_data = 185 , num_of_clk_passed = 186
+uut->o_primed = 0
+waddr =  186
+i_trigger = 0
 triggered = 0
-waddr = 0010111010
 primed = 0
-stopped = 0
 this_addr =  185
 raddr =    0
 uut->o_data = 186 , num_of_clk_passed = 187
+uut->o_primed = 0
+waddr =  187
+i_trigger = 0
 triggered = 0
-waddr = 0010111011
 primed = 0
-stopped = 0
 this_addr =  186
 raddr =    0
 uut->o_data = 187 , num_of_clk_passed = 188
+uut->o_primed = 0
+waddr =  188
+i_trigger = 0
 triggered = 0
-waddr = 0010111100
 primed = 0
-stopped = 0
 this_addr =  187
 raddr =    0
 uut->o_data = 188 , num_of_clk_passed = 189
+uut->o_primed = 0
+waddr =  189
+i_trigger = 0
 triggered = 0
-waddr = 0010111101
 primed = 0
-stopped = 0
 this_addr =  188
 raddr =    0
 uut->o_data = 189 , num_of_clk_passed = 190
+uut->o_primed = 0
+waddr =  190
+i_trigger = 0
 triggered = 0
-waddr = 0010111110
 primed = 0
-stopped = 0
 this_addr =  189
 raddr =    0
 uut->o_data = 190 , num_of_clk_passed = 191
+uut->o_primed = 0
+waddr =  191
+i_trigger = 0
 triggered = 0
-waddr = 0010111111
 primed = 0
-stopped = 0
 this_addr =  190
 raddr =    0
 uut->o_data = 191 , num_of_clk_passed = 192
+uut->o_primed = 0
+waddr =  192
+i_trigger = 0
 triggered = 0
-waddr = 0011000000
 primed = 0
-stopped = 0
 this_addr =  191
 raddr =    0
 uut->o_data = 192 , num_of_clk_passed = 193
+uut->o_primed = 0
+waddr =  193
+i_trigger = 0
 triggered = 0
-waddr = 0011000001
 primed = 0
-stopped = 0
 this_addr =  192
 raddr =    0
 uut->o_data = 193 , num_of_clk_passed = 194
+uut->o_primed = 0
+waddr =  194
+i_trigger = 0
 triggered = 0
-waddr = 0011000010
 primed = 0
-stopped = 0
 this_addr =  193
 raddr =    0
 uut->o_data = 194 , num_of_clk_passed = 195
+uut->o_primed = 0
+waddr =  195
+i_trigger = 0
 triggered = 0
-waddr = 0011000011
 primed = 0
-stopped = 0
 this_addr =  194
 raddr =    0
 uut->o_data = 195 , num_of_clk_passed = 196
+uut->o_primed = 0
+waddr =  196
+i_trigger = 0
 triggered = 0
-waddr = 0011000100
 primed = 0
-stopped = 0
 this_addr =  195
 raddr =    0
 uut->o_data = 196 , num_of_clk_passed = 197
+uut->o_primed = 0
+waddr =  197
+i_trigger = 0
 triggered = 0
-waddr = 0011000101
 primed = 0
-stopped = 0
 this_addr =  196
 raddr =    0
 uut->o_data = 197 , num_of_clk_passed = 198
+uut->o_primed = 0
+waddr =  198
+i_trigger = 0
 triggered = 0
-waddr = 0011000110
 primed = 0
-stopped = 0
 this_addr =  197
 raddr =    0
 uut->o_data = 198 , num_of_clk_passed = 199
+uut->o_primed = 0
+waddr =  199
+i_trigger = 0
 triggered = 0
-waddr = 0011000111
 primed = 0
-stopped = 0
 this_addr =  198
 raddr =    0
 uut->o_data = 199 , num_of_clk_passed = 200
+uut->o_primed = 0
+waddr =  200
+i_trigger = 0
 triggered = 0
-waddr = 0011001000
 primed = 0
-stopped = 0
 this_addr =  199
 raddr =    0
 uut->o_data = 200 , num_of_clk_passed = 201
+uut->o_primed = 0
+waddr =  201
+i_trigger = 0
 triggered = 0
-waddr = 0011001001
 primed = 0
-stopped = 0
 this_addr =  200
 raddr =    0
 uut->o_data = 201 , num_of_clk_passed = 202
+uut->o_primed = 0
+waddr =  202
+i_trigger = 0
 triggered = 0
-waddr = 0011001010
 primed = 0
-stopped = 0
 this_addr =  201
 raddr =    0
 uut->o_data = 202 , num_of_clk_passed = 203
+uut->o_primed = 0
+waddr =  203
+i_trigger = 0
 triggered = 0
-waddr = 0011001011
 primed = 0
-stopped = 0
 this_addr =  202
 raddr =    0
 uut->o_data = 203 , num_of_clk_passed = 204
+uut->o_primed = 0
+waddr =  204
+i_trigger = 0
 triggered = 0
-waddr = 0011001100
 primed = 0
-stopped = 0
 this_addr =  203
 raddr =    0
 uut->o_data = 204 , num_of_clk_passed = 205
+uut->o_primed = 0
+waddr =  205
+i_trigger = 0
 triggered = 0
-waddr = 0011001101
 primed = 0
-stopped = 0
 this_addr =  204
 raddr =    0
 uut->o_data = 205 , num_of_clk_passed = 206
+uut->o_primed = 0
+waddr =  206
+i_trigger = 0
 triggered = 0
-waddr = 0011001110
 primed = 0
-stopped = 0
 this_addr =  205
 raddr =    0
 uut->o_data = 206 , num_of_clk_passed = 207
+uut->o_primed = 0
+waddr =  207
+i_trigger = 0
 triggered = 0
-waddr = 0011001111
 primed = 0
-stopped = 0
 this_addr =  206
 raddr =    0
 uut->o_data = 207 , num_of_clk_passed = 208
+uut->o_primed = 0
+waddr =  208
+i_trigger = 0
 triggered = 0
-waddr = 0011010000
 primed = 0
-stopped = 0
 this_addr =  207
 raddr =    0
 uut->o_data = 208 , num_of_clk_passed = 209
+uut->o_primed = 0
+waddr =  209
+i_trigger = 0
 triggered = 0
-waddr = 0011010001
 primed = 0
-stopped = 0
 this_addr =  208
 raddr =    0
 uut->o_data = 209 , num_of_clk_passed = 210
+uut->o_primed = 0
+waddr =  210
+i_trigger = 0
 triggered = 0
-waddr = 0011010010
 primed = 0
-stopped = 0
 this_addr =  209
 raddr =    0
 uut->o_data = 210 , num_of_clk_passed = 211
+uut->o_primed = 0
+waddr =  211
+i_trigger = 0
 triggered = 0
-waddr = 0011010011
 primed = 0
-stopped = 0
 this_addr =  210
 raddr =    0
 uut->o_data = 211 , num_of_clk_passed = 212
+uut->o_primed = 0
+waddr =  212
+i_trigger = 0
 triggered = 0
-waddr = 0011010100
 primed = 0
-stopped = 0
 this_addr =  211
 raddr =    0
 uut->o_data = 212 , num_of_clk_passed = 213
+uut->o_primed = 0
+waddr =  213
+i_trigger = 0
 triggered = 0
-waddr = 0011010101
 primed = 0
-stopped = 0
 this_addr =  212
 raddr =    0
 uut->o_data = 213 , num_of_clk_passed = 214
+uut->o_primed = 0
+waddr =  214
+i_trigger = 0
 triggered = 0
-waddr = 0011010110
 primed = 0
-stopped = 0
 this_addr =  213
 raddr =    0
 uut->o_data = 214 , num_of_clk_passed = 215
+uut->o_primed = 0
+waddr =  215
+i_trigger = 0
 triggered = 0
-waddr = 0011010111
 primed = 0
-stopped = 0
 this_addr =  214
 raddr =    0
 uut->o_data = 215 , num_of_clk_passed = 216
+uut->o_primed = 0
+waddr =  216
+i_trigger = 0
 triggered = 0
-waddr = 0011011000
 primed = 0
-stopped = 0
 this_addr =  215
 raddr =    0
 uut->o_data = 216 , num_of_clk_passed = 217
+uut->o_primed = 0
+waddr =  217
+i_trigger = 0
 triggered = 0
-waddr = 0011011001
 primed = 0
-stopped = 0
 this_addr =  216
 raddr =    0
 uut->o_data = 217 , num_of_clk_passed = 218
+uut->o_primed = 0
+waddr =  218
+i_trigger = 0
 triggered = 0
-waddr = 0011011010
 primed = 0
-stopped = 0
 this_addr =  217
 raddr =    0
 uut->o_data = 218 , num_of_clk_passed = 219
+uut->o_primed = 0
+waddr =  219
+i_trigger = 0
 triggered = 0
-waddr = 0011011011
 primed = 0
-stopped = 0
 this_addr =  218
 raddr =    0
 uut->o_data = 219 , num_of_clk_passed = 220
+uut->o_primed = 0
+waddr =  220
+i_trigger = 0
 triggered = 0
-waddr = 0011011100
 primed = 0
-stopped = 0
 this_addr =  219
 raddr =    0
 uut->o_data = 220 , num_of_clk_passed = 221
+uut->o_primed = 0
+waddr =  221
+i_trigger = 0
 triggered = 0
-waddr = 0011011101
 primed = 0
-stopped = 0
 this_addr =  220
 raddr =    0
 uut->o_data = 221 , num_of_clk_passed = 222
+uut->o_primed = 0
+waddr =  222
+i_trigger = 0
 triggered = 0
-waddr = 0011011110
 primed = 0
-stopped = 0
 this_addr =  221
 raddr =    0
 uut->o_data = 222 , num_of_clk_passed = 223
+uut->o_primed = 0
+waddr =  223
+i_trigger = 0
 triggered = 0
-waddr = 0011011111
 primed = 0
-stopped = 0
 this_addr =  222
 raddr =    0
 uut->o_data = 223 , num_of_clk_passed = 224
+uut->o_primed = 0
+waddr =  224
+i_trigger = 0
 triggered = 0
-waddr = 0011100000
 primed = 0
-stopped = 0
 this_addr =  223
 raddr =    0
 uut->o_data = 224 , num_of_clk_passed = 225
+uut->o_primed = 0
+waddr =  225
+i_trigger = 0
 triggered = 0
-waddr = 0011100001
 primed = 0
-stopped = 0
 this_addr =  224
 raddr =    0
 uut->o_data = 225 , num_of_clk_passed = 226
+uut->o_primed = 0
+waddr =  226
+i_trigger = 0
 triggered = 0
-waddr = 0011100010
 primed = 0
-stopped = 0
 this_addr =  225
 raddr =    0
 uut->o_data = 226 , num_of_clk_passed = 227
+uut->o_primed = 0
+waddr =  227
+i_trigger = 0
 triggered = 0
-waddr = 0011100011
 primed = 0
-stopped = 0
 this_addr =  226
 raddr =    0
 uut->o_data = 227 , num_of_clk_passed = 228
+uut->o_primed = 0
+waddr =  228
+i_trigger = 0
 triggered = 0
-waddr = 0011100100
 primed = 0
-stopped = 0
 this_addr =  227
 raddr =    0
 uut->o_data = 228 , num_of_clk_passed = 229
+uut->o_primed = 0
+waddr =  229
+i_trigger = 0
 triggered = 0
-waddr = 0011100101
 primed = 0
-stopped = 0
 this_addr =  228
 raddr =    0
 uut->o_data = 229 , num_of_clk_passed = 230
+uut->o_primed = 0
+waddr =  230
+i_trigger = 0
 triggered = 0
-waddr = 0011100110
 primed = 0
-stopped = 0
 this_addr =  229
 raddr =    0
 uut->o_data = 230 , num_of_clk_passed = 231
+uut->o_primed = 0
+waddr =  231
+i_trigger = 0
 triggered = 0
-waddr = 0011100111
 primed = 0
-stopped = 0
 this_addr =  230
 raddr =    0
 uut->o_data = 231 , num_of_clk_passed = 232
+uut->o_primed = 0
+waddr =  232
+i_trigger = 0
 triggered = 0
-waddr = 0011101000
 primed = 0
-stopped = 0
 this_addr =  231
 raddr =    0
 uut->o_data = 232 , num_of_clk_passed = 233
+uut->o_primed = 0
+waddr =  233
+i_trigger = 0
 triggered = 0
-waddr = 0011101001
 primed = 0
-stopped = 0
 this_addr =  232
 raddr =    0
 uut->o_data = 233 , num_of_clk_passed = 234
+uut->o_primed = 0
+waddr =  234
+i_trigger = 0
 triggered = 0
-waddr = 0011101010
 primed = 0
-stopped = 0
 this_addr =  233
 raddr =    0
 uut->o_data = 234 , num_of_clk_passed = 235
+uut->o_primed = 0
+waddr =  235
+i_trigger = 0
 triggered = 0
-waddr = 0011101011
 primed = 0
-stopped = 0
 this_addr =  234
 raddr =    0
 uut->o_data = 235 , num_of_clk_passed = 236
+uut->o_primed = 0
+waddr =  236
+i_trigger = 0
 triggered = 0
-waddr = 0011101100
 primed = 0
-stopped = 0
 this_addr =  235
 raddr =    0
 uut->o_data = 236 , num_of_clk_passed = 237
+uut->o_primed = 0
+waddr =  237
+i_trigger = 0
 triggered = 0
-waddr = 0011101101
 primed = 0
-stopped = 0
 this_addr =  236
 raddr =    0
 uut->o_data = 237 , num_of_clk_passed = 238
+uut->o_primed = 0
+waddr =  238
+i_trigger = 0
 triggered = 0
-waddr = 0011101110
 primed = 0
-stopped = 0
 this_addr =  237
 raddr =    0
 uut->o_data = 238 , num_of_clk_passed = 239
+uut->o_primed = 0
+waddr =  239
+i_trigger = 0
 triggered = 0
-waddr = 0011101111
 primed = 0
-stopped = 0
 this_addr =  238
 raddr =    0
 uut->o_data = 239 , num_of_clk_passed = 240
+uut->o_primed = 0
+waddr =  240
+i_trigger = 0
 triggered = 0
-waddr = 0011110000
 primed = 0
-stopped = 0
 this_addr =  239
 raddr =    0
 uut->o_data = 240 , num_of_clk_passed = 241
+uut->o_primed = 0
+waddr =  241
+i_trigger = 0
 triggered = 0
-waddr = 0011110001
 primed = 0
-stopped = 0
 this_addr =  240
 raddr =    0
 uut->o_data = 241 , num_of_clk_passed = 242
+uut->o_primed = 0
+waddr =  242
+i_trigger = 0
 triggered = 0
-waddr = 0011110010
 primed = 0
-stopped = 0
 this_addr =  241
 raddr =    0
 uut->o_data = 242 , num_of_clk_passed = 243
+uut->o_primed = 0
+waddr =  243
+i_trigger = 0
 triggered = 0
-waddr = 0011110011
 primed = 0
-stopped = 0
 this_addr =  242
 raddr =    0
 uut->o_data = 243 , num_of_clk_passed = 244
+uut->o_primed = 0
+waddr =  244
+i_trigger = 0
 triggered = 0
-waddr = 0011110100
 primed = 0
-stopped = 0
 this_addr =  243
 raddr =    0
 uut->o_data = 244 , num_of_clk_passed = 245
+uut->o_primed = 0
+waddr =  245
+i_trigger = 0
 triggered = 0
-waddr = 0011110101
 primed = 0
-stopped = 0
 this_addr =  244
 raddr =    0
 uut->o_data = 245 , num_of_clk_passed = 246
+uut->o_primed = 0
+waddr =  246
+i_trigger = 0
 triggered = 0
-waddr = 0011110110
 primed = 0
-stopped = 0
 this_addr =  245
 raddr =    0
 uut->o_data = 246 , num_of_clk_passed = 247
+uut->o_primed = 0
+waddr =  247
+i_trigger = 0
 triggered = 0
-waddr = 0011110111
 primed = 0
-stopped = 0
 this_addr =  246
 raddr =    0
 uut->o_data = 247 , num_of_clk_passed = 248
+uut->o_primed = 0
+waddr =  248
+i_trigger = 0
 triggered = 0
-waddr = 0011111000
 primed = 0
-stopped = 0
 this_addr =  247
 raddr =    0
 uut->o_data = 248 , num_of_clk_passed = 249
+uut->o_primed = 0
+waddr =  249
+i_trigger = 0
 triggered = 0
-waddr = 0011111001
 primed = 0
-stopped = 0
 this_addr =  248
 raddr =    0
 uut->o_data = 249 , num_of_clk_passed = 250
+uut->o_primed = 0
+waddr =  250
+i_trigger = 0
 triggered = 0
-waddr = 0011111010
 primed = 0
-stopped = 0
 this_addr =  249
 raddr =    0
 uut->o_data = 250 , num_of_clk_passed = 251
+uut->o_primed = 0
+waddr =  251
+i_trigger = 0
 triggered = 0
-waddr = 0011111011
 primed = 0
-stopped = 0
 this_addr =  250
 raddr =    0
 uut->o_data = 251 , num_of_clk_passed = 252
+uut->o_primed = 0
+waddr =  252
+i_trigger = 0
 triggered = 0
-waddr = 0011111100
 primed = 0
-stopped = 0
 this_addr =  251
 raddr =    0
 uut->o_data = 252 , num_of_clk_passed = 253
+uut->o_primed = 0
+waddr =  253
+i_trigger = 0
 triggered = 0
-waddr = 0011111101
 primed = 0
-stopped = 0
 this_addr =  252
 raddr =    0
 uut->o_data = 253 , num_of_clk_passed = 254
+uut->o_primed = 0
+waddr =  254
+i_trigger = 0
 triggered = 0
-waddr = 0011111110
 primed = 0
-stopped = 0
 this_addr =  253
 raddr =    0
 uut->o_data = 254 , num_of_clk_passed = 255
+uut->o_primed = 0
+waddr =  255
+i_trigger = 0
 triggered = 0
-waddr = 0011111111
 primed = 0
-stopped = 0
 this_addr =  254
 raddr =    0
 uut->o_data = 255 , num_of_clk_passed = 256
+uut->o_primed = 0
+waddr =  256
+i_trigger = 0
 triggered = 0
-waddr = 0100000000
 primed = 0
-stopped = 0
 this_addr =  255
 raddr =    0
 uut->o_data = 256 , num_of_clk_passed = 257
+uut->o_primed = 0
+waddr =  257
+i_trigger = 0
 triggered = 0
-waddr = 0100000001
 primed = 0
-stopped = 0
 this_addr =  256
 raddr =    0
 uut->o_data = 257 , num_of_clk_passed = 258
+uut->o_primed = 0
+waddr =  258
+i_trigger = 0
 triggered = 0
-waddr = 0100000010
 primed = 0
-stopped = 0
 this_addr =  257
 raddr =    0
 uut->o_data = 258 , num_of_clk_passed = 259
+uut->o_primed = 0
+waddr =  259
+i_trigger = 0
 triggered = 0
-waddr = 0100000011
 primed = 0
-stopped = 0
 this_addr =  258
 raddr =    0
 uut->o_data = 259 , num_of_clk_passed = 260
+uut->o_primed = 0
+waddr =  260
+i_trigger = 0
 triggered = 0
-waddr = 0100000100
 primed = 0
-stopped = 0
 this_addr =  259
 raddr =    0
 uut->o_data = 260 , num_of_clk_passed = 261
+uut->o_primed = 0
+waddr =  261
+i_trigger = 0
 triggered = 0
-waddr = 0100000101
 primed = 0
-stopped = 0
 this_addr =  260
 raddr =    0
 uut->o_data = 261 , num_of_clk_passed = 262
+uut->o_primed = 0
+waddr =  262
+i_trigger = 0
 triggered = 0
-waddr = 0100000110
 primed = 0
-stopped = 0
 this_addr =  261
 raddr =    0
 uut->o_data = 262 , num_of_clk_passed = 263
+uut->o_primed = 0
+waddr =  263
+i_trigger = 0
 triggered = 0
-waddr = 0100000111
 primed = 0
-stopped = 0
 this_addr =  262
 raddr =    0
 uut->o_data = 263 , num_of_clk_passed = 264
+uut->o_primed = 0
+waddr =  264
+i_trigger = 0
 triggered = 0
-waddr = 0100001000
 primed = 0
-stopped = 0
 this_addr =  263
 raddr =    0
 uut->o_data = 264 , num_of_clk_passed = 265
+uut->o_primed = 0
+waddr =  265
+i_trigger = 0
 triggered = 0
-waddr = 0100001001
 primed = 0
-stopped = 0
 this_addr =  264
 raddr =    0
 uut->o_data = 265 , num_of_clk_passed = 266
+uut->o_primed = 0
+waddr =  266
+i_trigger = 0
 triggered = 0
-waddr = 0100001010
 primed = 0
-stopped = 0
 this_addr =  265
 raddr =    0
 uut->o_data = 266 , num_of_clk_passed = 267
+uut->o_primed = 0
+waddr =  267
+i_trigger = 0
 triggered = 0
-waddr = 0100001011
 primed = 0
-stopped = 0
 this_addr =  266
 raddr =    0
 uut->o_data = 267 , num_of_clk_passed = 268
+uut->o_primed = 0
+waddr =  268
+i_trigger = 0
 triggered = 0
-waddr = 0100001100
 primed = 0
-stopped = 0
 this_addr =  267
 raddr =    0
 uut->o_data = 268 , num_of_clk_passed = 269
+uut->o_primed = 0
+waddr =  269
+i_trigger = 0
 triggered = 0
-waddr = 0100001101
 primed = 0
-stopped = 0
 this_addr =  268
 raddr =    0
 uut->o_data = 269 , num_of_clk_passed = 270
+uut->o_primed = 0
+waddr =  270
+i_trigger = 0
 triggered = 0
-waddr = 0100001110
 primed = 0
-stopped = 0
 this_addr =  269
 raddr =    0
 uut->o_data = 270 , num_of_clk_passed = 271
+uut->o_primed = 0
+waddr =  271
+i_trigger = 0
 triggered = 0
-waddr = 0100001111
 primed = 0
-stopped = 0
 this_addr =  270
 raddr =    0
 uut->o_data = 271 , num_of_clk_passed = 272
+uut->o_primed = 0
+waddr =  272
+i_trigger = 0
 triggered = 0
-waddr = 0100010000
 primed = 0
-stopped = 0
 this_addr =  271
 raddr =    0
 uut->o_data = 272 , num_of_clk_passed = 273
+uut->o_primed = 0
+waddr =  273
+i_trigger = 0
 triggered = 0
-waddr = 0100010001
 primed = 0
-stopped = 0
 this_addr =  272
 raddr =    0
 uut->o_data = 273 , num_of_clk_passed = 274
+uut->o_primed = 0
+waddr =  274
+i_trigger = 0
 triggered = 0
-waddr = 0100010010
 primed = 0
-stopped = 0
 this_addr =  273
 raddr =    0
 uut->o_data = 274 , num_of_clk_passed = 275
+uut->o_primed = 0
+waddr =  275
+i_trigger = 0
 triggered = 0
-waddr = 0100010011
 primed = 0
-stopped = 0
 this_addr =  274
 raddr =    0
 uut->o_data = 275 , num_of_clk_passed = 276
+uut->o_primed = 0
+waddr =  276
+i_trigger = 0
 triggered = 0
-waddr = 0100010100
 primed = 0
-stopped = 0
 this_addr =  275
 raddr =    0
 uut->o_data = 276 , num_of_clk_passed = 277
+uut->o_primed = 0
+waddr =  277
+i_trigger = 0
 triggered = 0
-waddr = 0100010101
 primed = 0
-stopped = 0
 this_addr =  276
 raddr =    0
 uut->o_data = 277 , num_of_clk_passed = 278
+uut->o_primed = 0
+waddr =  278
+i_trigger = 0
 triggered = 0
-waddr = 0100010110
 primed = 0
-stopped = 0
 this_addr =  277
 raddr =    0
 uut->o_data = 278 , num_of_clk_passed = 279
+uut->o_primed = 0
+waddr =  279
+i_trigger = 0
 triggered = 0
-waddr = 0100010111
 primed = 0
-stopped = 0
 this_addr =  278
 raddr =    0
 uut->o_data = 279 , num_of_clk_passed = 280
+uut->o_primed = 0
+waddr =  280
+i_trigger = 0
 triggered = 0
-waddr = 0100011000
 primed = 0
-stopped = 0
 this_addr =  279
 raddr =    0
 uut->o_data = 280 , num_of_clk_passed = 281
+uut->o_primed = 0
+waddr =  281
+i_trigger = 0
 triggered = 0
-waddr = 0100011001
 primed = 0
-stopped = 0
 this_addr =  280
 raddr =    0
 uut->o_data = 281 , num_of_clk_passed = 282
+uut->o_primed = 0
+waddr =  282
+i_trigger = 0
 triggered = 0
-waddr = 0100011010
 primed = 0
-stopped = 0
 this_addr =  281
 raddr =    0
 uut->o_data = 282 , num_of_clk_passed = 283
+uut->o_primed = 0
+waddr =  283
+i_trigger = 0
 triggered = 0
-waddr = 0100011011
 primed = 0
-stopped = 0
 this_addr =  282
 raddr =    0
 uut->o_data = 283 , num_of_clk_passed = 284
+uut->o_primed = 0
+waddr =  284
+i_trigger = 0
 triggered = 0
-waddr = 0100011100
 primed = 0
-stopped = 0
 this_addr =  283
 raddr =    0
 uut->o_data = 284 , num_of_clk_passed = 285
+uut->o_primed = 0
+waddr =  285
+i_trigger = 0
 triggered = 0
-waddr = 0100011101
 primed = 0
-stopped = 0
 this_addr =  284
 raddr =    0
 uut->o_data = 285 , num_of_clk_passed = 286
+uut->o_primed = 0
+waddr =  286
+i_trigger = 0
 triggered = 0
-waddr = 0100011110
 primed = 0
-stopped = 0
 this_addr =  285
 raddr =    0
 uut->o_data = 286 , num_of_clk_passed = 287
+uut->o_primed = 0
+waddr =  287
+i_trigger = 0
 triggered = 0
-waddr = 0100011111
 primed = 0
-stopped = 0
 this_addr =  286
 raddr =    0
 uut->o_data = 287 , num_of_clk_passed = 288
+uut->o_primed = 0
+waddr =  288
+i_trigger = 0
 triggered = 0
-waddr = 0100100000
 primed = 0
-stopped = 0
 this_addr =  287
 raddr =    0
 uut->o_data = 288 , num_of_clk_passed = 289
+uut->o_primed = 0
+waddr =  289
+i_trigger = 0
 triggered = 0
-waddr = 0100100001
 primed = 0
-stopped = 0
 this_addr =  288
 raddr =    0
 uut->o_data = 289 , num_of_clk_passed = 290
+uut->o_primed = 0
+waddr =  290
+i_trigger = 0
 triggered = 0
-waddr = 0100100010
 primed = 0
-stopped = 0
 this_addr =  289
 raddr =    0
 uut->o_data = 290 , num_of_clk_passed = 291
+uut->o_primed = 0
+waddr =  291
+i_trigger = 0
 triggered = 0
-waddr = 0100100011
 primed = 0
-stopped = 0
 this_addr =  290
 raddr =    0
 uut->o_data = 291 , num_of_clk_passed = 292
+uut->o_primed = 0
+waddr =  292
+i_trigger = 0
 triggered = 0
-waddr = 0100100100
 primed = 0
-stopped = 0
 this_addr =  291
 raddr =    0
 uut->o_data = 292 , num_of_clk_passed = 293
+uut->o_primed = 0
+waddr =  293
+i_trigger = 0
 triggered = 0
-waddr = 0100100101
 primed = 0
-stopped = 0
 this_addr =  292
 raddr =    0
 uut->o_data = 293 , num_of_clk_passed = 294
+uut->o_primed = 0
+waddr =  294
+i_trigger = 0
 triggered = 0
-waddr = 0100100110
 primed = 0
-stopped = 0
 this_addr =  293
 raddr =    0
 uut->o_data = 294 , num_of_clk_passed = 295
+uut->o_primed = 0
+waddr =  295
+i_trigger = 0
 triggered = 0
-waddr = 0100100111
 primed = 0
-stopped = 0
 this_addr =  294
 raddr =    0
 uut->o_data = 295 , num_of_clk_passed = 296
+uut->o_primed = 0
+waddr =  296
+i_trigger = 0
 triggered = 0
-waddr = 0100101000
 primed = 0
-stopped = 0
 this_addr =  295
 raddr =    0
 uut->o_data = 296 , num_of_clk_passed = 297
+uut->o_primed = 0
+waddr =  297
+i_trigger = 0
 triggered = 0
-waddr = 0100101001
 primed = 0
-stopped = 0
 this_addr =  296
 raddr =    0
 uut->o_data = 297 , num_of_clk_passed = 298
+uut->o_primed = 0
+waddr =  298
+i_trigger = 0
 triggered = 0
-waddr = 0100101010
 primed = 0
-stopped = 0
 this_addr =  297
 raddr =    0
 uut->o_data = 298 , num_of_clk_passed = 299
+uut->o_primed = 0
+waddr =  299
+i_trigger = 0
 triggered = 0
-waddr = 0100101011
 primed = 0
-stopped = 0
 this_addr =  298
 raddr =    0
 uut->o_data = 299 , num_of_clk_passed = 300
+uut->o_primed = 0
+waddr =  300
+i_trigger = 0
 triggered = 0
-waddr = 0100101100
 primed = 0
-stopped = 0
 this_addr =  299
 raddr =    0
 uut->o_data = 300 , num_of_clk_passed = 301
+uut->o_primed = 0
+waddr =  301
+i_trigger = 0
 triggered = 0
-waddr = 0100101101
 primed = 0
-stopped = 0
 this_addr =  300
 raddr =    0
 uut->o_data = 301 , num_of_clk_passed = 302
+uut->o_primed = 0
+waddr =  302
+i_trigger = 0
 triggered = 0
-waddr = 0100101110
 primed = 0
-stopped = 0
 this_addr =  301
 raddr =    0
 uut->o_data = 302 , num_of_clk_passed = 303
+uut->o_primed = 0
+waddr =  303
+i_trigger = 0
 triggered = 0
-waddr = 0100101111
 primed = 0
-stopped = 0
 this_addr =  302
 raddr =    0
 uut->o_data = 303 , num_of_clk_passed = 304
+uut->o_primed = 0
+waddr =  304
+i_trigger = 0
 triggered = 0
-waddr = 0100110000
 primed = 0
-stopped = 0
 this_addr =  303
 raddr =    0
 uut->o_data = 304 , num_of_clk_passed = 305
+uut->o_primed = 0
+waddr =  305
+i_trigger = 0
 triggered = 0
-waddr = 0100110001
 primed = 0
-stopped = 0
 this_addr =  304
 raddr =    0
 uut->o_data = 305 , num_of_clk_passed = 306
+uut->o_primed = 0
+waddr =  306
+i_trigger = 0
 triggered = 0
-waddr = 0100110010
 primed = 0
-stopped = 0
 this_addr =  305
 raddr =    0
 uut->o_data = 306 , num_of_clk_passed = 307
+uut->o_primed = 0
+waddr =  307
+i_trigger = 0
 triggered = 0
-waddr = 0100110011
 primed = 0
-stopped = 0
 this_addr =  306
 raddr =    0
 uut->o_data = 307 , num_of_clk_passed = 308
+uut->o_primed = 0
+waddr =  308
+i_trigger = 0
 triggered = 0
-waddr = 0100110100
 primed = 0
-stopped = 0
 this_addr =  307
 raddr =    0
 uut->o_data = 308 , num_of_clk_passed = 309
+uut->o_primed = 0
+waddr =  309
+i_trigger = 0
 triggered = 0
-waddr = 0100110101
 primed = 0
-stopped = 0
 this_addr =  308
 raddr =    0
 uut->o_data = 309 , num_of_clk_passed = 310
+uut->o_primed = 0
+waddr =  310
+i_trigger = 0
 triggered = 0
-waddr = 0100110110
 primed = 0
-stopped = 0
 this_addr =  309
 raddr =    0
 uut->o_data = 310 , num_of_clk_passed = 311
+uut->o_primed = 0
+waddr =  311
+i_trigger = 0
 triggered = 0
-waddr = 0100110111
 primed = 0
-stopped = 0
 this_addr =  310
 raddr =    0
 uut->o_data = 311 , num_of_clk_passed = 312
+uut->o_primed = 0
+waddr =  312
+i_trigger = 0
 triggered = 0
-waddr = 0100111000
 primed = 0
-stopped = 0
 this_addr =  311
 raddr =    0
 uut->o_data = 312 , num_of_clk_passed = 313
+uut->o_primed = 0
+waddr =  313
+i_trigger = 0
 triggered = 0
-waddr = 0100111001
 primed = 0
-stopped = 0
 this_addr =  312
 raddr =    0
 uut->o_data = 313 , num_of_clk_passed = 314
+uut->o_primed = 0
+waddr =  314
+i_trigger = 0
 triggered = 0
-waddr = 0100111010
 primed = 0
-stopped = 0
 this_addr =  313
 raddr =    0
 uut->o_data = 314 , num_of_clk_passed = 315
+uut->o_primed = 0
+waddr =  315
+i_trigger = 0
 triggered = 0
-waddr = 0100111011
 primed = 0
-stopped = 0
 this_addr =  314
 raddr =    0
 uut->o_data = 315 , num_of_clk_passed = 316
+uut->o_primed = 0
+waddr =  316
+i_trigger = 0
 triggered = 0
-waddr = 0100111100
 primed = 0
-stopped = 0
 this_addr =  315
 raddr =    0
 uut->o_data = 316 , num_of_clk_passed = 317
+uut->o_primed = 0
+waddr =  317
+i_trigger = 0
 triggered = 0
-waddr = 0100111101
 primed = 0
-stopped = 0
 this_addr =  316
 raddr =    0
 uut->o_data = 317 , num_of_clk_passed = 318
+uut->o_primed = 0
+waddr =  318
+i_trigger = 0
 triggered = 0
-waddr = 0100111110
 primed = 0
-stopped = 0
 this_addr =  317
 raddr =    0
 uut->o_data = 318 , num_of_clk_passed = 319
+uut->o_primed = 0
+waddr =  319
+i_trigger = 0
 triggered = 0
-waddr = 0100111111
 primed = 0
-stopped = 0
 this_addr =  318
 raddr =    0
 uut->o_data = 319 , num_of_clk_passed = 320
+uut->o_primed = 0
+waddr =  320
+i_trigger = 0
 triggered = 0
-waddr = 0101000000
 primed = 0
-stopped = 0
 this_addr =  319
 raddr =    0
 uut->o_data = 320 , num_of_clk_passed = 321
+uut->o_primed = 0
+waddr =  321
+i_trigger = 0
 triggered = 0
-waddr = 0101000001
 primed = 0
-stopped = 0
 this_addr =  320
 raddr =    0
 uut->o_data = 321 , num_of_clk_passed = 322
+uut->o_primed = 0
+waddr =  322
+i_trigger = 0
 triggered = 0
-waddr = 0101000010
 primed = 0
-stopped = 0
 this_addr =  321
 raddr =    0
 uut->o_data = 322 , num_of_clk_passed = 323
+uut->o_primed = 0
+waddr =  323
+i_trigger = 0
 triggered = 0
-waddr = 0101000011
 primed = 0
-stopped = 0
 this_addr =  322
 raddr =    0
 uut->o_data = 323 , num_of_clk_passed = 324
+uut->o_primed = 0
+waddr =  324
+i_trigger = 0
 triggered = 0
-waddr = 0101000100
 primed = 0
-stopped = 0
 this_addr =  323
 raddr =    0
 uut->o_data = 324 , num_of_clk_passed = 325
+uut->o_primed = 0
+waddr =  325
+i_trigger = 0
 triggered = 0
-waddr = 0101000101
 primed = 0
-stopped = 0
 this_addr =  324
 raddr =    0
 uut->o_data = 325 , num_of_clk_passed = 326
+uut->o_primed = 0
+waddr =  326
+i_trigger = 0
 triggered = 0
-waddr = 0101000110
 primed = 0
-stopped = 0
 this_addr =  325
 raddr =    0
 uut->o_data = 326 , num_of_clk_passed = 327
+uut->o_primed = 0
+waddr =  327
+i_trigger = 0
 triggered = 0
-waddr = 0101000111
 primed = 0
-stopped = 0
 this_addr =  326
 raddr =    0
 uut->o_data = 327 , num_of_clk_passed = 328
+uut->o_primed = 0
+waddr =  328
+i_trigger = 0
 triggered = 0
-waddr = 0101001000
 primed = 0
-stopped = 0
 this_addr =  327
 raddr =    0
 uut->o_data = 328 , num_of_clk_passed = 329
+uut->o_primed = 0
+waddr =  329
+i_trigger = 0
 triggered = 0
-waddr = 0101001001
 primed = 0
-stopped = 0
 this_addr =  328
 raddr =    0
 uut->o_data = 329 , num_of_clk_passed = 330
+uut->o_primed = 0
+waddr =  330
+i_trigger = 0
 triggered = 0
-waddr = 0101001010
 primed = 0
-stopped = 0
 this_addr =  329
 raddr =    0
 uut->o_data = 330 , num_of_clk_passed = 331
+uut->o_primed = 0
+waddr =  331
+i_trigger = 0
 triggered = 0
-waddr = 0101001011
 primed = 0
-stopped = 0
 this_addr =  330
 raddr =    0
 uut->o_data = 331 , num_of_clk_passed = 332
+uut->o_primed = 0
+waddr =  332
+i_trigger = 0
 triggered = 0
-waddr = 0101001100
 primed = 0
-stopped = 0
 this_addr =  331
 raddr =    0
 uut->o_data = 332 , num_of_clk_passed = 333
+uut->o_primed = 0
+waddr =  333
+i_trigger = 0
 triggered = 0
-waddr = 0101001101
 primed = 0
-stopped = 0
 this_addr =  332
 raddr =    0
 uut->o_data = 333 , num_of_clk_passed = 334
+uut->o_primed = 0
+waddr =  334
+i_trigger = 0
 triggered = 0
-waddr = 0101001110
 primed = 0
-stopped = 0
 this_addr =  333
 raddr =    0
 uut->o_data = 334 , num_of_clk_passed = 335
+uut->o_primed = 0
+waddr =  335
+i_trigger = 0
 triggered = 0
-waddr = 0101001111
 primed = 0
-stopped = 0
 this_addr =  334
 raddr =    0
 uut->o_data = 335 , num_of_clk_passed = 336
+uut->o_primed = 0
+waddr =  336
+i_trigger = 0
 triggered = 0
-waddr = 0101010000
 primed = 0
-stopped = 0
 this_addr =  335
 raddr =    0
 uut->o_data = 336 , num_of_clk_passed = 337
+uut->o_primed = 0
+waddr =  337
+i_trigger = 0
 triggered = 0
-waddr = 0101010001
 primed = 0
-stopped = 0
 this_addr =  336
 raddr =    0
 uut->o_data = 337 , num_of_clk_passed = 338
+uut->o_primed = 0
+waddr =  338
+i_trigger = 0
 triggered = 0
-waddr = 0101010010
 primed = 0
-stopped = 0
 this_addr =  337
 raddr =    0
 uut->o_data = 338 , num_of_clk_passed = 339
+uut->o_primed = 0
+waddr =  339
+i_trigger = 0
 triggered = 0
-waddr = 0101010011
 primed = 0
-stopped = 0
 this_addr =  338
 raddr =    0
 uut->o_data = 339 , num_of_clk_passed = 340
+uut->o_primed = 0
+waddr =  340
+i_trigger = 0
 triggered = 0
-waddr = 0101010100
 primed = 0
-stopped = 0
 this_addr =  339
 raddr =    0
 uut->o_data = 340 , num_of_clk_passed = 341
+uut->o_primed = 0
+waddr =  341
+i_trigger = 0
 triggered = 0
-waddr = 0101010101
 primed = 0
-stopped = 0
 this_addr =  340
 raddr =    0
 uut->o_data = 341 , num_of_clk_passed = 342
+uut->o_primed = 0
+waddr =  342
+i_trigger = 0
 triggered = 0
-waddr = 0101010110
 primed = 0
-stopped = 0
 this_addr =  341
 raddr =    0
 uut->o_data = 342 , num_of_clk_passed = 343
+uut->o_primed = 0
+waddr =  343
+i_trigger = 0
 triggered = 0
-waddr = 0101010111
 primed = 0
-stopped = 0
 this_addr =  342
 raddr =    0
 uut->o_data = 343 , num_of_clk_passed = 344
+uut->o_primed = 0
+waddr =  344
+i_trigger = 0
 triggered = 0
-waddr = 0101011000
 primed = 0
-stopped = 0
 this_addr =  343
 raddr =    0
 uut->o_data = 344 , num_of_clk_passed = 345
+uut->o_primed = 0
+waddr =  345
+i_trigger = 0
 triggered = 0
-waddr = 0101011001
 primed = 0
-stopped = 0
 this_addr =  344
 raddr =    0
 uut->o_data = 345 , num_of_clk_passed = 346
+uut->o_primed = 0
+waddr =  346
+i_trigger = 0
 triggered = 0
-waddr = 0101011010
 primed = 0
-stopped = 0
 this_addr =  345
 raddr =    0
 uut->o_data = 346 , num_of_clk_passed = 347
+uut->o_primed = 0
+waddr =  347
+i_trigger = 0
 triggered = 0
-waddr = 0101011011
 primed = 0
-stopped = 0
 this_addr =  346
 raddr =    0
 uut->o_data = 347 , num_of_clk_passed = 348
+uut->o_primed = 0
+waddr =  348
+i_trigger = 0
 triggered = 0
-waddr = 0101011100
 primed = 0
-stopped = 0
 this_addr =  347
 raddr =    0
 uut->o_data = 348 , num_of_clk_passed = 349
+uut->o_primed = 0
+waddr =  349
+i_trigger = 0
 triggered = 0
-waddr = 0101011101
 primed = 0
-stopped = 0
 this_addr =  348
 raddr =    0
 uut->o_data = 349 , num_of_clk_passed = 350
+uut->o_primed = 0
+waddr =  350
+i_trigger = 0
 triggered = 0
-waddr = 0101011110
 primed = 0
-stopped = 0
 this_addr =  349
 raddr =    0
 uut->o_data = 350 , num_of_clk_passed = 351
+uut->o_primed = 0
+waddr =  351
+i_trigger = 0
 triggered = 0
-waddr = 0101011111
 primed = 0
-stopped = 0
 this_addr =  350
 raddr =    0
 uut->o_data = 351 , num_of_clk_passed = 352
+uut->o_primed = 0
+waddr =  352
+i_trigger = 0
 triggered = 0
-waddr = 0101100000
 primed = 0
-stopped = 0
 this_addr =  351
 raddr =    0
 uut->o_data = 352 , num_of_clk_passed = 353
+uut->o_primed = 0
+waddr =  353
+i_trigger = 0
 triggered = 0
-waddr = 0101100001
 primed = 0
-stopped = 0
 this_addr =  352
 raddr =    0
 uut->o_data = 353 , num_of_clk_passed = 354
+uut->o_primed = 0
+waddr =  354
+i_trigger = 0
 triggered = 0
-waddr = 0101100010
 primed = 0
-stopped = 0
 this_addr =  353
 raddr =    0
 uut->o_data = 354 , num_of_clk_passed = 355
+uut->o_primed = 0
+waddr =  355
+i_trigger = 0
 triggered = 0
-waddr = 0101100011
 primed = 0
-stopped = 0
 this_addr =  354
 raddr =    0
 uut->o_data = 355 , num_of_clk_passed = 356
+uut->o_primed = 0
+waddr =  356
+i_trigger = 0
 triggered = 0
-waddr = 0101100100
 primed = 0
-stopped = 0
 this_addr =  355
 raddr =    0
 uut->o_data = 356 , num_of_clk_passed = 357
+uut->o_primed = 0
+waddr =  357
+i_trigger = 0
 triggered = 0
-waddr = 0101100101
 primed = 0
-stopped = 0
 this_addr =  356
 raddr =    0
 uut->o_data = 357 , num_of_clk_passed = 358
+uut->o_primed = 0
+waddr =  358
+i_trigger = 0
 triggered = 0
-waddr = 0101100110
 primed = 0
-stopped = 0
 this_addr =  357
 raddr =    0
 uut->o_data = 358 , num_of_clk_passed = 359
+uut->o_primed = 0
+waddr =  359
+i_trigger = 0
 triggered = 0
-waddr = 0101100111
 primed = 0
-stopped = 0
 this_addr =  358
 raddr =    0
 uut->o_data = 359 , num_of_clk_passed = 360
+uut->o_primed = 0
+waddr =  360
+i_trigger = 0
 triggered = 0
-waddr = 0101101000
 primed = 0
-stopped = 0
 this_addr =  359
 raddr =    0
 uut->o_data = 360 , num_of_clk_passed = 361
+uut->o_primed = 0
+waddr =  361
+i_trigger = 0
 triggered = 0
-waddr = 0101101001
 primed = 0
-stopped = 0
 this_addr =  360
 raddr =    0
 uut->o_data = 361 , num_of_clk_passed = 362
+uut->o_primed = 0
+waddr =  362
+i_trigger = 0
 triggered = 0
-waddr = 0101101010
 primed = 0
-stopped = 0
 this_addr =  361
 raddr =    0
 uut->o_data = 362 , num_of_clk_passed = 363
+uut->o_primed = 0
+waddr =  363
+i_trigger = 0
 triggered = 0
-waddr = 0101101011
 primed = 0
-stopped = 0
 this_addr =  362
 raddr =    0
 uut->o_data = 363 , num_of_clk_passed = 364
+uut->o_primed = 0
+waddr =  364
+i_trigger = 0
 triggered = 0
-waddr = 0101101100
 primed = 0
-stopped = 0
 this_addr =  363
 raddr =    0
 uut->o_data = 364 , num_of_clk_passed = 365
+uut->o_primed = 0
+waddr =  365
+i_trigger = 0
 triggered = 0
-waddr = 0101101101
 primed = 0
-stopped = 0
 this_addr =  364
 raddr =    0
 uut->o_data = 365 , num_of_clk_passed = 366
+uut->o_primed = 0
+waddr =  366
+i_trigger = 0
 triggered = 0
-waddr = 0101101110
 primed = 0
-stopped = 0
 this_addr =  365
 raddr =    0
 uut->o_data = 366 , num_of_clk_passed = 367
+uut->o_primed = 0
+waddr =  367
+i_trigger = 0
 triggered = 0
-waddr = 0101101111
 primed = 0
-stopped = 0
 this_addr =  366
 raddr =    0
 uut->o_data = 367 , num_of_clk_passed = 368
+uut->o_primed = 0
+waddr =  368
+i_trigger = 0
 triggered = 0
-waddr = 0101110000
 primed = 0
-stopped = 0
 this_addr =  367
 raddr =    0
 uut->o_data = 368 , num_of_clk_passed = 369
+uut->o_primed = 0
+waddr =  369
+i_trigger = 0
 triggered = 0
-waddr = 0101110001
 primed = 0
-stopped = 0
 this_addr =  368
 raddr =    0
 uut->o_data = 369 , num_of_clk_passed = 370
+uut->o_primed = 0
+waddr =  370
+i_trigger = 0
 triggered = 0
-waddr = 0101110010
 primed = 0
-stopped = 0
 this_addr =  369
 raddr =    0
 uut->o_data = 370 , num_of_clk_passed = 371
+uut->o_primed = 0
+waddr =  371
+i_trigger = 0
 triggered = 0
-waddr = 0101110011
 primed = 0
-stopped = 0
 this_addr =  370
 raddr =    0
 uut->o_data = 371 , num_of_clk_passed = 372
+uut->o_primed = 0
+waddr =  372
+i_trigger = 0
 triggered = 0
-waddr = 0101110100
 primed = 0
-stopped = 0
 this_addr =  371
 raddr =    0
 uut->o_data = 372 , num_of_clk_passed = 373
+uut->o_primed = 0
+waddr =  373
+i_trigger = 0
 triggered = 0
-waddr = 0101110101
 primed = 0
-stopped = 0
 this_addr =  372
 raddr =    0
 uut->o_data = 373 , num_of_clk_passed = 374
+uut->o_primed = 0
+waddr =  374
+i_trigger = 0
 triggered = 0
-waddr = 0101110110
 primed = 0
-stopped = 0
 this_addr =  373
 raddr =    0
 uut->o_data = 374 , num_of_clk_passed = 375
+uut->o_primed = 0
+waddr =  375
+i_trigger = 0
 triggered = 0
-waddr = 0101110111
 primed = 0
-stopped = 0
 this_addr =  374
 raddr =    0
 uut->o_data = 375 , num_of_clk_passed = 376
+uut->o_primed = 0
+waddr =  376
+i_trigger = 0
 triggered = 0
-waddr = 0101111000
 primed = 0
-stopped = 0
 this_addr =  375
 raddr =    0
 uut->o_data = 376 , num_of_clk_passed = 377
+uut->o_primed = 0
+waddr =  377
+i_trigger = 0
 triggered = 0
-waddr = 0101111001
 primed = 0
-stopped = 0
 this_addr =  376
 raddr =    0
 uut->o_data = 377 , num_of_clk_passed = 378
+uut->o_primed = 0
+waddr =  378
+i_trigger = 0
 triggered = 0
-waddr = 0101111010
 primed = 0
-stopped = 0
 this_addr =  377
 raddr =    0
 uut->o_data = 378 , num_of_clk_passed = 379
+uut->o_primed = 0
+waddr =  379
+i_trigger = 0
 triggered = 0
-waddr = 0101111011
 primed = 0
-stopped = 0
 this_addr =  378
 raddr =    0
 uut->o_data = 379 , num_of_clk_passed = 380
+uut->o_primed = 0
+waddr =  380
+i_trigger = 0
 triggered = 0
-waddr = 0101111100
 primed = 0
-stopped = 0
 this_addr =  379
 raddr =    0
 uut->o_data = 380 , num_of_clk_passed = 381
+uut->o_primed = 0
+waddr =  381
+i_trigger = 0
 triggered = 0
-waddr = 0101111101
 primed = 0
-stopped = 0
 this_addr =  380
 raddr =    0
 uut->o_data = 381 , num_of_clk_passed = 382
+uut->o_primed = 0
+waddr =  382
+i_trigger = 0
 triggered = 0
-waddr = 0101111110
 primed = 0
-stopped = 0
 this_addr =  381
 raddr =    0
 uut->o_data = 382 , num_of_clk_passed = 383
+uut->o_primed = 0
+waddr =  383
+i_trigger = 0
 triggered = 0
-waddr = 0101111111
 primed = 0
-stopped = 0
 this_addr =  382
 raddr =    0
 uut->o_data = 383 , num_of_clk_passed = 384
+uut->o_primed = 0
+waddr =  384
+i_trigger = 0
 triggered = 0
-waddr = 0110000000
 primed = 0
-stopped = 0
 this_addr =  383
 raddr =    0
 uut->o_data = 384 , num_of_clk_passed = 385
+uut->o_primed = 0
+waddr =  385
+i_trigger = 0
 triggered = 0
-waddr = 0110000001
 primed = 0
-stopped = 0
 this_addr =  384
 raddr =    0
 uut->o_data = 385 , num_of_clk_passed = 386
+uut->o_primed = 0
+waddr =  386
+i_trigger = 0
 triggered = 0
-waddr = 0110000010
 primed = 0
-stopped = 0
 this_addr =  385
 raddr =    0
 uut->o_data = 386 , num_of_clk_passed = 387
+uut->o_primed = 0
+waddr =  387
+i_trigger = 0
 triggered = 0
-waddr = 0110000011
 primed = 0
-stopped = 0
 this_addr =  386
 raddr =    0
 uut->o_data = 387 , num_of_clk_passed = 388
+uut->o_primed = 0
+waddr =  388
+i_trigger = 0
 triggered = 0
-waddr = 0110000100
 primed = 0
-stopped = 0
 this_addr =  387
 raddr =    0
 uut->o_data = 388 , num_of_clk_passed = 389
+uut->o_primed = 0
+waddr =  389
+i_trigger = 0
 triggered = 0
-waddr = 0110000101
 primed = 0
-stopped = 0
 this_addr =  388
 raddr =    0
 uut->o_data = 389 , num_of_clk_passed = 390
+uut->o_primed = 0
+waddr =  390
+i_trigger = 0
 triggered = 0
-waddr = 0110000110
 primed = 0
-stopped = 0
 this_addr =  389
 raddr =    0
 uut->o_data = 390 , num_of_clk_passed = 391
+uut->o_primed = 0
+waddr =  391
+i_trigger = 0
 triggered = 0
-waddr = 0110000111
 primed = 0
-stopped = 0
 this_addr =  390
 raddr =    0
 uut->o_data = 391 , num_of_clk_passed = 392
+uut->o_primed = 0
+waddr =  392
+i_trigger = 0
 triggered = 0
-waddr = 0110001000
 primed = 0
-stopped = 0
 this_addr =  391
 raddr =    0
 uut->o_data = 392 , num_of_clk_passed = 393
+uut->o_primed = 0
+waddr =  393
+i_trigger = 0
 triggered = 0
-waddr = 0110001001
 primed = 0
-stopped = 0
 this_addr =  392
 raddr =    0
 uut->o_data = 393 , num_of_clk_passed = 394
+uut->o_primed = 0
+waddr =  394
+i_trigger = 0
 triggered = 0
-waddr = 0110001010
 primed = 0
-stopped = 0
 this_addr =  393
 raddr =    0
 uut->o_data = 394 , num_of_clk_passed = 395
+uut->o_primed = 0
+waddr =  395
+i_trigger = 0
 triggered = 0
-waddr = 0110001011
 primed = 0
-stopped = 0
 this_addr =  394
 raddr =    0
 uut->o_data = 395 , num_of_clk_passed = 396
+uut->o_primed = 0
+waddr =  396
+i_trigger = 0
 triggered = 0
-waddr = 0110001100
 primed = 0
-stopped = 0
 this_addr =  395
 raddr =    0
 uut->o_data = 396 , num_of_clk_passed = 397
+uut->o_primed = 0
+waddr =  397
+i_trigger = 0
 triggered = 0
-waddr = 0110001101
 primed = 0
-stopped = 0
 this_addr =  396
 raddr =    0
 uut->o_data = 397 , num_of_clk_passed = 398
+uut->o_primed = 0
+waddr =  398
+i_trigger = 0
 triggered = 0
-waddr = 0110001110
 primed = 0
-stopped = 0
 this_addr =  397
 raddr =    0
 uut->o_data = 398 , num_of_clk_passed = 399
+uut->o_primed = 0
+waddr =  399
+i_trigger = 0
 triggered = 0
-waddr = 0110001111
 primed = 0
-stopped = 0
 this_addr =  398
 raddr =    0
 uut->o_data = 399 , num_of_clk_passed = 400
+uut->o_primed = 0
+waddr =  400
+i_trigger = 0
 triggered = 0
-waddr = 0110010000
 primed = 0
-stopped = 0
 this_addr =  399
 raddr =    0
 uut->o_data = 400 , num_of_clk_passed = 401
+uut->o_primed = 0
+waddr =  401
+i_trigger = 0
 triggered = 0
-waddr = 0110010001
 primed = 0
-stopped = 0
 this_addr =  400
 raddr =    0
 uut->o_data = 401 , num_of_clk_passed = 402
+uut->o_primed = 0
+waddr =  402
+i_trigger = 0
 triggered = 0
-waddr = 0110010010
 primed = 0
-stopped = 0
 this_addr =  401
 raddr =    0
 uut->o_data = 402 , num_of_clk_passed = 403
+uut->o_primed = 0
+waddr =  403
+i_trigger = 0
 triggered = 0
-waddr = 0110010011
 primed = 0
-stopped = 0
 this_addr =  402
 raddr =    0
 uut->o_data = 403 , num_of_clk_passed = 404
+uut->o_primed = 0
+waddr =  404
+i_trigger = 0
 triggered = 0
-waddr = 0110010100
 primed = 0
-stopped = 0
 this_addr =  403
 raddr =    0
 uut->o_data = 404 , num_of_clk_passed = 405
+uut->o_primed = 0
+waddr =  405
+i_trigger = 0
 triggered = 0
-waddr = 0110010101
 primed = 0
-stopped = 0
 this_addr =  404
 raddr =    0
 uut->o_data = 405 , num_of_clk_passed = 406
+uut->o_primed = 0
+waddr =  406
+i_trigger = 0
 triggered = 0
-waddr = 0110010110
 primed = 0
-stopped = 0
 this_addr =  405
 raddr =    0
 uut->o_data = 406 , num_of_clk_passed = 407
+uut->o_primed = 0
+waddr =  407
+i_trigger = 0
 triggered = 0
-waddr = 0110010111
 primed = 0
-stopped = 0
 this_addr =  406
 raddr =    0
 uut->o_data = 407 , num_of_clk_passed = 408
+uut->o_primed = 0
+waddr =  408
+i_trigger = 0
 triggered = 0
-waddr = 0110011000
 primed = 0
-stopped = 0
 this_addr =  407
 raddr =    0
 uut->o_data = 408 , num_of_clk_passed = 409
+uut->o_primed = 0
+waddr =  409
+i_trigger = 0
 triggered = 0
-waddr = 0110011001
 primed = 0
-stopped = 0
 this_addr =  408
 raddr =    0
 uut->o_data = 409 , num_of_clk_passed = 410
+uut->o_primed = 0
+waddr =  410
+i_trigger = 0
 triggered = 0
-waddr = 0110011010
 primed = 0
-stopped = 0
 this_addr =  409
 raddr =    0
 uut->o_data = 410 , num_of_clk_passed = 411
+uut->o_primed = 0
+waddr =  411
+i_trigger = 0
 triggered = 0
-waddr = 0110011011
 primed = 0
-stopped = 0
 this_addr =  410
 raddr =    0
 uut->o_data = 411 , num_of_clk_passed = 412
+uut->o_primed = 0
+waddr =  412
+i_trigger = 0
 triggered = 0
-waddr = 0110011100
 primed = 0
-stopped = 0
 this_addr =  411
 raddr =    0
 uut->o_data = 412 , num_of_clk_passed = 413
+uut->o_primed = 0
+waddr =  413
+i_trigger = 0
 triggered = 0
-waddr = 0110011101
 primed = 0
-stopped = 0
 this_addr =  412
 raddr =    0
 uut->o_data = 413 , num_of_clk_passed = 414
+uut->o_primed = 0
+waddr =  414
+i_trigger = 0
 triggered = 0
-waddr = 0110011110
 primed = 0
-stopped = 0
 this_addr =  413
 raddr =    0
 uut->o_data = 414 , num_of_clk_passed = 415
+uut->o_primed = 0
+waddr =  415
+i_trigger = 0
 triggered = 0
-waddr = 0110011111
 primed = 0
-stopped = 0
 this_addr =  414
 raddr =    0
 uut->o_data = 415 , num_of_clk_passed = 416
+uut->o_primed = 0
+waddr =  416
+i_trigger = 0
 triggered = 0
-waddr = 0110100000
 primed = 0
-stopped = 0
 this_addr =  415
 raddr =    0
 uut->o_data = 416 , num_of_clk_passed = 417
+uut->o_primed = 0
+waddr =  417
+i_trigger = 0
 triggered = 0
-waddr = 0110100001
 primed = 0
-stopped = 0
 this_addr =  416
 raddr =    0
 uut->o_data = 417 , num_of_clk_passed = 418
+uut->o_primed = 0
+waddr =  418
+i_trigger = 0
 triggered = 0
-waddr = 0110100010
 primed = 0
-stopped = 0
 this_addr =  417
 raddr =    0
 uut->o_data = 418 , num_of_clk_passed = 419
+uut->o_primed = 0
+waddr =  419
+i_trigger = 0
 triggered = 0
-waddr = 0110100011
 primed = 0
-stopped = 0
 this_addr =  418
 raddr =    0
 uut->o_data = 419 , num_of_clk_passed = 420
+uut->o_primed = 0
+waddr =  420
+i_trigger = 0
 triggered = 0
-waddr = 0110100100
 primed = 0
-stopped = 0
 this_addr =  419
 raddr =    0
 uut->o_data = 420 , num_of_clk_passed = 421
+uut->o_primed = 0
+waddr =  421
+i_trigger = 0
 triggered = 0
-waddr = 0110100101
 primed = 0
-stopped = 0
 this_addr =  420
 raddr =    0
 uut->o_data = 421 , num_of_clk_passed = 422
+uut->o_primed = 0
+waddr =  422
+i_trigger = 0
 triggered = 0
-waddr = 0110100110
 primed = 0
-stopped = 0
 this_addr =  421
 raddr =    0
 uut->o_data = 422 , num_of_clk_passed = 423
+uut->o_primed = 0
+waddr =  423
+i_trigger = 0
 triggered = 0
-waddr = 0110100111
 primed = 0
-stopped = 0
 this_addr =  422
 raddr =    0
 uut->o_data = 423 , num_of_clk_passed = 424
+uut->o_primed = 0
+waddr =  424
+i_trigger = 0
 triggered = 0
-waddr = 0110101000
 primed = 0
-stopped = 0
 this_addr =  423
 raddr =    0
 uut->o_data = 424 , num_of_clk_passed = 425
+uut->o_primed = 0
+waddr =  425
+i_trigger = 0
 triggered = 0
-waddr = 0110101001
 primed = 0
-stopped = 0
 this_addr =  424
 raddr =    0
 uut->o_data = 425 , num_of_clk_passed = 426
+uut->o_primed = 0
+waddr =  426
+i_trigger = 0
 triggered = 0
-waddr = 0110101010
 primed = 0
-stopped = 0
 this_addr =  425
 raddr =    0
 uut->o_data = 426 , num_of_clk_passed = 427
+uut->o_primed = 0
+waddr =  427
+i_trigger = 0
 triggered = 0
-waddr = 0110101011
 primed = 0
-stopped = 0
 this_addr =  426
 raddr =    0
 uut->o_data = 427 , num_of_clk_passed = 428
+uut->o_primed = 0
+waddr =  428
+i_trigger = 0
 triggered = 0
-waddr = 0110101100
 primed = 0
-stopped = 0
 this_addr =  427
 raddr =    0
 uut->o_data = 428 , num_of_clk_passed = 429
+uut->o_primed = 0
+waddr =  429
+i_trigger = 0
 triggered = 0
-waddr = 0110101101
 primed = 0
-stopped = 0
 this_addr =  428
 raddr =    0
 uut->o_data = 429 , num_of_clk_passed = 430
+uut->o_primed = 0
+waddr =  430
+i_trigger = 0
 triggered = 0
-waddr = 0110101110
 primed = 0
-stopped = 0
 this_addr =  429
 raddr =    0
 uut->o_data = 430 , num_of_clk_passed = 431
+uut->o_primed = 0
+waddr =  431
+i_trigger = 0
 triggered = 0
-waddr = 0110101111
 primed = 0
-stopped = 0
 this_addr =  430
 raddr =    0
 uut->o_data = 431 , num_of_clk_passed = 432
+uut->o_primed = 0
+waddr =  432
+i_trigger = 0
 triggered = 0
-waddr = 0110110000
 primed = 0
-stopped = 0
 this_addr =  431
 raddr =    0
 uut->o_data = 432 , num_of_clk_passed = 433
+uut->o_primed = 0
+waddr =  433
+i_trigger = 0
 triggered = 0
-waddr = 0110110001
 primed = 0
-stopped = 0
 this_addr =  432
 raddr =    0
 uut->o_data = 433 , num_of_clk_passed = 434
+uut->o_primed = 0
+waddr =  434
+i_trigger = 0
 triggered = 0
-waddr = 0110110010
 primed = 0
-stopped = 0
 this_addr =  433
 raddr =    0
 uut->o_data = 434 , num_of_clk_passed = 435
+uut->o_primed = 0
+waddr =  435
+i_trigger = 0
 triggered = 0
-waddr = 0110110011
 primed = 0
-stopped = 0
 this_addr =  434
 raddr =    0
 uut->o_data = 435 , num_of_clk_passed = 436
+uut->o_primed = 0
+waddr =  436
+i_trigger = 0
 triggered = 0
-waddr = 0110110100
 primed = 0
-stopped = 0
 this_addr =  435
 raddr =    0
 uut->o_data = 436 , num_of_clk_passed = 437
+uut->o_primed = 0
+waddr =  437
+i_trigger = 0
 triggered = 0
-waddr = 0110110101
 primed = 0
-stopped = 0
 this_addr =  436
 raddr =    0
 uut->o_data = 437 , num_of_clk_passed = 438
+uut->o_primed = 0
+waddr =  438
+i_trigger = 0
 triggered = 0
-waddr = 0110110110
 primed = 0
-stopped = 0
 this_addr =  437
 raddr =    0
 uut->o_data = 438 , num_of_clk_passed = 439
+uut->o_primed = 0
+waddr =  439
+i_trigger = 0
 triggered = 0
-waddr = 0110110111
 primed = 0
-stopped = 0
 this_addr =  438
 raddr =    0
 uut->o_data = 439 , num_of_clk_passed = 440
+uut->o_primed = 0
+waddr =  440
+i_trigger = 0
 triggered = 0
-waddr = 0110111000
 primed = 0
-stopped = 0
 this_addr =  439
 raddr =    0
 uut->o_data = 440 , num_of_clk_passed = 441
+uut->o_primed = 0
+waddr =  441
+i_trigger = 0
 triggered = 0
-waddr = 0110111001
 primed = 0
-stopped = 0
 this_addr =  440
 raddr =    0
 uut->o_data = 441 , num_of_clk_passed = 442
+uut->o_primed = 0
+waddr =  442
+i_trigger = 0
 triggered = 0
-waddr = 0110111010
 primed = 0
-stopped = 0
 this_addr =  441
 raddr =    0
 uut->o_data = 442 , num_of_clk_passed = 443
+uut->o_primed = 0
+waddr =  443
+i_trigger = 0
 triggered = 0
-waddr = 0110111011
 primed = 0
-stopped = 0
 this_addr =  442
 raddr =    0
 uut->o_data = 443 , num_of_clk_passed = 444
+uut->o_primed = 0
+waddr =  444
+i_trigger = 0
 triggered = 0
-waddr = 0110111100
 primed = 0
-stopped = 0
 this_addr =  443
 raddr =    0
 uut->o_data = 444 , num_of_clk_passed = 445
+uut->o_primed = 0
+waddr =  445
+i_trigger = 0
 triggered = 0
-waddr = 0110111101
 primed = 0
-stopped = 0
 this_addr =  444
 raddr =    0
 uut->o_data = 445 , num_of_clk_passed = 446
+uut->o_primed = 0
+waddr =  446
+i_trigger = 0
 triggered = 0
-waddr = 0110111110
 primed = 0
-stopped = 0
 this_addr =  445
 raddr =    0
 uut->o_data = 446 , num_of_clk_passed = 447
+uut->o_primed = 0
+waddr =  447
+i_trigger = 0
 triggered = 0
-waddr = 0110111111
 primed = 0
-stopped = 0
 this_addr =  446
 raddr =    0
 uut->o_data = 447 , num_of_clk_passed = 448
+uut->o_primed = 0
+waddr =  448
+i_trigger = 0
 triggered = 0
-waddr = 0111000000
 primed = 0
-stopped = 0
 this_addr =  447
 raddr =    0
 uut->o_data = 448 , num_of_clk_passed = 449
+uut->o_primed = 0
+waddr =  449
+i_trigger = 0
 triggered = 0
-waddr = 0111000001
 primed = 0
-stopped = 0
 this_addr =  448
 raddr =    0
 uut->o_data = 449 , num_of_clk_passed = 450
+uut->o_primed = 0
+waddr =  450
+i_trigger = 0
 triggered = 0
-waddr = 0111000010
 primed = 0
-stopped = 0
 this_addr =  449
 raddr =    0
 uut->o_data = 450 , num_of_clk_passed = 451
+uut->o_primed = 0
+waddr =  451
+i_trigger = 0
 triggered = 0
-waddr = 0111000011
 primed = 0
-stopped = 0
 this_addr =  450
 raddr =    0
 uut->o_data = 451 , num_of_clk_passed = 452
+uut->o_primed = 0
+waddr =  452
+i_trigger = 0
 triggered = 0
-waddr = 0111000100
 primed = 0
-stopped = 0
 this_addr =  451
 raddr =    0
 uut->o_data = 452 , num_of_clk_passed = 453
+uut->o_primed = 0
+waddr =  453
+i_trigger = 0
 triggered = 0
-waddr = 0111000101
 primed = 0
-stopped = 0
 this_addr =  452
 raddr =    0
 uut->o_data = 453 , num_of_clk_passed = 454
+uut->o_primed = 0
+waddr =  454
+i_trigger = 0
 triggered = 0
-waddr = 0111000110
 primed = 0
-stopped = 0
 this_addr =  453
 raddr =    0
 uut->o_data = 454 , num_of_clk_passed = 455
+uut->o_primed = 0
+waddr =  455
+i_trigger = 0
 triggered = 0
-waddr = 0111000111
 primed = 0
-stopped = 0
 this_addr =  454
 raddr =    0
 uut->o_data = 455 , num_of_clk_passed = 456
+uut->o_primed = 0
+waddr =  456
+i_trigger = 0
 triggered = 0
-waddr = 0111001000
 primed = 0
-stopped = 0
 this_addr =  455
 raddr =    0
 uut->o_data = 456 , num_of_clk_passed = 457
+uut->o_primed = 0
+waddr =  457
+i_trigger = 0
 triggered = 0
-waddr = 0111001001
 primed = 0
-stopped = 0
 this_addr =  456
 raddr =    0
 uut->o_data = 457 , num_of_clk_passed = 458
+uut->o_primed = 0
+waddr =  458
+i_trigger = 0
 triggered = 0
-waddr = 0111001010
 primed = 0
-stopped = 0
 this_addr =  457
 raddr =    0
 uut->o_data = 458 , num_of_clk_passed = 459
+uut->o_primed = 0
+waddr =  459
+i_trigger = 0
 triggered = 0
-waddr = 0111001011
 primed = 0
-stopped = 0
 this_addr =  458
 raddr =    0
 uut->o_data = 459 , num_of_clk_passed = 460
+uut->o_primed = 0
+waddr =  460
+i_trigger = 0
 triggered = 0
-waddr = 0111001100
 primed = 0
-stopped = 0
 this_addr =  459
 raddr =    0
 uut->o_data = 460 , num_of_clk_passed = 461
+uut->o_primed = 0
+waddr =  461
+i_trigger = 0
 triggered = 0
-waddr = 0111001101
 primed = 0
-stopped = 0
 this_addr =  460
 raddr =    0
 uut->o_data = 461 , num_of_clk_passed = 462
+uut->o_primed = 0
+waddr =  462
+i_trigger = 0
 triggered = 0
-waddr = 0111001110
 primed = 0
-stopped = 0
 this_addr =  461
 raddr =    0
 uut->o_data = 462 , num_of_clk_passed = 463
+uut->o_primed = 0
+waddr =  463
+i_trigger = 0
 triggered = 0
-waddr = 0111001111
 primed = 0
-stopped = 0
 this_addr =  462
 raddr =    0
 uut->o_data = 463 , num_of_clk_passed = 464
+uut->o_primed = 0
+waddr =  464
+i_trigger = 0
 triggered = 0
-waddr = 0111010000
 primed = 0
-stopped = 0
 this_addr =  463
 raddr =    0
 uut->o_data = 464 , num_of_clk_passed = 465
+uut->o_primed = 0
+waddr =  465
+i_trigger = 0
 triggered = 0
-waddr = 0111010001
 primed = 0
-stopped = 0
 this_addr =  464
 raddr =    0
 uut->o_data = 465 , num_of_clk_passed = 466
+uut->o_primed = 0
+waddr =  466
+i_trigger = 0
 triggered = 0
-waddr = 0111010010
 primed = 0
-stopped = 0
 this_addr =  465
 raddr =    0
 uut->o_data = 466 , num_of_clk_passed = 467
+uut->o_primed = 0
+waddr =  467
+i_trigger = 0
 triggered = 0
-waddr = 0111010011
 primed = 0
-stopped = 0
 this_addr =  466
 raddr =    0
 uut->o_data = 467 , num_of_clk_passed = 468
+uut->o_primed = 0
+waddr =  468
+i_trigger = 0
 triggered = 0
-waddr = 0111010100
 primed = 0
-stopped = 0
 this_addr =  467
 raddr =    0
 uut->o_data = 468 , num_of_clk_passed = 469
+uut->o_primed = 0
+waddr =  469
+i_trigger = 0
 triggered = 0
-waddr = 0111010101
 primed = 0
-stopped = 0
 this_addr =  468
 raddr =    0
 uut->o_data = 469 , num_of_clk_passed = 470
+uut->o_primed = 0
+waddr =  470
+i_trigger = 0
 triggered = 0
-waddr = 0111010110
 primed = 0
-stopped = 0
 this_addr =  469
 raddr =    0
 uut->o_data = 470 , num_of_clk_passed = 471
+uut->o_primed = 0
+waddr =  471
+i_trigger = 0
 triggered = 0
-waddr = 0111010111
 primed = 0
-stopped = 0
 this_addr =  470
 raddr =    0
 uut->o_data = 471 , num_of_clk_passed = 472
+uut->o_primed = 0
+waddr =  472
+i_trigger = 0
 triggered = 0
-waddr = 0111011000
 primed = 0
-stopped = 0
 this_addr =  471
 raddr =    0
 uut->o_data = 472 , num_of_clk_passed = 473
+uut->o_primed = 0
+waddr =  473
+i_trigger = 0
 triggered = 0
-waddr = 0111011001
 primed = 0
-stopped = 0
 this_addr =  472
 raddr =    0
 uut->o_data = 473 , num_of_clk_passed = 474
+uut->o_primed = 0
+waddr =  474
+i_trigger = 0
 triggered = 0
-waddr = 0111011010
 primed = 0
-stopped = 0
 this_addr =  473
 raddr =    0
 uut->o_data = 474 , num_of_clk_passed = 475
+uut->o_primed = 0
+waddr =  475
+i_trigger = 0
 triggered = 0
-waddr = 0111011011
 primed = 0
-stopped = 0
 this_addr =  474
 raddr =    0
 uut->o_data = 475 , num_of_clk_passed = 476
+uut->o_primed = 0
+waddr =  476
+i_trigger = 0
 triggered = 0
-waddr = 0111011100
 primed = 0
-stopped = 0
 this_addr =  475
 raddr =    0
 uut->o_data = 476 , num_of_clk_passed = 477
+uut->o_primed = 0
+waddr =  477
+i_trigger = 0
 triggered = 0
-waddr = 0111011101
 primed = 0
-stopped = 0
 this_addr =  476
 raddr =    0
 uut->o_data = 477 , num_of_clk_passed = 478
+uut->o_primed = 0
+waddr =  478
+i_trigger = 0
 triggered = 0
-waddr = 0111011110
 primed = 0
-stopped = 0
 this_addr =  477
 raddr =    0
 uut->o_data = 478 , num_of_clk_passed = 479
+uut->o_primed = 0
+waddr =  479
+i_trigger = 0
 triggered = 0
-waddr = 0111011111
 primed = 0
-stopped = 0
 this_addr =  478
 raddr =    0
 uut->o_data = 479 , num_of_clk_passed = 480
+uut->o_primed = 0
+waddr =  480
+i_trigger = 0
 triggered = 0
-waddr = 0111100000
 primed = 0
-stopped = 0
 this_addr =  479
 raddr =    0
 uut->o_data = 480 , num_of_clk_passed = 481
+uut->o_primed = 0
+waddr =  481
+i_trigger = 0
 triggered = 0
-waddr = 0111100001
 primed = 0
-stopped = 0
 this_addr =  480
 raddr =    0
 uut->o_data = 481 , num_of_clk_passed = 482
+uut->o_primed = 0
+waddr =  482
+i_trigger = 0
 triggered = 0
-waddr = 0111100010
 primed = 0
-stopped = 0
 this_addr =  481
 raddr =    0
 uut->o_data = 482 , num_of_clk_passed = 483
+uut->o_primed = 0
+waddr =  483
+i_trigger = 0
 triggered = 0
-waddr = 0111100011
 primed = 0
-stopped = 0
 this_addr =  482
 raddr =    0
 uut->o_data = 483 , num_of_clk_passed = 484
+uut->o_primed = 0
+waddr =  484
+i_trigger = 0
 triggered = 0
-waddr = 0111100100
 primed = 0
-stopped = 0
 this_addr =  483
 raddr =    0
 uut->o_data = 484 , num_of_clk_passed = 485
+uut->o_primed = 0
+waddr =  485
+i_trigger = 0
 triggered = 0
-waddr = 0111100101
 primed = 0
-stopped = 0
 this_addr =  484
 raddr =    0
 uut->o_data = 485 , num_of_clk_passed = 486
+uut->o_primed = 0
+waddr =  486
+i_trigger = 0
 triggered = 0
-waddr = 0111100110
 primed = 0
-stopped = 0
 this_addr =  485
 raddr =    0
 uut->o_data = 486 , num_of_clk_passed = 487
+uut->o_primed = 0
+waddr =  487
+i_trigger = 0
 triggered = 0
-waddr = 0111100111
 primed = 0
-stopped = 0
 this_addr =  486
 raddr =    0
 uut->o_data = 487 , num_of_clk_passed = 488
+uut->o_primed = 0
+waddr =  488
+i_trigger = 0
 triggered = 0
-waddr = 0111101000
 primed = 0
-stopped = 0
 this_addr =  487
 raddr =    0
 uut->o_data = 488 , num_of_clk_passed = 489
+uut->o_primed = 0
+waddr =  489
+i_trigger = 0
 triggered = 0
-waddr = 0111101001
 primed = 0
-stopped = 0
 this_addr =  488
 raddr =    0
 uut->o_data = 489 , num_of_clk_passed = 490
+uut->o_primed = 0
+waddr =  490
+i_trigger = 0
 triggered = 0
-waddr = 0111101010
 primed = 0
-stopped = 0
 this_addr =  489
 raddr =    0
 uut->o_data = 490 , num_of_clk_passed = 491
+uut->o_primed = 0
+waddr =  491
+i_trigger = 0
 triggered = 0
-waddr = 0111101011
 primed = 0
-stopped = 0
 this_addr =  490
 raddr =    0
 uut->o_data = 491 , num_of_clk_passed = 492
+uut->o_primed = 0
+waddr =  492
+i_trigger = 0
 triggered = 0
-waddr = 0111101100
 primed = 0
-stopped = 0
 this_addr =  491
 raddr =    0
 uut->o_data = 492 , num_of_clk_passed = 493
+uut->o_primed = 0
+waddr =  493
+i_trigger = 0
 triggered = 0
-waddr = 0111101101
 primed = 0
-stopped = 0
 this_addr =  492
 raddr =    0
 uut->o_data = 493 , num_of_clk_passed = 494
+uut->o_primed = 0
+waddr =  494
+i_trigger = 0
 triggered = 0
-waddr = 0111101110
 primed = 0
-stopped = 0
 this_addr =  493
 raddr =    0
 uut->o_data = 494 , num_of_clk_passed = 495
+uut->o_primed = 0
+waddr =  495
+i_trigger = 0
 triggered = 0
-waddr = 0111101111
 primed = 0
-stopped = 0
 this_addr =  494
 raddr =    0
 uut->o_data = 495 , num_of_clk_passed = 496
+uut->o_primed = 0
+waddr =  496
+i_trigger = 0
 triggered = 0
-waddr = 0111110000
 primed = 0
-stopped = 0
 this_addr =  495
 raddr =    0
 uut->o_data = 496 , num_of_clk_passed = 497
+uut->o_primed = 0
+waddr =  497
+i_trigger = 0
 triggered = 0
-waddr = 0111110001
 primed = 0
-stopped = 0
 this_addr =  496
 raddr =    0
 uut->o_data = 497 , num_of_clk_passed = 498
+uut->o_primed = 0
+waddr =  498
+i_trigger = 0
 triggered = 0
-waddr = 0111110010
 primed = 0
-stopped = 0
 this_addr =  497
 raddr =    0
 uut->o_data = 498 , num_of_clk_passed = 499
+uut->o_primed = 0
+waddr =  499
+i_trigger = 0
 triggered = 0
-waddr = 0111110011
 primed = 0
-stopped = 0
 this_addr =  498
 raddr =    0
 uut->o_data = 499 , num_of_clk_passed = 500
+uut->o_primed = 0
+waddr =  500
+i_trigger = 0
 triggered = 0
-waddr = 0111110100
 primed = 0
-stopped = 0
 this_addr =  499
 raddr =    0
 uut->o_data = 500 , num_of_clk_passed = 501
+uut->o_primed = 0
+waddr =  501
+i_trigger = 0
 triggered = 0
-waddr = 0111110101
 primed = 0
-stopped = 0
 this_addr =  500
 raddr =    0
 uut->o_data = 501 , num_of_clk_passed = 502
+uut->o_primed = 0
+waddr =  502
+i_trigger = 0
 triggered = 0
-waddr = 0111110110
 primed = 0
-stopped = 0
 this_addr =  501
 raddr =    0
 uut->o_data = 502 , num_of_clk_passed = 503
+uut->o_primed = 0
+waddr =  503
+i_trigger = 0
 triggered = 0
-waddr = 0111110111
 primed = 0
-stopped = 0
 this_addr =  502
 raddr =    0
 uut->o_data = 503 , num_of_clk_passed = 504
+uut->o_primed = 0
+waddr =  504
+i_trigger = 0
 triggered = 0
-waddr = 0111111000
 primed = 0
-stopped = 0
 this_addr =  503
 raddr =    0
 uut->o_data = 504 , num_of_clk_passed = 505
+uut->o_primed = 0
+waddr =  505
+i_trigger = 0
 triggered = 0
-waddr = 0111111001
 primed = 0
-stopped = 0
 this_addr =  504
 raddr =    0
 uut->o_data = 505 , num_of_clk_passed = 506
+uut->o_primed = 0
+waddr =  506
+i_trigger = 0
 triggered = 0
-waddr = 0111111010
 primed = 0
-stopped = 0
 this_addr =  505
 raddr =    0
 uut->o_data = 506 , num_of_clk_passed = 507
+uut->o_primed = 0
+waddr =  507
+i_trigger = 0
 triggered = 0
-waddr = 0111111011
 primed = 0
-stopped = 0
 this_addr =  506
 raddr =    0
 uut->o_data = 507 , num_of_clk_passed = 508
+uut->o_primed = 0
+waddr =  508
+i_trigger = 0
 triggered = 0
-waddr = 0111111100
 primed = 0
-stopped = 0
 this_addr =  507
 raddr =    0
 uut->o_data = 508 , num_of_clk_passed = 509
+uut->o_primed = 0
+waddr =  509
+i_trigger = 0
 triggered = 0
-waddr = 0111111101
 primed = 0
-stopped = 0
 this_addr =  508
 raddr =    0
 uut->o_data = 509 , num_of_clk_passed = 510
+uut->o_primed = 0
+waddr =  510
+i_trigger = 0
 triggered = 0
-waddr = 0111111110
 primed = 0
-stopped = 0
 this_addr =  509
 raddr =    0
 uut->o_data = 510 , num_of_clk_passed = 511
+uut->o_primed = 0
+waddr =  511
+i_trigger = 0
 triggered = 0
-waddr = 0111111111
 primed = 0
-stopped = 0
 this_addr =  510
 raddr =    0
 uut->o_data = 511 , num_of_clk_passed = 512
+uut->o_primed = 0
+waddr =  512
+i_trigger = 0
 triggered = 0
-waddr = 1000000000
 primed = 0
-stopped = 0
 this_addr =  511
 raddr =    0
 uut->o_data = 512 , num_of_clk_passed = 513
+uut->o_primed = 0
+waddr =  513
+i_trigger = 0
 triggered = 0
-waddr = 1000000001
 primed = 0
-stopped = 0
 this_addr =  512
 raddr =    0
 uut->o_data = 513 , num_of_clk_passed = 514
+uut->o_primed = 0
+waddr =  514
+i_trigger = 0
 triggered = 0
-waddr = 1000000010
 primed = 0
-stopped = 0
 this_addr =  513
 raddr =    0
 uut->o_data = 514 , num_of_clk_passed = 515
+uut->o_primed = 0
+waddr =  515
+i_trigger = 0
 triggered = 0
-waddr = 1000000011
 primed = 0
-stopped = 0
 this_addr =  514
 raddr =    0
 uut->o_data = 515 , num_of_clk_passed = 516
+uut->o_primed = 0
+waddr =  516
+i_trigger = 0
 triggered = 0
-waddr = 1000000100
 primed = 0
-stopped = 0
 this_addr =  515
 raddr =    0
 uut->o_data = 516 , num_of_clk_passed = 517
+uut->o_primed = 0
+waddr =  517
+i_trigger = 0
 triggered = 0
-waddr = 1000000101
 primed = 0
-stopped = 0
 this_addr =  516
 raddr =    0
 uut->o_data = 517 , num_of_clk_passed = 518
+uut->o_primed = 0
+waddr =  518
+i_trigger = 0
 triggered = 0
-waddr = 1000000110
 primed = 0
-stopped = 0
 this_addr =  517
 raddr =    0
 uut->o_data = 518 , num_of_clk_passed = 519
+uut->o_primed = 0
+waddr =  519
+i_trigger = 0
 triggered = 0
-waddr = 1000000111
 primed = 0
-stopped = 0
 this_addr =  518
 raddr =    0
 uut->o_data = 519 , num_of_clk_passed = 520
+uut->o_primed = 0
+waddr =  520
+i_trigger = 0
 triggered = 0
-waddr = 1000001000
 primed = 0
-stopped = 0
 this_addr =  519
 raddr =    0
 uut->o_data = 520 , num_of_clk_passed = 521
+uut->o_primed = 0
+waddr =  521
+i_trigger = 0
 triggered = 0
-waddr = 1000001001
 primed = 0
-stopped = 0
 this_addr =  520
 raddr =    0
 uut->o_data = 521 , num_of_clk_passed = 522
+uut->o_primed = 0
+waddr =  522
+i_trigger = 0
 triggered = 0
-waddr = 1000001010
 primed = 0
-stopped = 0
 this_addr =  521
 raddr =    0
 uut->o_data = 522 , num_of_clk_passed = 523
+uut->o_primed = 0
+waddr =  523
+i_trigger = 0
 triggered = 0
-waddr = 1000001011
 primed = 0
-stopped = 0
 this_addr =  522
 raddr =    0
 uut->o_data = 523 , num_of_clk_passed = 524
+uut->o_primed = 0
+waddr =  524
+i_trigger = 0
 triggered = 0
-waddr = 1000001100
 primed = 0
-stopped = 0
 this_addr =  523
 raddr =    0
 uut->o_data = 524 , num_of_clk_passed = 525
+uut->o_primed = 0
+waddr =  525
+i_trigger = 0
 triggered = 0
-waddr = 1000001101
 primed = 0
-stopped = 0
 this_addr =  524
 raddr =    0
 uut->o_data = 525 , num_of_clk_passed = 526
+uut->o_primed = 0
+waddr =  526
+i_trigger = 0
 triggered = 0
-waddr = 1000001110
 primed = 0
-stopped = 0
 this_addr =  525
 raddr =    0
 uut->o_data = 526 , num_of_clk_passed = 527
+uut->o_primed = 0
+waddr =  527
+i_trigger = 0
 triggered = 0
-waddr = 1000001111
 primed = 0
-stopped = 0
 this_addr =  526
 raddr =    0
 uut->o_data = 527 , num_of_clk_passed = 528
+uut->o_primed = 0
+waddr =  528
+i_trigger = 0
 triggered = 0
-waddr = 1000010000
 primed = 0
-stopped = 0
 this_addr =  527
 raddr =    0
 uut->o_data = 528 , num_of_clk_passed = 529
+uut->o_primed = 0
+waddr =  529
+i_trigger = 0
 triggered = 0
-waddr = 1000010001
 primed = 0
-stopped = 0
 this_addr =  528
 raddr =    0
 uut->o_data = 529 , num_of_clk_passed = 530
+uut->o_primed = 0
+waddr =  530
+i_trigger = 0
 triggered = 0
-waddr = 1000010010
 primed = 0
-stopped = 0
 this_addr =  529
 raddr =    0
 uut->o_data = 530 , num_of_clk_passed = 531
+uut->o_primed = 0
+waddr =  531
+i_trigger = 0
 triggered = 0
-waddr = 1000010011
 primed = 0
-stopped = 0
 this_addr =  530
 raddr =    0
 uut->o_data = 531 , num_of_clk_passed = 532
+uut->o_primed = 0
+waddr =  532
+i_trigger = 0
 triggered = 0
-waddr = 1000010100
 primed = 0
-stopped = 0
 this_addr =  531
 raddr =    0
 uut->o_data = 532 , num_of_clk_passed = 533
+uut->o_primed = 0
+waddr =  533
+i_trigger = 0
 triggered = 0
-waddr = 1000010101
 primed = 0
-stopped = 0
 this_addr =  532
 raddr =    0
 uut->o_data = 533 , num_of_clk_passed = 534
+uut->o_primed = 0
+waddr =  534
+i_trigger = 0
 triggered = 0
-waddr = 1000010110
 primed = 0
-stopped = 0
 this_addr =  533
 raddr =    0
 uut->o_data = 534 , num_of_clk_passed = 535
+uut->o_primed = 0
+waddr =  535
+i_trigger = 0
 triggered = 0
-waddr = 1000010111
 primed = 0
-stopped = 0
 this_addr =  534
 raddr =    0
 uut->o_data = 535 , num_of_clk_passed = 536
+uut->o_primed = 0
+waddr =  536
+i_trigger = 0
 triggered = 0
-waddr = 1000011000
 primed = 0
-stopped = 0
 this_addr =  535
 raddr =    0
 uut->o_data = 536 , num_of_clk_passed = 537
+uut->o_primed = 0
+waddr =  537
+i_trigger = 0
 triggered = 0
-waddr = 1000011001
 primed = 0
-stopped = 0
 this_addr =  536
 raddr =    0
 uut->o_data = 537 , num_of_clk_passed = 538
+uut->o_primed = 0
+waddr =  538
+i_trigger = 0
 triggered = 0
-waddr = 1000011010
 primed = 0
-stopped = 0
 this_addr =  537
 raddr =    0
 uut->o_data = 538 , num_of_clk_passed = 539
+uut->o_primed = 0
+waddr =  539
+i_trigger = 0
 triggered = 0
-waddr = 1000011011
 primed = 0
-stopped = 0
 this_addr =  538
 raddr =    0
 uut->o_data = 539 , num_of_clk_passed = 540
+uut->o_primed = 0
+waddr =  540
+i_trigger = 0
 triggered = 0
-waddr = 1000011100
 primed = 0
-stopped = 0
 this_addr =  539
 raddr =    0
 uut->o_data = 540 , num_of_clk_passed = 541
+uut->o_primed = 0
+waddr =  541
+i_trigger = 0
 triggered = 0
-waddr = 1000011101
 primed = 0
-stopped = 0
 this_addr =  540
 raddr =    0
 uut->o_data = 541 , num_of_clk_passed = 542
+uut->o_primed = 0
+waddr =  542
+i_trigger = 0
 triggered = 0
-waddr = 1000011110
 primed = 0
-stopped = 0
 this_addr =  541
 raddr =    0
 uut->o_data = 542 , num_of_clk_passed = 543
+uut->o_primed = 0
+waddr =  543
+i_trigger = 0
 triggered = 0
-waddr = 1000011111
 primed = 0
-stopped = 0
 this_addr =  542
 raddr =    0
 uut->o_data = 543 , num_of_clk_passed = 544
+uut->o_primed = 0
+waddr =  544
+i_trigger = 0
 triggered = 0
-waddr = 1000100000
 primed = 0
-stopped = 0
 this_addr =  543
 raddr =    0
 uut->o_data = 544 , num_of_clk_passed = 545
+uut->o_primed = 0
+waddr =  545
+i_trigger = 0
 triggered = 0
-waddr = 1000100001
 primed = 0
-stopped = 0
 this_addr =  544
 raddr =    0
 uut->o_data = 545 , num_of_clk_passed = 546
+uut->o_primed = 0
+waddr =  546
+i_trigger = 0
 triggered = 0
-waddr = 1000100010
 primed = 0
-stopped = 0
 this_addr =  545
 raddr =    0
 uut->o_data = 546 , num_of_clk_passed = 547
+uut->o_primed = 0
+waddr =  547
+i_trigger = 0
 triggered = 0
-waddr = 1000100011
 primed = 0
-stopped = 0
 this_addr =  546
 raddr =    0
 uut->o_data = 547 , num_of_clk_passed = 548
+uut->o_primed = 0
+waddr =  548
+i_trigger = 0
 triggered = 0
-waddr = 1000100100
 primed = 0
-stopped = 0
 this_addr =  547
 raddr =    0
 uut->o_data = 548 , num_of_clk_passed = 549
+uut->o_primed = 0
+waddr =  549
+i_trigger = 0
 triggered = 0
-waddr = 1000100101
 primed = 0
-stopped = 0
 this_addr =  548
 raddr =    0
 uut->o_data = 549 , num_of_clk_passed = 550
+uut->o_primed = 0
+waddr =  550
+i_trigger = 0
 triggered = 0
-waddr = 1000100110
 primed = 0
-stopped = 0
 this_addr =  549
 raddr =    0
 uut->o_data = 550 , num_of_clk_passed = 551
+uut->o_primed = 0
+waddr =  551
+i_trigger = 0
 triggered = 0
-waddr = 1000100111
 primed = 0
-stopped = 0
 this_addr =  550
 raddr =    0
 uut->o_data = 551 , num_of_clk_passed = 552
+uut->o_primed = 0
+waddr =  552
+i_trigger = 0
 triggered = 0
-waddr = 1000101000
 primed = 0
-stopped = 0
 this_addr =  551
 raddr =    0
 uut->o_data = 552 , num_of_clk_passed = 553
+uut->o_primed = 0
+waddr =  553
+i_trigger = 0
 triggered = 0
-waddr = 1000101001
 primed = 0
-stopped = 0
 this_addr =  552
 raddr =    0
 uut->o_data = 553 , num_of_clk_passed = 554
+uut->o_primed = 0
+waddr =  554
+i_trigger = 0
 triggered = 0
-waddr = 1000101010
 primed = 0
-stopped = 0
 this_addr =  553
 raddr =    0
 uut->o_data = 554 , num_of_clk_passed = 555
+uut->o_primed = 0
+waddr =  555
+i_trigger = 0
 triggered = 0
-waddr = 1000101011
 primed = 0
-stopped = 0
 this_addr =  554
 raddr =    0
 uut->o_data = 555 , num_of_clk_passed = 556
+uut->o_primed = 0
+waddr =  556
+i_trigger = 0
 triggered = 0
-waddr = 1000101100
 primed = 0
-stopped = 0
 this_addr =  555
 raddr =    0
 uut->o_data = 556 , num_of_clk_passed = 557
+uut->o_primed = 0
+waddr =  557
+i_trigger = 0
 triggered = 0
-waddr = 1000101101
 primed = 0
-stopped = 0
 this_addr =  556
 raddr =    0
 uut->o_data = 557 , num_of_clk_passed = 558
+uut->o_primed = 0
+waddr =  558
+i_trigger = 0
 triggered = 0
-waddr = 1000101110
 primed = 0
-stopped = 0
 this_addr =  557
 raddr =    0
 uut->o_data = 558 , num_of_clk_passed = 559
+uut->o_primed = 0
+waddr =  559
+i_trigger = 0
 triggered = 0
-waddr = 1000101111
 primed = 0
-stopped = 0
 this_addr =  558
 raddr =    0
 uut->o_data = 559 , num_of_clk_passed = 560
+uut->o_primed = 0
+waddr =  560
+i_trigger = 0
 triggered = 0
-waddr = 1000110000
 primed = 0
-stopped = 0
 this_addr =  559
 raddr =    0
 uut->o_data = 560 , num_of_clk_passed = 561
+uut->o_primed = 0
+waddr =  561
+i_trigger = 0
 triggered = 0
-waddr = 1000110001
 primed = 0
-stopped = 0
 this_addr =  560
 raddr =    0
 uut->o_data = 561 , num_of_clk_passed = 562
+uut->o_primed = 0
+waddr =  562
+i_trigger = 0
 triggered = 0
-waddr = 1000110010
 primed = 0
-stopped = 0
 this_addr =  561
 raddr =    0
 uut->o_data = 562 , num_of_clk_passed = 563
+uut->o_primed = 0
+waddr =  563
+i_trigger = 0
 triggered = 0
-waddr = 1000110011
 primed = 0
-stopped = 0
 this_addr =  562
 raddr =    0
 uut->o_data = 563 , num_of_clk_passed = 564
+uut->o_primed = 0
+waddr =  564
+i_trigger = 0
 triggered = 0
-waddr = 1000110100
 primed = 0
-stopped = 0
 this_addr =  563
 raddr =    0
 uut->o_data = 564 , num_of_clk_passed = 565
+uut->o_primed = 0
+waddr =  565
+i_trigger = 0
 triggered = 0
-waddr = 1000110101
 primed = 0
-stopped = 0
 this_addr =  564
 raddr =    0
 uut->o_data = 565 , num_of_clk_passed = 566
+uut->o_primed = 0
+waddr =  566
+i_trigger = 0
 triggered = 0
-waddr = 1000110110
 primed = 0
-stopped = 0
 this_addr =  565
 raddr =    0
 uut->o_data = 566 , num_of_clk_passed = 567
+uut->o_primed = 0
+waddr =  567
+i_trigger = 0
 triggered = 0
-waddr = 1000110111
 primed = 0
-stopped = 0
 this_addr =  566
 raddr =    0
 uut->o_data = 567 , num_of_clk_passed = 568
+uut->o_primed = 0
+waddr =  568
+i_trigger = 0
 triggered = 0
-waddr = 1000111000
 primed = 0
-stopped = 0
 this_addr =  567
 raddr =    0
 uut->o_data = 568 , num_of_clk_passed = 569
+uut->o_primed = 0
+waddr =  569
+i_trigger = 0
 triggered = 0
-waddr = 1000111001
 primed = 0
-stopped = 0
 this_addr =  568
 raddr =    0
 uut->o_data = 569 , num_of_clk_passed = 570
+uut->o_primed = 0
+waddr =  570
+i_trigger = 0
 triggered = 0
-waddr = 1000111010
 primed = 0
-stopped = 0
 this_addr =  569
 raddr =    0
 uut->o_data = 570 , num_of_clk_passed = 571
+uut->o_primed = 0
+waddr =  571
+i_trigger = 0
 triggered = 0
-waddr = 1000111011
 primed = 0
-stopped = 0
 this_addr =  570
 raddr =    0
 uut->o_data = 571 , num_of_clk_passed = 572
+uut->o_primed = 0
+waddr =  572
+i_trigger = 0
 triggered = 0
-waddr = 1000111100
 primed = 0
-stopped = 0
 this_addr =  571
 raddr =    0
 uut->o_data = 572 , num_of_clk_passed = 573
+uut->o_primed = 0
+waddr =  573
+i_trigger = 0
 triggered = 0
-waddr = 1000111101
 primed = 0
-stopped = 0
 this_addr =  572
 raddr =    0
 uut->o_data = 573 , num_of_clk_passed = 574
+uut->o_primed = 0
+waddr =  574
+i_trigger = 0
 triggered = 0
-waddr = 1000111110
 primed = 0
-stopped = 0
 this_addr =  573
 raddr =    0
 uut->o_data = 574 , num_of_clk_passed = 575
+uut->o_primed = 0
+waddr =  575
+i_trigger = 0
 triggered = 0
-waddr = 1000111111
 primed = 0
-stopped = 0
 this_addr =  574
 raddr =    0
 uut->o_data = 575 , num_of_clk_passed = 576
+uut->o_primed = 0
+waddr =  576
+i_trigger = 0
 triggered = 0
-waddr = 1001000000
 primed = 0
-stopped = 0
 this_addr =  575
 raddr =    0
 uut->o_data = 576 , num_of_clk_passed = 577
+uut->o_primed = 0
+waddr =  577
+i_trigger = 0
 triggered = 0
-waddr = 1001000001
 primed = 0
-stopped = 0
 this_addr =  576
 raddr =    0
 uut->o_data = 577 , num_of_clk_passed = 578
+uut->o_primed = 0
+waddr =  578
+i_trigger = 0
 triggered = 0
-waddr = 1001000010
 primed = 0
-stopped = 0
 this_addr =  577
 raddr =    0
 uut->o_data = 578 , num_of_clk_passed = 579
+uut->o_primed = 0
+waddr =  579
+i_trigger = 0
 triggered = 0
-waddr = 1001000011
 primed = 0
-stopped = 0
 this_addr =  578
 raddr =    0
 uut->o_data = 579 , num_of_clk_passed = 580
+uut->o_primed = 0
+waddr =  580
+i_trigger = 0
 triggered = 0
-waddr = 1001000100
 primed = 0
-stopped = 0
 this_addr =  579
 raddr =    0
 uut->o_data = 580 , num_of_clk_passed = 581
+uut->o_primed = 0
+waddr =  581
+i_trigger = 0
 triggered = 0
-waddr = 1001000101
 primed = 0
-stopped = 0
 this_addr =  580
 raddr =    0
 uut->o_data = 581 , num_of_clk_passed = 582
+uut->o_primed = 0
+waddr =  582
+i_trigger = 0
 triggered = 0
-waddr = 1001000110
 primed = 0
-stopped = 0
 this_addr =  581
 raddr =    0
 uut->o_data = 582 , num_of_clk_passed = 583
+uut->o_primed = 0
+waddr =  583
+i_trigger = 0
 triggered = 0
-waddr = 1001000111
 primed = 0
-stopped = 0
 this_addr =  582
 raddr =    0
 uut->o_data = 583 , num_of_clk_passed = 584
+uut->o_primed = 0
+waddr =  584
+i_trigger = 0
 triggered = 0
-waddr = 1001001000
 primed = 0
-stopped = 0
 this_addr =  583
 raddr =    0
 uut->o_data = 584 , num_of_clk_passed = 585
+uut->o_primed = 0
+waddr =  585
+i_trigger = 0
 triggered = 0
-waddr = 1001001001
 primed = 0
-stopped = 0
 this_addr =  584
 raddr =    0
 uut->o_data = 585 , num_of_clk_passed = 586
+uut->o_primed = 0
+waddr =  586
+i_trigger = 0
 triggered = 0
-waddr = 1001001010
 primed = 0
-stopped = 0
 this_addr =  585
 raddr =    0
 uut->o_data = 586 , num_of_clk_passed = 587
+uut->o_primed = 0
+waddr =  587
+i_trigger = 0
 triggered = 0
-waddr = 1001001011
 primed = 0
-stopped = 0
 this_addr =  586
 raddr =    0
 uut->o_data = 587 , num_of_clk_passed = 588
+uut->o_primed = 0
+waddr =  588
+i_trigger = 0
 triggered = 0
-waddr = 1001001100
 primed = 0
-stopped = 0
 this_addr =  587
 raddr =    0
 uut->o_data = 588 , num_of_clk_passed = 589
+uut->o_primed = 0
+waddr =  589
+i_trigger = 0
 triggered = 0
-waddr = 1001001101
 primed = 0
-stopped = 0
 this_addr =  588
 raddr =    0
 uut->o_data = 589 , num_of_clk_passed = 590
+uut->o_primed = 0
+waddr =  590
+i_trigger = 0
 triggered = 0
-waddr = 1001001110
 primed = 0
-stopped = 0
 this_addr =  589
 raddr =    0
 uut->o_data = 590 , num_of_clk_passed = 591
+uut->o_primed = 0
+waddr =  591
+i_trigger = 0
 triggered = 0
-waddr = 1001001111
 primed = 0
-stopped = 0
 this_addr =  590
 raddr =    0
 uut->o_data = 591 , num_of_clk_passed = 592
+uut->o_primed = 0
+waddr =  592
+i_trigger = 0
 triggered = 0
-waddr = 1001010000
 primed = 0
-stopped = 0
 this_addr =  591
 raddr =    0
 uut->o_data = 592 , num_of_clk_passed = 593
+uut->o_primed = 0
+waddr =  593
+i_trigger = 0
 triggered = 0
-waddr = 1001010001
 primed = 0
-stopped = 0
 this_addr =  592
 raddr =    0
 uut->o_data = 593 , num_of_clk_passed = 594
+uut->o_primed = 0
+waddr =  594
+i_trigger = 0
 triggered = 0
-waddr = 1001010010
 primed = 0
-stopped = 0
 this_addr =  593
 raddr =    0
 uut->o_data = 594 , num_of_clk_passed = 595
+uut->o_primed = 0
+waddr =  595
+i_trigger = 0
 triggered = 0
-waddr = 1001010011
 primed = 0
-stopped = 0
 this_addr =  594
 raddr =    0
 uut->o_data = 595 , num_of_clk_passed = 596
+uut->o_primed = 0
+waddr =  596
+i_trigger = 0
 triggered = 0
-waddr = 1001010100
 primed = 0
-stopped = 0
 this_addr =  595
 raddr =    0
 uut->o_data = 596 , num_of_clk_passed = 597
+uut->o_primed = 0
+waddr =  597
+i_trigger = 0
 triggered = 0
-waddr = 1001010101
 primed = 0
-stopped = 0
 this_addr =  596
 raddr =    0
 uut->o_data = 597 , num_of_clk_passed = 598
+uut->o_primed = 0
+waddr =  598
+i_trigger = 0
 triggered = 0
-waddr = 1001010110
 primed = 0
-stopped = 0
 this_addr =  597
 raddr =    0
 uut->o_data = 598 , num_of_clk_passed = 599
+uut->o_primed = 0
+waddr =  599
+i_trigger = 0
 triggered = 0
-waddr = 1001010111
 primed = 0
-stopped = 0
 this_addr =  598
 raddr =    0
 uut->o_data = 599 , num_of_clk_passed = 600
+uut->o_primed = 0
+waddr =  600
+i_trigger = 0
 triggered = 0
-waddr = 1001011000
 primed = 0
-stopped = 0
 this_addr =  599
 raddr =    0
 uut->o_data = 600 , num_of_clk_passed = 601
+uut->o_primed = 0
+waddr =  601
+i_trigger = 0
 triggered = 0
-waddr = 1001011001
 primed = 0
-stopped = 0
 this_addr =  600
 raddr =    0
 uut->o_data = 601 , num_of_clk_passed = 602
+uut->o_primed = 0
+waddr =  602
+i_trigger = 0
 triggered = 0
-waddr = 1001011010
 primed = 0
-stopped = 0
 this_addr =  601
 raddr =    0
 uut->o_data = 602 , num_of_clk_passed = 603
+uut->o_primed = 0
+waddr =  603
+i_trigger = 0
 triggered = 0
-waddr = 1001011011
 primed = 0
-stopped = 0
 this_addr =  602
 raddr =    0
 uut->o_data = 603 , num_of_clk_passed = 604
+uut->o_primed = 0
+waddr =  604
+i_trigger = 0
 triggered = 0
-waddr = 1001011100
 primed = 0
-stopped = 0
 this_addr =  603
 raddr =    0
 uut->o_data = 604 , num_of_clk_passed = 605
+uut->o_primed = 0
+waddr =  605
+i_trigger = 0
 triggered = 0
-waddr = 1001011101
 primed = 0
-stopped = 0
 this_addr =  604
 raddr =    0
 uut->o_data = 605 , num_of_clk_passed = 606
+uut->o_primed = 0
+waddr =  606
+i_trigger = 0
 triggered = 0
-waddr = 1001011110
 primed = 0
-stopped = 0
 this_addr =  605
 raddr =    0
 uut->o_data = 606 , num_of_clk_passed = 607
+uut->o_primed = 0
+waddr =  607
+i_trigger = 0
 triggered = 0
-waddr = 1001011111
 primed = 0
-stopped = 0
 this_addr =  606
 raddr =    0
 uut->o_data = 607 , num_of_clk_passed = 608
+uut->o_primed = 0
+waddr =  608
+i_trigger = 0
 triggered = 0
-waddr = 1001100000
 primed = 0
-stopped = 0
 this_addr =  607
 raddr =    0
 uut->o_data = 608 , num_of_clk_passed = 609
+uut->o_primed = 0
+waddr =  609
+i_trigger = 0
 triggered = 0
-waddr = 1001100001
 primed = 0
-stopped = 0
 this_addr =  608
 raddr =    0
 uut->o_data = 609 , num_of_clk_passed = 610
+uut->o_primed = 0
+waddr =  610
+i_trigger = 0
 triggered = 0
-waddr = 1001100010
 primed = 0
-stopped = 0
 this_addr =  609
 raddr =    0
 uut->o_data = 610 , num_of_clk_passed = 611
+uut->o_primed = 0
+waddr =  611
+i_trigger = 0
 triggered = 0
-waddr = 1001100011
 primed = 0
-stopped = 0
 this_addr =  610
 raddr =    0
 uut->o_data = 611 , num_of_clk_passed = 612
+uut->o_primed = 0
+waddr =  612
+i_trigger = 0
 triggered = 0
-waddr = 1001100100
 primed = 0
-stopped = 0
 this_addr =  611
 raddr =    0
 uut->o_data = 612 , num_of_clk_passed = 613
+uut->o_primed = 0
+waddr =  613
+i_trigger = 0
 triggered = 0
-waddr = 1001100101
 primed = 0
-stopped = 0
 this_addr =  612
 raddr =    0
 uut->o_data = 613 , num_of_clk_passed = 614
+uut->o_primed = 0
+waddr =  614
+i_trigger = 0
 triggered = 0
-waddr = 1001100110
 primed = 0
-stopped = 0
 this_addr =  613
 raddr =    0
 uut->o_data = 614 , num_of_clk_passed = 615
+uut->o_primed = 0
+waddr =  615
+i_trigger = 0
 triggered = 0
-waddr = 1001100111
 primed = 0
-stopped = 0
 this_addr =  614
 raddr =    0
 uut->o_data = 615 , num_of_clk_passed = 616
+uut->o_primed = 0
+waddr =  616
+i_trigger = 0
 triggered = 0
-waddr = 1001101000
 primed = 0
-stopped = 0
 this_addr =  615
 raddr =    0
 uut->o_data = 616 , num_of_clk_passed = 617
+uut->o_primed = 0
+waddr =  617
+i_trigger = 0
 triggered = 0
-waddr = 1001101001
 primed = 0
-stopped = 0
 this_addr =  616
 raddr =    0
 uut->o_data = 617 , num_of_clk_passed = 618
+uut->o_primed = 0
+waddr =  618
+i_trigger = 0
 triggered = 0
-waddr = 1001101010
 primed = 0
-stopped = 0
 this_addr =  617
 raddr =    0
 uut->o_data = 618 , num_of_clk_passed = 619
+uut->o_primed = 0
+waddr =  619
+i_trigger = 0
 triggered = 0
-waddr = 1001101011
 primed = 0
-stopped = 0
 this_addr =  618
 raddr =    0
 uut->o_data = 619 , num_of_clk_passed = 620
+uut->o_primed = 0
+waddr =  620
+i_trigger = 0
 triggered = 0
-waddr = 1001101100
 primed = 0
-stopped = 0
 this_addr =  619
 raddr =    0
 uut->o_data = 620 , num_of_clk_passed = 621
+uut->o_primed = 0
+waddr =  621
+i_trigger = 0
 triggered = 0
-waddr = 1001101101
 primed = 0
-stopped = 0
 this_addr =  620
 raddr =    0
 uut->o_data = 621 , num_of_clk_passed = 622
+uut->o_primed = 0
+waddr =  622
+i_trigger = 0
 triggered = 0
-waddr = 1001101110
 primed = 0
-stopped = 0
 this_addr =  621
 raddr =    0
 uut->o_data = 622 , num_of_clk_passed = 623
+uut->o_primed = 0
+waddr =  623
+i_trigger = 0
 triggered = 0
-waddr = 1001101111
 primed = 0
-stopped = 0
 this_addr =  622
 raddr =    0
 uut->o_data = 623 , num_of_clk_passed = 624
+uut->o_primed = 0
+waddr =  624
+i_trigger = 0
 triggered = 0
-waddr = 1001110000
 primed = 0
-stopped = 0
 this_addr =  623
 raddr =    0
 uut->o_data = 624 , num_of_clk_passed = 625
+uut->o_primed = 0
+waddr =  625
+i_trigger = 0
 triggered = 0
-waddr = 1001110001
 primed = 0
-stopped = 0
 this_addr =  624
 raddr =    0
 uut->o_data = 625 , num_of_clk_passed = 626
+uut->o_primed = 0
+waddr =  626
+i_trigger = 0
 triggered = 0
-waddr = 1001110010
 primed = 0
-stopped = 0
 this_addr =  625
 raddr =    0
 uut->o_data = 626 , num_of_clk_passed = 627
+uut->o_primed = 0
+waddr =  627
+i_trigger = 0
 triggered = 0
-waddr = 1001110011
 primed = 0
-stopped = 0
 this_addr =  626
 raddr =    0
 uut->o_data = 627 , num_of_clk_passed = 628
+uut->o_primed = 0
+waddr =  628
+i_trigger = 0
 triggered = 0
-waddr = 1001110100
 primed = 0
-stopped = 0
 this_addr =  627
 raddr =    0
 uut->o_data = 628 , num_of_clk_passed = 629
+uut->o_primed = 0
+waddr =  629
+i_trigger = 0
 triggered = 0
-waddr = 1001110101
 primed = 0
-stopped = 0
 this_addr =  628
 raddr =    0
 uut->o_data = 629 , num_of_clk_passed = 630
+uut->o_primed = 0
+waddr =  630
+i_trigger = 0
 triggered = 0
-waddr = 1001110110
 primed = 0
-stopped = 0
 this_addr =  629
 raddr =    0
 uut->o_data = 630 , num_of_clk_passed = 631
+uut->o_primed = 0
+waddr =  631
+i_trigger = 0
 triggered = 0
-waddr = 1001110111
 primed = 0
-stopped = 0
 this_addr =  630
 raddr =    0
 uut->o_data = 631 , num_of_clk_passed = 632
+uut->o_primed = 0
+waddr =  632
+i_trigger = 0
 triggered = 0
-waddr = 1001111000
 primed = 0
-stopped = 0
 this_addr =  631
 raddr =    0
 uut->o_data = 632 , num_of_clk_passed = 633
+uut->o_primed = 0
+waddr =  633
+i_trigger = 0
 triggered = 0
-waddr = 1001111001
 primed = 0
-stopped = 0
 this_addr =  632
 raddr =    0
 uut->o_data = 633 , num_of_clk_passed = 634
+uut->o_primed = 0
+waddr =  634
+i_trigger = 0
 triggered = 0
-waddr = 1001111010
 primed = 0
-stopped = 0
 this_addr =  633
 raddr =    0
 uut->o_data = 634 , num_of_clk_passed = 635
+uut->o_primed = 0
+waddr =  635
+i_trigger = 0
 triggered = 0
-waddr = 1001111011
 primed = 0
-stopped = 0
 this_addr =  634
 raddr =    0
 uut->o_data = 635 , num_of_clk_passed = 636
+uut->o_primed = 0
+waddr =  636
+i_trigger = 0
 triggered = 0
-waddr = 1001111100
 primed = 0
-stopped = 0
 this_addr =  635
 raddr =    0
 uut->o_data = 636 , num_of_clk_passed = 637
+uut->o_primed = 0
+waddr =  637
+i_trigger = 0
 triggered = 0
-waddr = 1001111101
 primed = 0
-stopped = 0
 this_addr =  636
 raddr =    0
 uut->o_data = 637 , num_of_clk_passed = 638
+uut->o_primed = 0
+waddr =  638
+i_trigger = 0
 triggered = 0
-waddr = 1001111110
 primed = 0
-stopped = 0
 this_addr =  637
 raddr =    0
 uut->o_data = 638 , num_of_clk_passed = 639
+uut->o_primed = 0
+waddr =  639
+i_trigger = 0
 triggered = 0
-waddr = 1001111111
 primed = 0
-stopped = 0
 this_addr =  638
 raddr =    0
 uut->o_data = 639 , num_of_clk_passed = 640
+uut->o_primed = 0
+waddr =  640
+i_trigger = 0
 triggered = 0
-waddr = 1010000000
 primed = 0
-stopped = 0
 this_addr =  639
 raddr =    0
 uut->o_data = 640 , num_of_clk_passed = 641
+uut->o_primed = 0
+waddr =  641
+i_trigger = 0
 triggered = 0
-waddr = 1010000001
 primed = 0
-stopped = 0
 this_addr =  640
 raddr =    0
 uut->o_data = 641 , num_of_clk_passed = 642
+uut->o_primed = 0
+waddr =  642
+i_trigger = 0
 triggered = 0
-waddr = 1010000010
 primed = 0
-stopped = 0
 this_addr =  641
 raddr =    0
 uut->o_data = 642 , num_of_clk_passed = 643
+uut->o_primed = 0
+waddr =  643
+i_trigger = 0
 triggered = 0
-waddr = 1010000011
 primed = 0
-stopped = 0
 this_addr =  642
 raddr =    0
 uut->o_data = 643 , num_of_clk_passed = 644
+uut->o_primed = 0
+waddr =  644
+i_trigger = 0
 triggered = 0
-waddr = 1010000100
 primed = 0
-stopped = 0
 this_addr =  643
 raddr =    0
 uut->o_data = 644 , num_of_clk_passed = 645
+uut->o_primed = 0
+waddr =  645
+i_trigger = 0
 triggered = 0
-waddr = 1010000101
 primed = 0
-stopped = 0
 this_addr =  644
 raddr =    0
 uut->o_data = 645 , num_of_clk_passed = 646
+uut->o_primed = 0
+waddr =  646
+i_trigger = 0
 triggered = 0
-waddr = 1010000110
 primed = 0
-stopped = 0
 this_addr =  645
 raddr =    0
 uut->o_data = 646 , num_of_clk_passed = 647
+uut->o_primed = 0
+waddr =  647
+i_trigger = 0
 triggered = 0
-waddr = 1010000111
 primed = 0
-stopped = 0
 this_addr =  646
 raddr =    0
 uut->o_data = 647 , num_of_clk_passed = 648
+uut->o_primed = 0
+waddr =  648
+i_trigger = 0
 triggered = 0
-waddr = 1010001000
 primed = 0
-stopped = 0
 this_addr =  647
 raddr =    0
 uut->o_data = 648 , num_of_clk_passed = 649
+uut->o_primed = 0
+waddr =  649
+i_trigger = 0
 triggered = 0
-waddr = 1010001001
 primed = 0
-stopped = 0
 this_addr =  648
 raddr =    0
 uut->o_data = 649 , num_of_clk_passed = 650
+uut->o_primed = 0
+waddr =  650
+i_trigger = 0
 triggered = 0
-waddr = 1010001010
 primed = 0
-stopped = 0
 this_addr =  649
 raddr =    0
 uut->o_data = 650 , num_of_clk_passed = 651
+uut->o_primed = 0
+waddr =  651
+i_trigger = 0
 triggered = 0
-waddr = 1010001011
 primed = 0
-stopped = 0
 this_addr =  650
 raddr =    0
 uut->o_data = 651 , num_of_clk_passed = 652
+uut->o_primed = 0
+waddr =  652
+i_trigger = 0
 triggered = 0
-waddr = 1010001100
 primed = 0
-stopped = 0
 this_addr =  651
 raddr =    0
 uut->o_data = 652 , num_of_clk_passed = 653
+uut->o_primed = 0
+waddr =  653
+i_trigger = 0
 triggered = 0
-waddr = 1010001101
 primed = 0
-stopped = 0
 this_addr =  652
 raddr =    0
 uut->o_data = 653 , num_of_clk_passed = 654
+uut->o_primed = 0
+waddr =  654
+i_trigger = 0
 triggered = 0
-waddr = 1010001110
 primed = 0
-stopped = 0
 this_addr =  653
 raddr =    0
 uut->o_data = 654 , num_of_clk_passed = 655
+uut->o_primed = 0
+waddr =  655
+i_trigger = 0
 triggered = 0
-waddr = 1010001111
 primed = 0
-stopped = 0
 this_addr =  654
 raddr =    0
 uut->o_data = 655 , num_of_clk_passed = 656
+uut->o_primed = 0
+waddr =  656
+i_trigger = 0
 triggered = 0
-waddr = 1010010000
 primed = 0
-stopped = 0
 this_addr =  655
 raddr =    0
 uut->o_data = 656 , num_of_clk_passed = 657
+uut->o_primed = 0
+waddr =  657
+i_trigger = 0
 triggered = 0
-waddr = 1010010001
 primed = 0
-stopped = 0
 this_addr =  656
 raddr =    0
 uut->o_data = 657 , num_of_clk_passed = 658
+uut->o_primed = 0
+waddr =  658
+i_trigger = 0
 triggered = 0
-waddr = 1010010010
 primed = 0
-stopped = 0
 this_addr =  657
 raddr =    0
 uut->o_data = 658 , num_of_clk_passed = 659
+uut->o_primed = 0
+waddr =  659
+i_trigger = 0
 triggered = 0
-waddr = 1010010011
 primed = 0
-stopped = 0
 this_addr =  658
 raddr =    0
 uut->o_data = 659 , num_of_clk_passed = 660
+uut->o_primed = 0
+waddr =  660
+i_trigger = 0
 triggered = 0
-waddr = 1010010100
 primed = 0
-stopped = 0
 this_addr =  659
 raddr =    0
 uut->o_data = 660 , num_of_clk_passed = 661
+uut->o_primed = 0
+waddr =  661
+i_trigger = 0
 triggered = 0
-waddr = 1010010101
 primed = 0
-stopped = 0
 this_addr =  660
 raddr =    0
 uut->o_data = 661 , num_of_clk_passed = 662
+uut->o_primed = 0
+waddr =  662
+i_trigger = 0
 triggered = 0
-waddr = 1010010110
 primed = 0
-stopped = 0
 this_addr =  661
 raddr =    0
 uut->o_data = 662 , num_of_clk_passed = 663
+uut->o_primed = 0
+waddr =  663
+i_trigger = 0
 triggered = 0
-waddr = 1010010111
 primed = 0
-stopped = 0
 this_addr =  662
 raddr =    0
 uut->o_data = 663 , num_of_clk_passed = 664
+uut->o_primed = 0
+waddr =  664
+i_trigger = 0
 triggered = 0
-waddr = 1010011000
 primed = 0
-stopped = 0
 this_addr =  663
 raddr =    0
 uut->o_data = 664 , num_of_clk_passed = 665
+uut->o_primed = 0
+waddr =  665
+i_trigger = 0
 triggered = 0
-waddr = 1010011001
 primed = 0
-stopped = 0
 this_addr =  664
 raddr =    0
 uut->o_data = 665 , num_of_clk_passed = 666
+uut->o_primed = 0
+waddr =  666
+i_trigger = 0
 triggered = 0
-waddr = 1010011010
 primed = 0
-stopped = 0
 this_addr =  665
 raddr =    0
 uut->o_data = 666 , num_of_clk_passed = 667
+uut->o_primed = 0
+waddr =  667
+i_trigger = 0
 triggered = 0
-waddr = 1010011011
 primed = 0
-stopped = 0
 this_addr =  666
 raddr =    0
 uut->o_data = 667 , num_of_clk_passed = 668
+uut->o_primed = 0
+waddr =  668
+i_trigger = 0
 triggered = 0
-waddr = 1010011100
 primed = 0
-stopped = 0
 this_addr =  667
 raddr =    0
 uut->o_data = 668 , num_of_clk_passed = 669
+uut->o_primed = 0
+waddr =  669
+i_trigger = 0
 triggered = 0
-waddr = 1010011101
 primed = 0
-stopped = 0
 this_addr =  668
 raddr =    0
 uut->o_data = 669 , num_of_clk_passed = 670
+uut->o_primed = 0
+waddr =  670
+i_trigger = 0
 triggered = 0
-waddr = 1010011110
 primed = 0
-stopped = 0
 this_addr =  669
 raddr =    0
 uut->o_data = 670 , num_of_clk_passed = 671
+uut->o_primed = 0
+waddr =  671
+i_trigger = 0
 triggered = 0
-waddr = 1010011111
 primed = 0
-stopped = 0
 this_addr =  670
 raddr =    0
 uut->o_data = 671 , num_of_clk_passed = 672
+uut->o_primed = 0
+waddr =  672
+i_trigger = 0
 triggered = 0
-waddr = 1010100000
 primed = 0
-stopped = 0
 this_addr =  671
 raddr =    0
 uut->o_data = 672 , num_of_clk_passed = 673
+uut->o_primed = 0
+waddr =  673
+i_trigger = 0
 triggered = 0
-waddr = 1010100001
 primed = 0
-stopped = 0
 this_addr =  672
 raddr =    0
 uut->o_data = 673 , num_of_clk_passed = 674
+uut->o_primed = 0
+waddr =  674
+i_trigger = 0
 triggered = 0
-waddr = 1010100010
 primed = 0
-stopped = 0
 this_addr =  673
 raddr =    0
 uut->o_data = 674 , num_of_clk_passed = 675
+uut->o_primed = 0
+waddr =  675
+i_trigger = 0
 triggered = 0
-waddr = 1010100011
 primed = 0
-stopped = 0
 this_addr =  674
 raddr =    0
 uut->o_data = 675 , num_of_clk_passed = 676
+uut->o_primed = 0
+waddr =  676
+i_trigger = 0
 triggered = 0
-waddr = 1010100100
 primed = 0
-stopped = 0
 this_addr =  675
 raddr =    0
 uut->o_data = 676 , num_of_clk_passed = 677
+uut->o_primed = 0
+waddr =  677
+i_trigger = 0
 triggered = 0
-waddr = 1010100101
 primed = 0
-stopped = 0
 this_addr =  676
 raddr =    0
 uut->o_data = 677 , num_of_clk_passed = 678
+uut->o_primed = 0
+waddr =  678
+i_trigger = 0
 triggered = 0
-waddr = 1010100110
 primed = 0
-stopped = 0
 this_addr =  677
 raddr =    0
 uut->o_data = 678 , num_of_clk_passed = 679
+uut->o_primed = 0
+waddr =  679
+i_trigger = 0
 triggered = 0
-waddr = 1010100111
 primed = 0
-stopped = 0
 this_addr =  678
 raddr =    0
 uut->o_data = 679 , num_of_clk_passed = 680
+uut->o_primed = 0
+waddr =  680
+i_trigger = 0
 triggered = 0
-waddr = 1010101000
 primed = 0
-stopped = 0
 this_addr =  679
 raddr =    0
 uut->o_data = 680 , num_of_clk_passed = 681
+uut->o_primed = 0
+waddr =  681
+i_trigger = 0
 triggered = 0
-waddr = 1010101001
 primed = 0
-stopped = 0
 this_addr =  680
 raddr =    0
 uut->o_data = 681 , num_of_clk_passed = 682
+uut->o_primed = 0
+waddr =  682
+i_trigger = 0
 triggered = 0
-waddr = 1010101010
 primed = 0
-stopped = 0
 this_addr =  681
 raddr =    0
 uut->o_data = 682 , num_of_clk_passed = 683
+uut->o_primed = 0
+waddr =  683
+i_trigger = 0
 triggered = 0
-waddr = 1010101011
 primed = 0
-stopped = 0
 this_addr =  682
 raddr =    0
 uut->o_data = 683 , num_of_clk_passed = 684
+uut->o_primed = 0
+waddr =  684
+i_trigger = 0
 triggered = 0
-waddr = 1010101100
 primed = 0
-stopped = 0
 this_addr =  683
 raddr =    0
 uut->o_data = 684 , num_of_clk_passed = 685
+uut->o_primed = 0
+waddr =  685
+i_trigger = 0
 triggered = 0
-waddr = 1010101101
 primed = 0
-stopped = 0
 this_addr =  684
 raddr =    0
 uut->o_data = 685 , num_of_clk_passed = 686
+uut->o_primed = 0
+waddr =  686
+i_trigger = 0
 triggered = 0
-waddr = 1010101110
 primed = 0
-stopped = 0
 this_addr =  685
 raddr =    0
 uut->o_data = 686 , num_of_clk_passed = 687
+uut->o_primed = 0
+waddr =  687
+i_trigger = 0
 triggered = 0
-waddr = 1010101111
 primed = 0
-stopped = 0
 this_addr =  686
 raddr =    0
 uut->o_data = 687 , num_of_clk_passed = 688
+uut->o_primed = 0
+waddr =  688
+i_trigger = 0
 triggered = 0
-waddr = 1010110000
 primed = 0
-stopped = 0
 this_addr =  687
 raddr =    0
 uut->o_data = 688 , num_of_clk_passed = 689
+uut->o_primed = 0
+waddr =  689
+i_trigger = 0
 triggered = 0
-waddr = 1010110001
 primed = 0
-stopped = 0
 this_addr =  688
 raddr =    0
 uut->o_data = 689 , num_of_clk_passed = 690
+uut->o_primed = 0
+waddr =  690
+i_trigger = 0
 triggered = 0
-waddr = 1010110010
 primed = 0
-stopped = 0
 this_addr =  689
 raddr =    0
 uut->o_data = 690 , num_of_clk_passed = 691
+uut->o_primed = 0
+waddr =  691
+i_trigger = 0
 triggered = 0
-waddr = 1010110011
 primed = 0
-stopped = 0
 this_addr =  690
 raddr =    0
 uut->o_data = 691 , num_of_clk_passed = 692
+uut->o_primed = 0
+waddr =  692
+i_trigger = 0
 triggered = 0
-waddr = 1010110100
 primed = 0
-stopped = 0
 this_addr =  691
 raddr =    0
 uut->o_data = 692 , num_of_clk_passed = 693
+uut->o_primed = 0
+waddr =  693
+i_trigger = 0
 triggered = 0
-waddr = 1010110101
 primed = 0
-stopped = 0
 this_addr =  692
 raddr =    0
 uut->o_data = 693 , num_of_clk_passed = 694
+uut->o_primed = 0
+waddr =  694
+i_trigger = 0
 triggered = 0
-waddr = 1010110110
 primed = 0
-stopped = 0
 this_addr =  693
 raddr =    0
 uut->o_data = 694 , num_of_clk_passed = 695
+uut->o_primed = 0
+waddr =  695
+i_trigger = 0
 triggered = 0
-waddr = 1010110111
 primed = 0
-stopped = 0
 this_addr =  694
 raddr =    0
 uut->o_data = 695 , num_of_clk_passed = 696
+uut->o_primed = 0
+waddr =  696
+i_trigger = 0
 triggered = 0
-waddr = 1010111000
 primed = 0
-stopped = 0
 this_addr =  695
 raddr =    0
 uut->o_data = 696 , num_of_clk_passed = 697
+uut->o_primed = 0
+waddr =  697
+i_trigger = 0
 triggered = 0
-waddr = 1010111001
 primed = 0
-stopped = 0
 this_addr =  696
 raddr =    0
 uut->o_data = 697 , num_of_clk_passed = 698
+uut->o_primed = 0
+waddr =  698
+i_trigger = 0
 triggered = 0
-waddr = 1010111010
 primed = 0
-stopped = 0
 this_addr =  697
 raddr =    0
 uut->o_data = 698 , num_of_clk_passed = 699
+uut->o_primed = 0
+waddr =  699
+i_trigger = 0
 triggered = 0
-waddr = 1010111011
 primed = 0
-stopped = 0
 this_addr =  698
 raddr =    0
 uut->o_data = 699 , num_of_clk_passed = 700
+uut->o_primed = 0
+waddr =  700
+i_trigger = 0
 triggered = 0
-waddr = 1010111100
 primed = 0
-stopped = 0
 this_addr =  699
 raddr =    0
 uut->o_data = 700 , num_of_clk_passed = 701
+uut->o_primed = 0
+waddr =  701
+i_trigger = 0
 triggered = 0
-waddr = 1010111101
 primed = 0
-stopped = 0
 this_addr =  700
 raddr =    0
 uut->o_data = 701 , num_of_clk_passed = 702
+uut->o_primed = 0
+waddr =  702
+i_trigger = 0
 triggered = 0
-waddr = 1010111110
 primed = 0
-stopped = 0
 this_addr =  701
 raddr =    0
 uut->o_data = 702 , num_of_clk_passed = 703
+uut->o_primed = 0
+waddr =  703
+i_trigger = 0
 triggered = 0
-waddr = 1010111111
 primed = 0
-stopped = 0
 this_addr =  702
 raddr =    0
 uut->o_data = 703 , num_of_clk_passed = 704
+uut->o_primed = 0
+waddr =  704
+i_trigger = 0
 triggered = 0
-waddr = 1011000000
 primed = 0
-stopped = 0
 this_addr =  703
 raddr =    0
 uut->o_data = 704 , num_of_clk_passed = 705
+uut->o_primed = 0
+waddr =  705
+i_trigger = 0
 triggered = 0
-waddr = 1011000001
 primed = 0
-stopped = 0
 this_addr =  704
 raddr =    0
 uut->o_data = 705 , num_of_clk_passed = 706
+uut->o_primed = 0
+waddr =  706
+i_trigger = 0
 triggered = 0
-waddr = 1011000010
 primed = 0
-stopped = 0
 this_addr =  705
 raddr =    0
 uut->o_data = 706 , num_of_clk_passed = 707
+uut->o_primed = 0
+waddr =  707
+i_trigger = 0
 triggered = 0
-waddr = 1011000011
 primed = 0
-stopped = 0
 this_addr =  706
 raddr =    0
 uut->o_data = 707 , num_of_clk_passed = 708
+uut->o_primed = 0
+waddr =  708
+i_trigger = 0
 triggered = 0
-waddr = 1011000100
 primed = 0
-stopped = 0
 this_addr =  707
 raddr =    0
 uut->o_data = 708 , num_of_clk_passed = 709
+uut->o_primed = 0
+waddr =  709
+i_trigger = 0
 triggered = 0
-waddr = 1011000101
 primed = 0
-stopped = 0
 this_addr =  708
 raddr =    0
 uut->o_data = 709 , num_of_clk_passed = 710
+uut->o_primed = 0
+waddr =  710
+i_trigger = 0
 triggered = 0
-waddr = 1011000110
 primed = 0
-stopped = 0
 this_addr =  709
 raddr =    0
 uut->o_data = 710 , num_of_clk_passed = 711
+uut->o_primed = 0
+waddr =  711
+i_trigger = 0
 triggered = 0
-waddr = 1011000111
 primed = 0
-stopped = 0
 this_addr =  710
 raddr =    0
 uut->o_data = 711 , num_of_clk_passed = 712
+uut->o_primed = 0
+waddr =  712
+i_trigger = 0
 triggered = 0
-waddr = 1011001000
 primed = 0
-stopped = 0
 this_addr =  711
 raddr =    0
 uut->o_data = 712 , num_of_clk_passed = 713
+uut->o_primed = 0
+waddr =  713
+i_trigger = 0
 triggered = 0
-waddr = 1011001001
 primed = 0
-stopped = 0
 this_addr =  712
 raddr =    0
 uut->o_data = 713 , num_of_clk_passed = 714
+uut->o_primed = 0
+waddr =  714
+i_trigger = 0
 triggered = 0
-waddr = 1011001010
 primed = 0
-stopped = 0
 this_addr =  713
 raddr =    0
 uut->o_data = 714 , num_of_clk_passed = 715
+uut->o_primed = 0
+waddr =  715
+i_trigger = 0
 triggered = 0
-waddr = 1011001011
 primed = 0
-stopped = 0
 this_addr =  714
 raddr =    0
 uut->o_data = 715 , num_of_clk_passed = 716
+uut->o_primed = 0
+waddr =  716
+i_trigger = 0
 triggered = 0
-waddr = 1011001100
 primed = 0
-stopped = 0
 this_addr =  715
 raddr =    0
 uut->o_data = 716 , num_of_clk_passed = 717
+uut->o_primed = 0
+waddr =  717
+i_trigger = 0
 triggered = 0
-waddr = 1011001101
 primed = 0
-stopped = 0
 this_addr =  716
 raddr =    0
 uut->o_data = 717 , num_of_clk_passed = 718
+uut->o_primed = 0
+waddr =  718
+i_trigger = 0
 triggered = 0
-waddr = 1011001110
 primed = 0
-stopped = 0
 this_addr =  717
 raddr =    0
 uut->o_data = 718 , num_of_clk_passed = 719
+uut->o_primed = 0
+waddr =  719
+i_trigger = 0
 triggered = 0
-waddr = 1011001111
 primed = 0
-stopped = 0
 this_addr =  718
 raddr =    0
 uut->o_data = 719 , num_of_clk_passed = 720
+uut->o_primed = 0
+waddr =  720
+i_trigger = 0
 triggered = 0
-waddr = 1011010000
 primed = 0
-stopped = 0
 this_addr =  719
 raddr =    0
 uut->o_data = 720 , num_of_clk_passed = 721
+uut->o_primed = 0
+waddr =  721
+i_trigger = 0
 triggered = 0
-waddr = 1011010001
 primed = 0
-stopped = 0
 this_addr =  720
 raddr =    0
 uut->o_data = 721 , num_of_clk_passed = 722
+uut->o_primed = 0
+waddr =  722
+i_trigger = 0
 triggered = 0
-waddr = 1011010010
 primed = 0
-stopped = 0
 this_addr =  721
 raddr =    0
 uut->o_data = 722 , num_of_clk_passed = 723
+uut->o_primed = 0
+waddr =  723
+i_trigger = 0
 triggered = 0
-waddr = 1011010011
 primed = 0
-stopped = 0
 this_addr =  722
 raddr =    0
 uut->o_data = 723 , num_of_clk_passed = 724
+uut->o_primed = 0
+waddr =  724
+i_trigger = 0
 triggered = 0
-waddr = 1011010100
 primed = 0
-stopped = 0
 this_addr =  723
 raddr =    0
 uut->o_data = 724 , num_of_clk_passed = 725
+uut->o_primed = 0
+waddr =  725
+i_trigger = 0
 triggered = 0
-waddr = 1011010101
 primed = 0
-stopped = 0
 this_addr =  724
 raddr =    0
 uut->o_data = 725 , num_of_clk_passed = 726
+uut->o_primed = 0
+waddr =  726
+i_trigger = 0
 triggered = 0
-waddr = 1011010110
 primed = 0
-stopped = 0
 this_addr =  725
 raddr =    0
 uut->o_data = 726 , num_of_clk_passed = 727
+uut->o_primed = 0
+waddr =  727
+i_trigger = 0
 triggered = 0
-waddr = 1011010111
 primed = 0
-stopped = 0
 this_addr =  726
 raddr =    0
 uut->o_data = 727 , num_of_clk_passed = 728
+uut->o_primed = 0
+waddr =  728
+i_trigger = 0
 triggered = 0
-waddr = 1011011000
 primed = 0
-stopped = 0
 this_addr =  727
 raddr =    0
 uut->o_data = 728 , num_of_clk_passed = 729
+uut->o_primed = 0
+waddr =  729
+i_trigger = 0
 triggered = 0
-waddr = 1011011001
 primed = 0
-stopped = 0
 this_addr =  728
 raddr =    0
 uut->o_data = 729 , num_of_clk_passed = 730
+uut->o_primed = 0
+waddr =  730
+i_trigger = 0
 triggered = 0
-waddr = 1011011010
 primed = 0
-stopped = 0
 this_addr =  729
 raddr =    0
 uut->o_data = 730 , num_of_clk_passed = 731
+uut->o_primed = 0
+waddr =  731
+i_trigger = 0
 triggered = 0
-waddr = 1011011011
 primed = 0
-stopped = 0
 this_addr =  730
 raddr =    0
 uut->o_data = 731 , num_of_clk_passed = 732
+uut->o_primed = 0
+waddr =  732
+i_trigger = 0
 triggered = 0
-waddr = 1011011100
 primed = 0
-stopped = 0
 this_addr =  731
 raddr =    0
 uut->o_data = 732 , num_of_clk_passed = 733
+uut->o_primed = 0
+waddr =  733
+i_trigger = 0
 triggered = 0
-waddr = 1011011101
 primed = 0
-stopped = 0
 this_addr =  732
 raddr =    0
 uut->o_data = 733 , num_of_clk_passed = 734
+uut->o_primed = 0
+waddr =  734
+i_trigger = 0
 triggered = 0
-waddr = 1011011110
 primed = 0
-stopped = 0
 this_addr =  733
 raddr =    0
 uut->o_data = 734 , num_of_clk_passed = 735
+uut->o_primed = 0
+waddr =  735
+i_trigger = 0
 triggered = 0
-waddr = 1011011111
 primed = 0
-stopped = 0
 this_addr =  734
 raddr =    0
 uut->o_data = 735 , num_of_clk_passed = 736
+uut->o_primed = 0
+waddr =  736
+i_trigger = 0
 triggered = 0
-waddr = 1011100000
 primed = 0
-stopped = 0
 this_addr =  735
 raddr =    0
 uut->o_data = 736 , num_of_clk_passed = 737
+uut->o_primed = 0
+waddr =  737
+i_trigger = 0
 triggered = 0
-waddr = 1011100001
 primed = 0
-stopped = 0
 this_addr =  736
 raddr =    0
 uut->o_data = 737 , num_of_clk_passed = 738
+uut->o_primed = 0
+waddr =  738
+i_trigger = 0
 triggered = 0
-waddr = 1011100010
 primed = 0
-stopped = 0
 this_addr =  737
 raddr =    0
 uut->o_data = 738 , num_of_clk_passed = 739
+uut->o_primed = 0
+waddr =  739
+i_trigger = 0
 triggered = 0
-waddr = 1011100011
 primed = 0
-stopped = 0
 this_addr =  738
 raddr =    0
 uut->o_data = 739 , num_of_clk_passed = 740
+uut->o_primed = 0
+waddr =  740
+i_trigger = 0
 triggered = 0
-waddr = 1011100100
 primed = 0
-stopped = 0
 this_addr =  739
 raddr =    0
 uut->o_data = 740 , num_of_clk_passed = 741
+uut->o_primed = 0
+waddr =  741
+i_trigger = 0
 triggered = 0
-waddr = 1011100101
 primed = 0
-stopped = 0
 this_addr =  740
 raddr =    0
 uut->o_data = 741 , num_of_clk_passed = 742
+uut->o_primed = 0
+waddr =  742
+i_trigger = 0
 triggered = 0
-waddr = 1011100110
 primed = 0
-stopped = 0
 this_addr =  741
 raddr =    0
 uut->o_data = 742 , num_of_clk_passed = 743
+uut->o_primed = 0
+waddr =  743
+i_trigger = 0
 triggered = 0
-waddr = 1011100111
 primed = 0
-stopped = 0
 this_addr =  742
 raddr =    0
 uut->o_data = 743 , num_of_clk_passed = 744
+uut->o_primed = 0
+waddr =  744
+i_trigger = 0
 triggered = 0
-waddr = 1011101000
 primed = 0
-stopped = 0
 this_addr =  743
 raddr =    0
 uut->o_data = 744 , num_of_clk_passed = 745
+uut->o_primed = 0
+waddr =  745
+i_trigger = 0
 triggered = 0
-waddr = 1011101001
 primed = 0
-stopped = 0
 this_addr =  744
 raddr =    0
 uut->o_data = 745 , num_of_clk_passed = 746
+uut->o_primed = 0
+waddr =  746
+i_trigger = 0
 triggered = 0
-waddr = 1011101010
 primed = 0
-stopped = 0
 this_addr =  745
 raddr =    0
 uut->o_data = 746 , num_of_clk_passed = 747
+uut->o_primed = 0
+waddr =  747
+i_trigger = 0
 triggered = 0
-waddr = 1011101011
 primed = 0
-stopped = 0
 this_addr =  746
 raddr =    0
 uut->o_data = 747 , num_of_clk_passed = 748
+uut->o_primed = 0
+waddr =  748
+i_trigger = 0
 triggered = 0
-waddr = 1011101100
 primed = 0
-stopped = 0
 this_addr =  747
 raddr =    0
 uut->o_data = 748 , num_of_clk_passed = 749
+uut->o_primed = 0
+waddr =  749
+i_trigger = 0
 triggered = 0
-waddr = 1011101101
 primed = 0
-stopped = 0
 this_addr =  748
 raddr =    0
 uut->o_data = 749 , num_of_clk_passed = 750
+uut->o_primed = 0
+waddr =  750
+i_trigger = 0
 triggered = 0
-waddr = 1011101110
 primed = 0
-stopped = 0
 this_addr =  749
 raddr =    0
 uut->o_data = 750 , num_of_clk_passed = 751
+uut->o_primed = 0
+waddr =  751
+i_trigger = 0
 triggered = 0
-waddr = 1011101111
 primed = 0
-stopped = 0
 this_addr =  750
 raddr =    0
 uut->o_data = 751 , num_of_clk_passed = 752
+uut->o_primed = 0
+waddr =  752
+i_trigger = 0
 triggered = 0
-waddr = 1011110000
 primed = 0
-stopped = 0
 this_addr =  751
 raddr =    0
 uut->o_data = 752 , num_of_clk_passed = 753
+uut->o_primed = 0
+waddr =  753
+i_trigger = 0
 triggered = 0
-waddr = 1011110001
 primed = 0
-stopped = 0
 this_addr =  752
 raddr =    0
 uut->o_data = 753 , num_of_clk_passed = 754
+uut->o_primed = 0
+waddr =  754
+i_trigger = 0
 triggered = 0
-waddr = 1011110010
 primed = 0
-stopped = 0
 this_addr =  753
 raddr =    0
 uut->o_data = 754 , num_of_clk_passed = 755
+uut->o_primed = 0
+waddr =  755
+i_trigger = 0
 triggered = 0
-waddr = 1011110011
 primed = 0
-stopped = 0
 this_addr =  754
 raddr =    0
 uut->o_data = 755 , num_of_clk_passed = 756
+uut->o_primed = 0
+waddr =  756
+i_trigger = 0
 triggered = 0
-waddr = 1011110100
 primed = 0
-stopped = 0
 this_addr =  755
 raddr =    0
 uut->o_data = 756 , num_of_clk_passed = 757
+uut->o_primed = 0
+waddr =  757
+i_trigger = 0
 triggered = 0
-waddr = 1011110101
 primed = 0
-stopped = 0
 this_addr =  756
 raddr =    0
 uut->o_data = 757 , num_of_clk_passed = 758
+uut->o_primed = 0
+waddr =  758
+i_trigger = 0
 triggered = 0
-waddr = 1011110110
 primed = 0
-stopped = 0
 this_addr =  757
 raddr =    0
 uut->o_data = 758 , num_of_clk_passed = 759
+uut->o_primed = 0
+waddr =  759
+i_trigger = 0
 triggered = 0
-waddr = 1011110111
 primed = 0
-stopped = 0
 this_addr =  758
 raddr =    0
 uut->o_data = 759 , num_of_clk_passed = 760
+uut->o_primed = 0
+waddr =  760
+i_trigger = 0
 triggered = 0
-waddr = 1011111000
 primed = 0
-stopped = 0
 this_addr =  759
 raddr =    0
 uut->o_data = 760 , num_of_clk_passed = 761
+uut->o_primed = 0
+waddr =  761
+i_trigger = 0
 triggered = 0
-waddr = 1011111001
 primed = 0
-stopped = 0
 this_addr =  760
 raddr =    0
 uut->o_data = 761 , num_of_clk_passed = 762
+uut->o_primed = 0
+waddr =  762
+i_trigger = 0
 triggered = 0
-waddr = 1011111010
 primed = 0
-stopped = 0
 this_addr =  761
 raddr =    0
 uut->o_data = 762 , num_of_clk_passed = 763
+uut->o_primed = 0
+waddr =  763
+i_trigger = 0
 triggered = 0
-waddr = 1011111011
 primed = 0
-stopped = 0
 this_addr =  762
 raddr =    0
 uut->o_data = 763 , num_of_clk_passed = 764
+uut->o_primed = 0
+waddr =  764
+i_trigger = 0
 triggered = 0
-waddr = 1011111100
 primed = 0
-stopped = 0
 this_addr =  763
 raddr =    0
 uut->o_data = 764 , num_of_clk_passed = 765
+uut->o_primed = 0
+waddr =  765
+i_trigger = 0
 triggered = 0
-waddr = 1011111101
 primed = 0
-stopped = 0
 this_addr =  764
 raddr =    0
 uut->o_data = 765 , num_of_clk_passed = 766
+uut->o_primed = 0
+waddr =  766
+i_trigger = 0
 triggered = 0
-waddr = 1011111110
 primed = 0
-stopped = 0
 this_addr =  765
 raddr =    0
 uut->o_data = 766 , num_of_clk_passed = 767
+uut->o_primed = 0
+waddr =  767
+i_trigger = 0
 triggered = 0
-waddr = 1011111111
 primed = 0
-stopped = 0
 this_addr =  766
 raddr =    0
 uut->o_data = 767 , num_of_clk_passed = 768
+uut->o_primed = 0
+waddr =  768
+i_trigger = 0
 triggered = 0
-waddr = 1100000000
 primed = 0
-stopped = 0
 this_addr =  767
 raddr =    0
 uut->o_data = 768 , num_of_clk_passed = 769
+uut->o_primed = 0
+waddr =  769
+i_trigger = 0
 triggered = 0
-waddr = 1100000001
 primed = 0
-stopped = 0
 this_addr =  768
 raddr =    0
 uut->o_data = 769 , num_of_clk_passed = 770
+uut->o_primed = 0
+waddr =  770
+i_trigger = 0
 triggered = 0
-waddr = 1100000010
 primed = 0
-stopped = 0
 this_addr =  769
 raddr =    0
 uut->o_data = 770 , num_of_clk_passed = 771
+uut->o_primed = 0
+waddr =  771
+i_trigger = 0
 triggered = 0
-waddr = 1100000011
 primed = 0
-stopped = 0
 this_addr =  770
 raddr =    0
 uut->o_data = 771 , num_of_clk_passed = 772
+uut->o_primed = 0
+waddr =  772
+i_trigger = 0
 triggered = 0
-waddr = 1100000100
 primed = 0
-stopped = 0
 this_addr =  771
 raddr =    0
 uut->o_data = 772 , num_of_clk_passed = 773
+uut->o_primed = 0
+waddr =  773
+i_trigger = 0
 triggered = 0
-waddr = 1100000101
 primed = 0
-stopped = 0
 this_addr =  772
 raddr =    0
 uut->o_data = 773 , num_of_clk_passed = 774
+uut->o_primed = 0
+waddr =  774
+i_trigger = 0
 triggered = 0
-waddr = 1100000110
 primed = 0
-stopped = 0
 this_addr =  773
 raddr =    0
 uut->o_data = 774 , num_of_clk_passed = 775
+uut->o_primed = 0
+waddr =  775
+i_trigger = 0
 triggered = 0
-waddr = 1100000111
 primed = 0
-stopped = 0
 this_addr =  774
 raddr =    0
 uut->o_data = 775 , num_of_clk_passed = 776
+uut->o_primed = 0
+waddr =  776
+i_trigger = 0
 triggered = 0
-waddr = 1100001000
 primed = 0
-stopped = 0
 this_addr =  775
 raddr =    0
 uut->o_data = 776 , num_of_clk_passed = 777
+uut->o_primed = 0
+waddr =  777
+i_trigger = 0
 triggered = 0
-waddr = 1100001001
 primed = 0
-stopped = 0
 this_addr =  776
 raddr =    0
 uut->o_data = 777 , num_of_clk_passed = 778
+uut->o_primed = 0
+waddr =  778
+i_trigger = 0
 triggered = 0
-waddr = 1100001010
 primed = 0
-stopped = 0
 this_addr =  777
 raddr =    0
 uut->o_data = 778 , num_of_clk_passed = 779
+uut->o_primed = 0
+waddr =  779
+i_trigger = 0
 triggered = 0
-waddr = 1100001011
 primed = 0
-stopped = 0
 this_addr =  778
 raddr =    0
 uut->o_data = 779 , num_of_clk_passed = 780
+uut->o_primed = 0
+waddr =  780
+i_trigger = 0
 triggered = 0
-waddr = 1100001100
 primed = 0
-stopped = 0
 this_addr =  779
 raddr =    0
 uut->o_data = 780 , num_of_clk_passed = 781
+uut->o_primed = 0
+waddr =  781
+i_trigger = 0
 triggered = 0
-waddr = 1100001101
 primed = 0
-stopped = 0
 this_addr =  780
 raddr =    0
 uut->o_data = 781 , num_of_clk_passed = 782
+uut->o_primed = 0
+waddr =  782
+i_trigger = 0
 triggered = 0
-waddr = 1100001110
 primed = 0
-stopped = 0
 this_addr =  781
 raddr =    0
 uut->o_data = 782 , num_of_clk_passed = 783
+uut->o_primed = 0
+waddr =  783
+i_trigger = 0
 triggered = 0
-waddr = 1100001111
 primed = 0
-stopped = 0
 this_addr =  782
 raddr =    0
 uut->o_data = 783 , num_of_clk_passed = 784
+uut->o_primed = 0
+waddr =  784
+i_trigger = 0
 triggered = 0
-waddr = 1100010000
 primed = 0
-stopped = 0
 this_addr =  783
 raddr =    0
 uut->o_data = 784 , num_of_clk_passed = 785
+uut->o_primed = 0
+waddr =  785
+i_trigger = 0
 triggered = 0
-waddr = 1100010001
 primed = 0
-stopped = 0
 this_addr =  784
 raddr =    0
 uut->o_data = 785 , num_of_clk_passed = 786
+uut->o_primed = 0
+waddr =  786
+i_trigger = 0
 triggered = 0
-waddr = 1100010010
 primed = 0
-stopped = 0
 this_addr =  785
 raddr =    0
 uut->o_data = 786 , num_of_clk_passed = 787
+uut->o_primed = 0
+waddr =  787
+i_trigger = 0
 triggered = 0
-waddr = 1100010011
 primed = 0
-stopped = 0
 this_addr =  786
 raddr =    0
 uut->o_data = 787 , num_of_clk_passed = 788
+uut->o_primed = 0
+waddr =  788
+i_trigger = 0
 triggered = 0
-waddr = 1100010100
 primed = 0
-stopped = 0
 this_addr =  787
 raddr =    0
 uut->o_data = 788 , num_of_clk_passed = 789
+uut->o_primed = 0
+waddr =  789
+i_trigger = 0
 triggered = 0
-waddr = 1100010101
 primed = 0
-stopped = 0
 this_addr =  788
 raddr =    0
 uut->o_data = 789 , num_of_clk_passed = 790
+uut->o_primed = 0
+waddr =  790
+i_trigger = 0
 triggered = 0
-waddr = 1100010110
 primed = 0
-stopped = 0
 this_addr =  789
 raddr =    0
 uut->o_data = 790 , num_of_clk_passed = 791
+uut->o_primed = 0
+waddr =  791
+i_trigger = 0
 triggered = 0
-waddr = 1100010111
 primed = 0
-stopped = 0
 this_addr =  790
 raddr =    0
 uut->o_data = 791 , num_of_clk_passed = 792
+uut->o_primed = 0
+waddr =  792
+i_trigger = 0
 triggered = 0
-waddr = 1100011000
 primed = 0
-stopped = 0
 this_addr =  791
 raddr =    0
 uut->o_data = 792 , num_of_clk_passed = 793
+uut->o_primed = 0
+waddr =  793
+i_trigger = 0
 triggered = 0
-waddr = 1100011001
 primed = 0
-stopped = 0
 this_addr =  792
 raddr =    0
 uut->o_data = 793 , num_of_clk_passed = 794
+uut->o_primed = 0
+waddr =  794
+i_trigger = 0
 triggered = 0
-waddr = 1100011010
 primed = 0
-stopped = 0
 this_addr =  793
 raddr =    0
 uut->o_data = 794 , num_of_clk_passed = 795
+uut->o_primed = 0
+waddr =  795
+i_trigger = 0
 triggered = 0
-waddr = 1100011011
 primed = 0
-stopped = 0
 this_addr =  794
 raddr =    0
 uut->o_data = 795 , num_of_clk_passed = 796
+uut->o_primed = 0
+waddr =  796
+i_trigger = 0
 triggered = 0
-waddr = 1100011100
 primed = 0
-stopped = 0
 this_addr =  795
 raddr =    0
 uut->o_data = 796 , num_of_clk_passed = 797
+uut->o_primed = 0
+waddr =  797
+i_trigger = 0
 triggered = 0
-waddr = 1100011101
 primed = 0
-stopped = 0
 this_addr =  796
 raddr =    0
 uut->o_data = 797 , num_of_clk_passed = 798
+uut->o_primed = 0
+waddr =  798
+i_trigger = 0
 triggered = 0
-waddr = 1100011110
 primed = 0
-stopped = 0
 this_addr =  797
 raddr =    0
 uut->o_data = 798 , num_of_clk_passed = 799
+uut->o_primed = 0
+waddr =  799
+i_trigger = 0
 triggered = 0
-waddr = 1100011111
 primed = 0
-stopped = 0
 this_addr =  798
 raddr =    0
 uut->o_data = 799 , num_of_clk_passed = 800
+uut->o_primed = 0
+waddr =  800
+i_trigger = 0
 triggered = 0
-waddr = 1100100000
 primed = 0
-stopped = 0
 this_addr =  799
 raddr =    0
 uut->o_data = 800 , num_of_clk_passed = 801
+uut->o_primed = 0
+waddr =  801
+i_trigger = 0
 triggered = 0
-waddr = 1100100001
 primed = 0
-stopped = 0
 this_addr =  800
 raddr =    0
 uut->o_data = 801 , num_of_clk_passed = 802
+uut->o_primed = 0
+waddr =  802
+i_trigger = 0
 triggered = 0
-waddr = 1100100010
 primed = 0
-stopped = 0
 this_addr =  801
 raddr =    0
 uut->o_data = 802 , num_of_clk_passed = 803
+uut->o_primed = 0
+waddr =  803
+i_trigger = 0
 triggered = 0
-waddr = 1100100011
 primed = 0
-stopped = 0
 this_addr =  802
 raddr =    0
 uut->o_data = 803 , num_of_clk_passed = 804
+uut->o_primed = 0
+waddr =  804
+i_trigger = 0
 triggered = 0
-waddr = 1100100100
 primed = 0
-stopped = 0
 this_addr =  803
 raddr =    0
 uut->o_data = 804 , num_of_clk_passed = 805
+uut->o_primed = 0
+waddr =  805
+i_trigger = 0
 triggered = 0
-waddr = 1100100101
 primed = 0
-stopped = 0
 this_addr =  804
 raddr =    0
 uut->o_data = 805 , num_of_clk_passed = 806
+uut->o_primed = 0
+waddr =  806
+i_trigger = 0
 triggered = 0
-waddr = 1100100110
 primed = 0
-stopped = 0
 this_addr =  805
 raddr =    0
 uut->o_data = 806 , num_of_clk_passed = 807
+uut->o_primed = 0
+waddr =  807
+i_trigger = 0
 triggered = 0
-waddr = 1100100111
 primed = 0
-stopped = 0
 this_addr =  806
 raddr =    0
 uut->o_data = 807 , num_of_clk_passed = 808
+uut->o_primed = 0
+waddr =  808
+i_trigger = 0
 triggered = 0
-waddr = 1100101000
 primed = 0
-stopped = 0
 this_addr =  807
 raddr =    0
 uut->o_data = 808 , num_of_clk_passed = 809
+uut->o_primed = 0
+waddr =  809
+i_trigger = 0
 triggered = 0
-waddr = 1100101001
 primed = 0
-stopped = 0
 this_addr =  808
 raddr =    0
 uut->o_data = 809 , num_of_clk_passed = 810
+uut->o_primed = 0
+waddr =  810
+i_trigger = 0
 triggered = 0
-waddr = 1100101010
 primed = 0
-stopped = 0
 this_addr =  809
 raddr =    0
 uut->o_data = 810 , num_of_clk_passed = 811
+uut->o_primed = 0
+waddr =  811
+i_trigger = 0
 triggered = 0
-waddr = 1100101011
 primed = 0
-stopped = 0
 this_addr =  810
 raddr =    0
 uut->o_data = 811 , num_of_clk_passed = 812
+uut->o_primed = 0
+waddr =  812
+i_trigger = 0
 triggered = 0
-waddr = 1100101100
 primed = 0
-stopped = 0
 this_addr =  811
 raddr =    0
 uut->o_data = 812 , num_of_clk_passed = 813
+uut->o_primed = 0
+waddr =  813
+i_trigger = 0
 triggered = 0
-waddr = 1100101101
 primed = 0
-stopped = 0
 this_addr =  812
 raddr =    0
 uut->o_data = 813 , num_of_clk_passed = 814
+uut->o_primed = 0
+waddr =  814
+i_trigger = 0
 triggered = 0
-waddr = 1100101110
 primed = 0
-stopped = 0
 this_addr =  813
 raddr =    0
 uut->o_data = 814 , num_of_clk_passed = 815
+uut->o_primed = 0
+waddr =  815
+i_trigger = 0
 triggered = 0
-waddr = 1100101111
 primed = 0
-stopped = 0
 this_addr =  814
 raddr =    0
 uut->o_data = 815 , num_of_clk_passed = 816
+uut->o_primed = 0
+waddr =  816
+i_trigger = 0
 triggered = 0
-waddr = 1100110000
 primed = 0
-stopped = 0
 this_addr =  815
 raddr =    0
 uut->o_data = 816 , num_of_clk_passed = 817
+uut->o_primed = 0
+waddr =  817
+i_trigger = 0
 triggered = 0
-waddr = 1100110001
 primed = 0
-stopped = 0
 this_addr =  816
 raddr =    0
 uut->o_data = 817 , num_of_clk_passed = 818
+uut->o_primed = 0
+waddr =  818
+i_trigger = 0
 triggered = 0
-waddr = 1100110010
 primed = 0
-stopped = 0
 this_addr =  817
 raddr =    0
 uut->o_data = 818 , num_of_clk_passed = 819
+uut->o_primed = 0
+waddr =  819
+i_trigger = 0
 triggered = 0
-waddr = 1100110011
 primed = 0
-stopped = 0
 this_addr =  818
 raddr =    0
 uut->o_data = 819 , num_of_clk_passed = 820
+uut->o_primed = 0
+waddr =  820
+i_trigger = 0
 triggered = 0
-waddr = 1100110100
 primed = 0
-stopped = 0
 this_addr =  819
 raddr =    0
 uut->o_data = 820 , num_of_clk_passed = 821
+uut->o_primed = 0
+waddr =  821
+i_trigger = 0
 triggered = 0
-waddr = 1100110101
 primed = 0
-stopped = 0
 this_addr =  820
 raddr =    0
 uut->o_data = 821 , num_of_clk_passed = 822
+uut->o_primed = 0
+waddr =  822
+i_trigger = 0
 triggered = 0
-waddr = 1100110110
 primed = 0
-stopped = 0
 this_addr =  821
 raddr =    0
 uut->o_data = 822 , num_of_clk_passed = 823
+uut->o_primed = 0
+waddr =  823
+i_trigger = 0
 triggered = 0
-waddr = 1100110111
 primed = 0
-stopped = 0
 this_addr =  822
 raddr =    0
 uut->o_data = 823 , num_of_clk_passed = 824
+uut->o_primed = 0
+waddr =  824
+i_trigger = 0
 triggered = 0
-waddr = 1100111000
 primed = 0
-stopped = 0
 this_addr =  823
 raddr =    0
 uut->o_data = 824 , num_of_clk_passed = 825
+uut->o_primed = 0
+waddr =  825
+i_trigger = 0
 triggered = 0
-waddr = 1100111001
 primed = 0
-stopped = 0
 this_addr =  824
 raddr =    0
 uut->o_data = 825 , num_of_clk_passed = 826
+uut->o_primed = 0
+waddr =  826
+i_trigger = 0
 triggered = 0
-waddr = 1100111010
 primed = 0
-stopped = 0
 this_addr =  825
 raddr =    0
 uut->o_data = 826 , num_of_clk_passed = 827
+uut->o_primed = 0
+waddr =  827
+i_trigger = 0
 triggered = 0
-waddr = 1100111011
 primed = 0
-stopped = 0
 this_addr =  826
 raddr =    0
 uut->o_data = 827 , num_of_clk_passed = 828
+uut->o_primed = 0
+waddr =  828
+i_trigger = 0
 triggered = 0
-waddr = 1100111100
 primed = 0
-stopped = 0
 this_addr =  827
 raddr =    0
 uut->o_data = 828 , num_of_clk_passed = 829
+uut->o_primed = 0
+waddr =  829
+i_trigger = 0
 triggered = 0
-waddr = 1100111101
 primed = 0
-stopped = 0
 this_addr =  828
 raddr =    0
 uut->o_data = 829 , num_of_clk_passed = 830
+uut->o_primed = 0
+waddr =  830
+i_trigger = 0
 triggered = 0
-waddr = 1100111110
 primed = 0
-stopped = 0
 this_addr =  829
 raddr =    0
 uut->o_data = 830 , num_of_clk_passed = 831
+uut->o_primed = 0
+waddr =  831
+i_trigger = 0
 triggered = 0
-waddr = 1100111111
 primed = 0
-stopped = 0
 this_addr =  830
 raddr =    0
 uut->o_data = 831 , num_of_clk_passed = 832
+uut->o_primed = 0
+waddr =  832
+i_trigger = 0
 triggered = 0
-waddr = 1101000000
 primed = 0
-stopped = 0
 this_addr =  831
 raddr =    0
 uut->o_data = 832 , num_of_clk_passed = 833
+uut->o_primed = 0
+waddr =  833
+i_trigger = 0
 triggered = 0
-waddr = 1101000001
 primed = 0
-stopped = 0
 this_addr =  832
 raddr =    0
 uut->o_data = 833 , num_of_clk_passed = 834
+uut->o_primed = 0
+waddr =  834
+i_trigger = 0
 triggered = 0
-waddr = 1101000010
 primed = 0
-stopped = 0
 this_addr =  833
 raddr =    0
 uut->o_data = 834 , num_of_clk_passed = 835
+uut->o_primed = 0
+waddr =  835
+i_trigger = 0
 triggered = 0
-waddr = 1101000011
 primed = 0
-stopped = 0
 this_addr =  834
 raddr =    0
 uut->o_data = 835 , num_of_clk_passed = 836
+uut->o_primed = 0
+waddr =  836
+i_trigger = 0
 triggered = 0
-waddr = 1101000100
 primed = 0
-stopped = 0
 this_addr =  835
 raddr =    0
 uut->o_data = 836 , num_of_clk_passed = 837
+uut->o_primed = 0
+waddr =  837
+i_trigger = 0
 triggered = 0
-waddr = 1101000101
 primed = 0
-stopped = 0
 this_addr =  836
 raddr =    0
 uut->o_data = 837 , num_of_clk_passed = 838
+uut->o_primed = 0
+waddr =  838
+i_trigger = 0
 triggered = 0
-waddr = 1101000110
 primed = 0
-stopped = 0
 this_addr =  837
 raddr =    0
 uut->o_data = 838 , num_of_clk_passed = 839
+uut->o_primed = 0
+waddr =  839
+i_trigger = 0
 triggered = 0
-waddr = 1101000111
 primed = 0
-stopped = 0
 this_addr =  838
 raddr =    0
 uut->o_data = 839 , num_of_clk_passed = 840
+uut->o_primed = 0
+waddr =  840
+i_trigger = 0
 triggered = 0
-waddr = 1101001000
 primed = 0
-stopped = 0
 this_addr =  839
 raddr =    0
 uut->o_data = 840 , num_of_clk_passed = 841
+uut->o_primed = 0
+waddr =  841
+i_trigger = 0
 triggered = 0
-waddr = 1101001001
 primed = 0
-stopped = 0
 this_addr =  840
 raddr =    0
 uut->o_data = 841 , num_of_clk_passed = 842
+uut->o_primed = 0
+waddr =  842
+i_trigger = 0
 triggered = 0
-waddr = 1101001010
 primed = 0
-stopped = 0
 this_addr =  841
 raddr =    0
 uut->o_data = 842 , num_of_clk_passed = 843
+uut->o_primed = 0
+waddr =  843
+i_trigger = 0
 triggered = 0
-waddr = 1101001011
 primed = 0
-stopped = 0
 this_addr =  842
 raddr =    0
 uut->o_data = 843 , num_of_clk_passed = 844
+uut->o_primed = 0
+waddr =  844
+i_trigger = 0
 triggered = 0
-waddr = 1101001100
 primed = 0
-stopped = 0
 this_addr =  843
 raddr =    0
 uut->o_data = 844 , num_of_clk_passed = 845
+uut->o_primed = 0
+waddr =  845
+i_trigger = 0
 triggered = 0
-waddr = 1101001101
 primed = 0
-stopped = 0
 this_addr =  844
 raddr =    0
 uut->o_data = 845 , num_of_clk_passed = 846
+uut->o_primed = 0
+waddr =  846
+i_trigger = 0
 triggered = 0
-waddr = 1101001110
 primed = 0
-stopped = 0
 this_addr =  845
 raddr =    0
 uut->o_data = 846 , num_of_clk_passed = 847
+uut->o_primed = 0
+waddr =  847
+i_trigger = 0
 triggered = 0
-waddr = 1101001111
 primed = 0
-stopped = 0
 this_addr =  846
 raddr =    0
 uut->o_data = 847 , num_of_clk_passed = 848
+uut->o_primed = 0
+waddr =  848
+i_trigger = 0
 triggered = 0
-waddr = 1101010000
 primed = 0
-stopped = 0
 this_addr =  847
 raddr =    0
 uut->o_data = 848 , num_of_clk_passed = 849
+uut->o_primed = 0
+waddr =  849
+i_trigger = 0
 triggered = 0
-waddr = 1101010001
 primed = 0
-stopped = 0
 this_addr =  848
 raddr =    0
 uut->o_data = 849 , num_of_clk_passed = 850
+uut->o_primed = 0
+waddr =  850
+i_trigger = 0
 triggered = 0
-waddr = 1101010010
 primed = 0
-stopped = 0
 this_addr =  849
 raddr =    0
 uut->o_data = 850 , num_of_clk_passed = 851
+uut->o_primed = 0
+waddr =  851
+i_trigger = 0
 triggered = 0
-waddr = 1101010011
 primed = 0
-stopped = 0
 this_addr =  850
 raddr =    0
 uut->o_data = 851 , num_of_clk_passed = 852
+uut->o_primed = 0
+waddr =  852
+i_trigger = 0
 triggered = 0
-waddr = 1101010100
 primed = 0
-stopped = 0
 this_addr =  851
 raddr =    0
 uut->o_data = 852 , num_of_clk_passed = 853
+uut->o_primed = 0
+waddr =  853
+i_trigger = 0
 triggered = 0
-waddr = 1101010101
 primed = 0
-stopped = 0
 this_addr =  852
 raddr =    0
 uut->o_data = 853 , num_of_clk_passed = 854
+uut->o_primed = 0
+waddr =  854
+i_trigger = 0
 triggered = 0
-waddr = 1101010110
 primed = 0
-stopped = 0
 this_addr =  853
 raddr =    0
 uut->o_data = 854 , num_of_clk_passed = 855
+uut->o_primed = 0
+waddr =  855
+i_trigger = 0
 triggered = 0
-waddr = 1101010111
 primed = 0
-stopped = 0
 this_addr =  854
 raddr =    0
 uut->o_data = 855 , num_of_clk_passed = 856
+uut->o_primed = 0
+waddr =  856
+i_trigger = 0
 triggered = 0
-waddr = 1101011000
 primed = 0
-stopped = 0
 this_addr =  855
 raddr =    0
 uut->o_data = 856 , num_of_clk_passed = 857
+uut->o_primed = 0
+waddr =  857
+i_trigger = 0
 triggered = 0
-waddr = 1101011001
 primed = 0
-stopped = 0
 this_addr =  856
 raddr =    0
 uut->o_data = 857 , num_of_clk_passed = 858
+uut->o_primed = 0
+waddr =  858
+i_trigger = 0
 triggered = 0
-waddr = 1101011010
 primed = 0
-stopped = 0
 this_addr =  857
 raddr =    0
 uut->o_data = 858 , num_of_clk_passed = 859
+uut->o_primed = 0
+waddr =  859
+i_trigger = 0
 triggered = 0
-waddr = 1101011011
 primed = 0
-stopped = 0
 this_addr =  858
 raddr =    0
 uut->o_data = 859 , num_of_clk_passed = 860
+uut->o_primed = 0
+waddr =  860
+i_trigger = 0
 triggered = 0
-waddr = 1101011100
 primed = 0
-stopped = 0
 this_addr =  859
 raddr =    0
 uut->o_data = 860 , num_of_clk_passed = 861
+uut->o_primed = 0
+waddr =  861
+i_trigger = 0
 triggered = 0
-waddr = 1101011101
 primed = 0
-stopped = 0
 this_addr =  860
 raddr =    0
 uut->o_data = 861 , num_of_clk_passed = 862
+uut->o_primed = 0
+waddr =  862
+i_trigger = 0
 triggered = 0
-waddr = 1101011110
 primed = 0
-stopped = 0
 this_addr =  861
 raddr =    0
 uut->o_data = 862 , num_of_clk_passed = 863
+uut->o_primed = 0
+waddr =  863
+i_trigger = 0
 triggered = 0
-waddr = 1101011111
 primed = 0
-stopped = 0
 this_addr =  862
 raddr =    0
 uut->o_data = 863 , num_of_clk_passed = 864
+uut->o_primed = 0
+waddr =  864
+i_trigger = 0
 triggered = 0
-waddr = 1101100000
 primed = 0
-stopped = 0
 this_addr =  863
 raddr =    0
 uut->o_data = 864 , num_of_clk_passed = 865
+uut->o_primed = 0
+waddr =  865
+i_trigger = 0
 triggered = 0
-waddr = 1101100001
 primed = 0
-stopped = 0
 this_addr =  864
 raddr =    0
 uut->o_data = 865 , num_of_clk_passed = 866
+uut->o_primed = 0
+waddr =  866
+i_trigger = 0
 triggered = 0
-waddr = 1101100010
 primed = 0
-stopped = 0
 this_addr =  865
 raddr =    0
 uut->o_data = 866 , num_of_clk_passed = 867
+uut->o_primed = 0
+waddr =  867
+i_trigger = 0
 triggered = 0
-waddr = 1101100011
 primed = 0
-stopped = 0
 this_addr =  866
 raddr =    0
 uut->o_data = 867 , num_of_clk_passed = 868
+uut->o_primed = 0
+waddr =  868
+i_trigger = 0
 triggered = 0
-waddr = 1101100100
 primed = 0
-stopped = 0
 this_addr =  867
 raddr =    0
 uut->o_data = 868 , num_of_clk_passed = 869
+uut->o_primed = 0
+waddr =  869
+i_trigger = 0
 triggered = 0
-waddr = 1101100101
 primed = 0
-stopped = 0
 this_addr =  868
 raddr =    0
 uut->o_data = 869 , num_of_clk_passed = 870
+uut->o_primed = 0
+waddr =  870
+i_trigger = 0
 triggered = 0
-waddr = 1101100110
 primed = 0
-stopped = 0
 this_addr =  869
 raddr =    0
 uut->o_data = 870 , num_of_clk_passed = 871
+uut->o_primed = 0
+waddr =  871
+i_trigger = 0
 triggered = 0
-waddr = 1101100111
 primed = 0
-stopped = 0
 this_addr =  870
 raddr =    0
 uut->o_data = 871 , num_of_clk_passed = 872
+uut->o_primed = 0
+waddr =  872
+i_trigger = 0
 triggered = 0
-waddr = 1101101000
 primed = 0
-stopped = 0
 this_addr =  871
 raddr =    0
 uut->o_data = 872 , num_of_clk_passed = 873
+uut->o_primed = 0
+waddr =  873
+i_trigger = 0
 triggered = 0
-waddr = 1101101001
 primed = 0
-stopped = 0
 this_addr =  872
 raddr =    0
 uut->o_data = 873 , num_of_clk_passed = 874
+uut->o_primed = 0
+waddr =  874
+i_trigger = 0
 triggered = 0
-waddr = 1101101010
 primed = 0
-stopped = 0
 this_addr =  873
 raddr =    0
 uut->o_data = 874 , num_of_clk_passed = 875
+uut->o_primed = 0
+waddr =  875
+i_trigger = 0
 triggered = 0
-waddr = 1101101011
 primed = 0
-stopped = 0
 this_addr =  874
 raddr =    0
 uut->o_data = 875 , num_of_clk_passed = 876
+uut->o_primed = 0
+waddr =  876
+i_trigger = 0
 triggered = 0
-waddr = 1101101100
 primed = 0
-stopped = 0
 this_addr =  875
 raddr =    0
 uut->o_data = 876 , num_of_clk_passed = 877
+uut->o_primed = 0
+waddr =  877
+i_trigger = 0
 triggered = 0
-waddr = 1101101101
 primed = 0
-stopped = 0
 this_addr =  876
 raddr =    0
 uut->o_data = 877 , num_of_clk_passed = 878
+uut->o_primed = 0
+waddr =  878
+i_trigger = 0
 triggered = 0
-waddr = 1101101110
 primed = 0
-stopped = 0
 this_addr =  877
 raddr =    0
 uut->o_data = 878 , num_of_clk_passed = 879
+uut->o_primed = 0
+waddr =  879
+i_trigger = 0
 triggered = 0
-waddr = 1101101111
 primed = 0
-stopped = 0
 this_addr =  878
 raddr =    0
 uut->o_data = 879 , num_of_clk_passed = 880
+uut->o_primed = 0
+waddr =  880
+i_trigger = 0
 triggered = 0
-waddr = 1101110000
 primed = 0
-stopped = 0
 this_addr =  879
 raddr =    0
 uut->o_data = 880 , num_of_clk_passed = 881
+uut->o_primed = 0
+waddr =  881
+i_trigger = 0
 triggered = 0
-waddr = 1101110001
 primed = 0
-stopped = 0
 this_addr =  880
 raddr =    0
 uut->o_data = 881 , num_of_clk_passed = 882
+uut->o_primed = 0
+waddr =  882
+i_trigger = 0
 triggered = 0
-waddr = 1101110010
 primed = 0
-stopped = 0
 this_addr =  881
 raddr =    0
 uut->o_data = 882 , num_of_clk_passed = 883
+uut->o_primed = 0
+waddr =  883
+i_trigger = 0
 triggered = 0
-waddr = 1101110011
 primed = 0
-stopped = 0
 this_addr =  882
 raddr =    0
 uut->o_data = 883 , num_of_clk_passed = 884
+uut->o_primed = 0
+waddr =  884
+i_trigger = 0
 triggered = 0
-waddr = 1101110100
 primed = 0
-stopped = 0
 this_addr =  883
 raddr =    0
 uut->o_data = 884 , num_of_clk_passed = 885
+uut->o_primed = 0
+waddr =  885
+i_trigger = 0
 triggered = 0
-waddr = 1101110101
 primed = 0
-stopped = 0
 this_addr =  884
 raddr =    0
 uut->o_data = 885 , num_of_clk_passed = 886
+uut->o_primed = 0
+waddr =  886
+i_trigger = 0
 triggered = 0
-waddr = 1101110110
 primed = 0
-stopped = 0
 this_addr =  885
 raddr =    0
 uut->o_data = 886 , num_of_clk_passed = 887
+uut->o_primed = 0
+waddr =  887
+i_trigger = 0
 triggered = 0
-waddr = 1101110111
 primed = 0
-stopped = 0
 this_addr =  886
 raddr =    0
 uut->o_data = 887 , num_of_clk_passed = 888
+uut->o_primed = 0
+waddr =  888
+i_trigger = 0
 triggered = 0
-waddr = 1101111000
 primed = 0
-stopped = 0
 this_addr =  887
 raddr =    0
 uut->o_data = 888 , num_of_clk_passed = 889
+uut->o_primed = 0
+waddr =  889
+i_trigger = 0
 triggered = 0
-waddr = 1101111001
 primed = 0
-stopped = 0
 this_addr =  888
 raddr =    0
 uut->o_data = 889 , num_of_clk_passed = 890
+uut->o_primed = 0
+waddr =  890
+i_trigger = 0
 triggered = 0
-waddr = 1101111010
 primed = 0
-stopped = 0
 this_addr =  889
 raddr =    0
 uut->o_data = 890 , num_of_clk_passed = 891
+uut->o_primed = 0
+waddr =  891
+i_trigger = 0
 triggered = 0
-waddr = 1101111011
 primed = 0
-stopped = 0
 this_addr =  890
 raddr =    0
 uut->o_data = 891 , num_of_clk_passed = 892
+uut->o_primed = 0
+waddr =  892
+i_trigger = 0
 triggered = 0
-waddr = 1101111100
 primed = 0
-stopped = 0
 this_addr =  891
 raddr =    0
 uut->o_data = 892 , num_of_clk_passed = 893
+uut->o_primed = 0
+waddr =  893
+i_trigger = 0
 triggered = 0
-waddr = 1101111101
 primed = 0
-stopped = 0
 this_addr =  892
 raddr =    0
 uut->o_data = 893 , num_of_clk_passed = 894
+uut->o_primed = 0
+waddr =  894
+i_trigger = 0
 triggered = 0
-waddr = 1101111110
 primed = 0
-stopped = 0
 this_addr =  893
 raddr =    0
 uut->o_data = 894 , num_of_clk_passed = 895
+uut->o_primed = 0
+waddr =  895
+i_trigger = 0
 triggered = 0
-waddr = 1101111111
 primed = 0
-stopped = 0
 this_addr =  894
 raddr =    0
 uut->o_data = 895 , num_of_clk_passed = 896
+uut->o_primed = 0
+waddr =  896
+i_trigger = 0
 triggered = 0
-waddr = 1110000000
 primed = 0
-stopped = 0
 this_addr =  895
 raddr =    0
 uut->o_data = 896 , num_of_clk_passed = 897
+uut->o_primed = 0
+waddr =  897
+i_trigger = 0
 triggered = 0
-waddr = 1110000001
 primed = 0
-stopped = 0
 this_addr =  896
 raddr =    0
 uut->o_data = 897 , num_of_clk_passed = 898
+uut->o_primed = 0
+waddr =  898
+i_trigger = 0
 triggered = 0
-waddr = 1110000010
 primed = 0
-stopped = 0
 this_addr =  897
 raddr =    0
 uut->o_data = 898 , num_of_clk_passed = 899
+uut->o_primed = 0
+waddr =  899
+i_trigger = 0
 triggered = 0
-waddr = 1110000011
 primed = 0
-stopped = 0
 this_addr =  898
 raddr =    0
 uut->o_data = 899 , num_of_clk_passed = 900
+uut->o_primed = 0
+waddr =  900
+i_trigger = 0
 triggered = 0
-waddr = 1110000100
 primed = 0
-stopped = 0
 this_addr =  899
 raddr =    0
 uut->o_data = 900 , num_of_clk_passed = 901
+uut->o_primed = 0
+waddr =  901
+i_trigger = 0
 triggered = 0
-waddr = 1110000101
 primed = 0
-stopped = 0
 this_addr =  900
 raddr =    0
 uut->o_data = 901 , num_of_clk_passed = 902
+uut->o_primed = 0
+waddr =  902
+i_trigger = 0
 triggered = 0
-waddr = 1110000110
 primed = 0
-stopped = 0
 this_addr =  901
 raddr =    0
 uut->o_data = 902 , num_of_clk_passed = 903
+uut->o_primed = 0
+waddr =  903
+i_trigger = 0
 triggered = 0
-waddr = 1110000111
 primed = 0
-stopped = 0
 this_addr =  902
 raddr =    0
 uut->o_data = 903 , num_of_clk_passed = 904
+uut->o_primed = 0
+waddr =  904
+i_trigger = 0
 triggered = 0
-waddr = 1110001000
 primed = 0
-stopped = 0
 this_addr =  903
 raddr =    0
 uut->o_data = 904 , num_of_clk_passed = 905
+uut->o_primed = 0
+waddr =  905
+i_trigger = 0
 triggered = 0
-waddr = 1110001001
 primed = 0
-stopped = 0
 this_addr =  904
 raddr =    0
 uut->o_data = 905 , num_of_clk_passed = 906
+uut->o_primed = 0
+waddr =  906
+i_trigger = 0
 triggered = 0
-waddr = 1110001010
 primed = 0
-stopped = 0
 this_addr =  905
 raddr =    0
 uut->o_data = 906 , num_of_clk_passed = 907
+uut->o_primed = 0
+waddr =  907
+i_trigger = 0
 triggered = 0
-waddr = 1110001011
 primed = 0
-stopped = 0
 this_addr =  906
 raddr =    0
 uut->o_data = 907 , num_of_clk_passed = 908
+uut->o_primed = 0
+waddr =  908
+i_trigger = 0
 triggered = 0
-waddr = 1110001100
 primed = 0
-stopped = 0
 this_addr =  907
 raddr =    0
 uut->o_data = 908 , num_of_clk_passed = 909
+uut->o_primed = 0
+waddr =  909
+i_trigger = 0
 triggered = 0
-waddr = 1110001101
 primed = 0
-stopped = 0
 this_addr =  908
 raddr =    0
 uut->o_data = 909 , num_of_clk_passed = 910
+uut->o_primed = 0
+waddr =  910
+i_trigger = 0
 triggered = 0
-waddr = 1110001110
 primed = 0
-stopped = 0
 this_addr =  909
 raddr =    0
 uut->o_data = 910 , num_of_clk_passed = 911
+uut->o_primed = 0
+waddr =  911
+i_trigger = 0
 triggered = 0
-waddr = 1110001111
 primed = 0
-stopped = 0
 this_addr =  910
 raddr =    0
 uut->o_data = 911 , num_of_clk_passed = 912
+uut->o_primed = 0
+waddr =  912
+i_trigger = 0
 triggered = 0
-waddr = 1110010000
 primed = 0
-stopped = 0
 this_addr =  911
 raddr =    0
 uut->o_data = 912 , num_of_clk_passed = 913
+uut->o_primed = 0
+waddr =  913
+i_trigger = 0
 triggered = 0
-waddr = 1110010001
 primed = 0
-stopped = 0
 this_addr =  912
 raddr =    0
 uut->o_data = 913 , num_of_clk_passed = 914
+uut->o_primed = 0
+waddr =  914
+i_trigger = 0
 triggered = 0
-waddr = 1110010010
 primed = 0
-stopped = 0
 this_addr =  913
 raddr =    0
 uut->o_data = 914 , num_of_clk_passed = 915
+uut->o_primed = 0
+waddr =  915
+i_trigger = 0
 triggered = 0
-waddr = 1110010011
 primed = 0
-stopped = 0
 this_addr =  914
 raddr =    0
 uut->o_data = 915 , num_of_clk_passed = 916
+uut->o_primed = 0
+waddr =  916
+i_trigger = 0
 triggered = 0
-waddr = 1110010100
 primed = 0
-stopped = 0
 this_addr =  915
 raddr =    0
 uut->o_data = 916 , num_of_clk_passed = 917
+uut->o_primed = 0
+waddr =  917
+i_trigger = 0
 triggered = 0
-waddr = 1110010101
 primed = 0
-stopped = 0
 this_addr =  916
 raddr =    0
 uut->o_data = 917 , num_of_clk_passed = 918
+uut->o_primed = 0
+waddr =  918
+i_trigger = 0
 triggered = 0
-waddr = 1110010110
 primed = 0
-stopped = 0
 this_addr =  917
 raddr =    0
 uut->o_data = 918 , num_of_clk_passed = 919
+uut->o_primed = 0
+waddr =  919
+i_trigger = 0
 triggered = 0
-waddr = 1110010111
 primed = 0
-stopped = 0
 this_addr =  918
 raddr =    0
 uut->o_data = 919 , num_of_clk_passed = 920
+uut->o_primed = 0
+waddr =  920
+i_trigger = 0
 triggered = 0
-waddr = 1110011000
 primed = 0
-stopped = 0
 this_addr =  919
 raddr =    0
 uut->o_data = 920 , num_of_clk_passed = 921
+uut->o_primed = 0
+waddr =  921
+i_trigger = 0
 triggered = 0
-waddr = 1110011001
 primed = 0
-stopped = 0
 this_addr =  920
 raddr =    0
 uut->o_data = 921 , num_of_clk_passed = 922
+uut->o_primed = 0
+waddr =  922
+i_trigger = 0
 triggered = 0
-waddr = 1110011010
 primed = 0
-stopped = 0
 this_addr =  921
 raddr =    0
 uut->o_data = 922 , num_of_clk_passed = 923
+uut->o_primed = 0
+waddr =  923
+i_trigger = 0
 triggered = 0
-waddr = 1110011011
 primed = 0
-stopped = 0
 this_addr =  922
 raddr =    0
 uut->o_data = 923 , num_of_clk_passed = 924
+uut->o_primed = 0
+waddr =  924
+i_trigger = 0
 triggered = 0
-waddr = 1110011100
 primed = 0
-stopped = 0
 this_addr =  923
 raddr =    0
 uut->o_data = 924 , num_of_clk_passed = 925
+uut->o_primed = 0
+waddr =  925
+i_trigger = 0
 triggered = 0
-waddr = 1110011101
 primed = 0
-stopped = 0
 this_addr =  924
 raddr =    0
 uut->o_data = 925 , num_of_clk_passed = 926
+uut->o_primed = 0
+waddr =  926
+i_trigger = 0
 triggered = 0
-waddr = 1110011110
 primed = 0
-stopped = 0
 this_addr =  925
 raddr =    0
 uut->o_data = 926 , num_of_clk_passed = 927
+uut->o_primed = 0
+waddr =  927
+i_trigger = 0
 triggered = 0
-waddr = 1110011111
 primed = 0
-stopped = 0
 this_addr =  926
 raddr =    0
 uut->o_data = 927 , num_of_clk_passed = 928
+uut->o_primed = 0
+waddr =  928
+i_trigger = 0
 triggered = 0
-waddr = 1110100000
 primed = 0
-stopped = 0
 this_addr =  927
 raddr =    0
 uut->o_data = 928 , num_of_clk_passed = 929
+uut->o_primed = 0
+waddr =  929
+i_trigger = 0
 triggered = 0
-waddr = 1110100001
 primed = 0
-stopped = 0
 this_addr =  928
 raddr =    0
 uut->o_data = 929 , num_of_clk_passed = 930
+uut->o_primed = 0
+waddr =  930
+i_trigger = 0
 triggered = 0
-waddr = 1110100010
 primed = 0
-stopped = 0
 this_addr =  929
 raddr =    0
 uut->o_data = 930 , num_of_clk_passed = 931
+uut->o_primed = 0
+waddr =  931
+i_trigger = 0
 triggered = 0
-waddr = 1110100011
 primed = 0
-stopped = 0
 this_addr =  930
 raddr =    0
 uut->o_data = 931 , num_of_clk_passed = 932
+uut->o_primed = 0
+waddr =  932
+i_trigger = 0
 triggered = 0
-waddr = 1110100100
 primed = 0
-stopped = 0
 this_addr =  931
 raddr =    0
 uut->o_data = 932 , num_of_clk_passed = 933
+uut->o_primed = 0
+waddr =  933
+i_trigger = 0
 triggered = 0
-waddr = 1110100101
 primed = 0
-stopped = 0
 this_addr =  932
 raddr =    0
 uut->o_data = 933 , num_of_clk_passed = 934
+uut->o_primed = 0
+waddr =  934
+i_trigger = 0
 triggered = 0
-waddr = 1110100110
 primed = 0
-stopped = 0
 this_addr =  933
 raddr =    0
 uut->o_data = 934 , num_of_clk_passed = 935
+uut->o_primed = 0
+waddr =  935
+i_trigger = 0
 triggered = 0
-waddr = 1110100111
 primed = 0
-stopped = 0
 this_addr =  934
 raddr =    0
 uut->o_data = 935 , num_of_clk_passed = 936
+uut->o_primed = 0
+waddr =  936
+i_trigger = 0
 triggered = 0
-waddr = 1110101000
 primed = 0
-stopped = 0
 this_addr =  935
 raddr =    0
 uut->o_data = 936 , num_of_clk_passed = 937
+uut->o_primed = 0
+waddr =  937
+i_trigger = 0
 triggered = 0
-waddr = 1110101001
 primed = 0
-stopped = 0
 this_addr =  936
 raddr =    0
 uut->o_data = 937 , num_of_clk_passed = 938
+uut->o_primed = 0
+waddr =  938
+i_trigger = 0
 triggered = 0
-waddr = 1110101010
 primed = 0
-stopped = 0
 this_addr =  937
 raddr =    0
 uut->o_data = 938 , num_of_clk_passed = 939
+uut->o_primed = 0
+waddr =  939
+i_trigger = 0
 triggered = 0
-waddr = 1110101011
 primed = 0
-stopped = 0
 this_addr =  938
 raddr =    0
 uut->o_data = 939 , num_of_clk_passed = 940
+uut->o_primed = 0
+waddr =  940
+i_trigger = 0
 triggered = 0
-waddr = 1110101100
 primed = 0
-stopped = 0
 this_addr =  939
 raddr =    0
 uut->o_data = 940 , num_of_clk_passed = 941
+uut->o_primed = 0
+waddr =  941
+i_trigger = 0
 triggered = 0
-waddr = 1110101101
 primed = 0
-stopped = 0
 this_addr =  940
 raddr =    0
 uut->o_data = 941 , num_of_clk_passed = 942
+uut->o_primed = 0
+waddr =  942
+i_trigger = 0
 triggered = 0
-waddr = 1110101110
 primed = 0
-stopped = 0
 this_addr =  941
 raddr =    0
 uut->o_data = 942 , num_of_clk_passed = 943
+uut->o_primed = 0
+waddr =  943
+i_trigger = 0
 triggered = 0
-waddr = 1110101111
 primed = 0
-stopped = 0
 this_addr =  942
 raddr =    0
 uut->o_data = 943 , num_of_clk_passed = 944
+uut->o_primed = 0
+waddr =  944
+i_trigger = 0
 triggered = 0
-waddr = 1110110000
 primed = 0
-stopped = 0
 this_addr =  943
 raddr =    0
 uut->o_data = 944 , num_of_clk_passed = 945
+uut->o_primed = 0
+waddr =  945
+i_trigger = 0
 triggered = 0
-waddr = 1110110001
 primed = 0
-stopped = 0
 this_addr =  944
 raddr =    0
 uut->o_data = 945 , num_of_clk_passed = 946
+uut->o_primed = 0
+waddr =  946
+i_trigger = 0
 triggered = 0
-waddr = 1110110010
 primed = 0
-stopped = 0
 this_addr =  945
 raddr =    0
 uut->o_data = 946 , num_of_clk_passed = 947
+uut->o_primed = 0
+waddr =  947
+i_trigger = 0
 triggered = 0
-waddr = 1110110011
 primed = 0
-stopped = 0
 this_addr =  946
 raddr =    0
 uut->o_data = 947 , num_of_clk_passed = 948
+uut->o_primed = 0
+waddr =  948
+i_trigger = 0
 triggered = 0
-waddr = 1110110100
 primed = 0
-stopped = 0
 this_addr =  947
 raddr =    0
 uut->o_data = 948 , num_of_clk_passed = 949
+uut->o_primed = 0
+waddr =  949
+i_trigger = 0
 triggered = 0
-waddr = 1110110101
 primed = 0
-stopped = 0
 this_addr =  948
 raddr =    0
 uut->o_data = 949 , num_of_clk_passed = 950
+uut->o_primed = 0
+waddr =  950
+i_trigger = 0
 triggered = 0
-waddr = 1110110110
 primed = 0
-stopped = 0
 this_addr =  949
 raddr =    0
 uut->o_data = 950 , num_of_clk_passed = 951
+uut->o_primed = 0
+waddr =  951
+i_trigger = 0
 triggered = 0
-waddr = 1110110111
 primed = 0
-stopped = 0
 this_addr =  950
 raddr =    0
 uut->o_data = 951 , num_of_clk_passed = 952
+uut->o_primed = 0
+waddr =  952
+i_trigger = 0
 triggered = 0
-waddr = 1110111000
 primed = 0
-stopped = 0
 this_addr =  951
 raddr =    0
 uut->o_data = 952 , num_of_clk_passed = 953
+uut->o_primed = 0
+waddr =  953
+i_trigger = 0
 triggered = 0
-waddr = 1110111001
 primed = 0
-stopped = 0
 this_addr =  952
 raddr =    0
 uut->o_data = 953 , num_of_clk_passed = 954
+uut->o_primed = 0
+waddr =  954
+i_trigger = 0
 triggered = 0
-waddr = 1110111010
 primed = 0
-stopped = 0
 this_addr =  953
 raddr =    0
 uut->o_data = 954 , num_of_clk_passed = 955
+uut->o_primed = 0
+waddr =  955
+i_trigger = 0
 triggered = 0
-waddr = 1110111011
 primed = 0
-stopped = 0
 this_addr =  954
 raddr =    0
 uut->o_data = 955 , num_of_clk_passed = 956
+uut->o_primed = 0
+waddr =  956
+i_trigger = 0
 triggered = 0
-waddr = 1110111100
 primed = 0
-stopped = 0
 this_addr =  955
 raddr =    0
 uut->o_data = 956 , num_of_clk_passed = 957
+uut->o_primed = 0
+waddr =  957
+i_trigger = 0
 triggered = 0
-waddr = 1110111101
 primed = 0
-stopped = 0
 this_addr =  956
 raddr =    0
 uut->o_data = 957 , num_of_clk_passed = 958
+uut->o_primed = 0
+waddr =  958
+i_trigger = 0
 triggered = 0
-waddr = 1110111110
 primed = 0
-stopped = 0
 this_addr =  957
 raddr =    0
 uut->o_data = 958 , num_of_clk_passed = 959
+uut->o_primed = 0
+waddr =  959
+i_trigger = 0
 triggered = 0
-waddr = 1110111111
 primed = 0
-stopped = 0
 this_addr =  958
 raddr =    0
 uut->o_data = 959 , num_of_clk_passed = 960
+uut->o_primed = 0
+waddr =  960
+i_trigger = 0
 triggered = 0
-waddr = 1111000000
 primed = 0
-stopped = 0
 this_addr =  959
 raddr =    0
 uut->o_data = 960 , num_of_clk_passed = 961
+uut->o_primed = 0
+waddr =  961
+i_trigger = 0
 triggered = 0
-waddr = 1111000001
 primed = 0
-stopped = 0
 this_addr =  960
 raddr =    0
 uut->o_data = 961 , num_of_clk_passed = 962
+uut->o_primed = 0
+waddr =  962
+i_trigger = 0
 triggered = 0
-waddr = 1111000010
 primed = 0
-stopped = 0
 this_addr =  961
 raddr =    0
 uut->o_data = 962 , num_of_clk_passed = 963
+uut->o_primed = 0
+waddr =  963
+i_trigger = 0
 triggered = 0
-waddr = 1111000011
 primed = 0
-stopped = 0
 this_addr =  962
 raddr =    0
 uut->o_data = 963 , num_of_clk_passed = 964
+uut->o_primed = 0
+waddr =  964
+i_trigger = 0
 triggered = 0
-waddr = 1111000100
 primed = 0
-stopped = 0
 this_addr =  963
 raddr =    0
 uut->o_data = 964 , num_of_clk_passed = 965
+uut->o_primed = 0
+waddr =  965
+i_trigger = 0
 triggered = 0
-waddr = 1111000101
 primed = 0
-stopped = 0
 this_addr =  964
 raddr =    0
 uut->o_data = 965 , num_of_clk_passed = 966
+uut->o_primed = 0
+waddr =  966
+i_trigger = 0
 triggered = 0
-waddr = 1111000110
 primed = 0
-stopped = 0
 this_addr =  965
 raddr =    0
 uut->o_data = 966 , num_of_clk_passed = 967
+uut->o_primed = 0
+waddr =  967
+i_trigger = 0
 triggered = 0
-waddr = 1111000111
 primed = 0
-stopped = 0
 this_addr =  966
 raddr =    0
 uut->o_data = 967 , num_of_clk_passed = 968
+uut->o_primed = 0
+waddr =  968
+i_trigger = 0
 triggered = 0
-waddr = 1111001000
 primed = 0
-stopped = 0
 this_addr =  967
 raddr =    0
 uut->o_data = 968 , num_of_clk_passed = 969
+uut->o_primed = 0
+waddr =  969
+i_trigger = 0
 triggered = 0
-waddr = 1111001001
 primed = 0
-stopped = 0
 this_addr =  968
 raddr =    0
 uut->o_data = 969 , num_of_clk_passed = 970
+uut->o_primed = 0
+waddr =  970
+i_trigger = 0
 triggered = 0
-waddr = 1111001010
 primed = 0
-stopped = 0
 this_addr =  969
 raddr =    0
 uut->o_data = 970 , num_of_clk_passed = 971
+uut->o_primed = 0
+waddr =  971
+i_trigger = 0
 triggered = 0
-waddr = 1111001011
 primed = 0
-stopped = 0
 this_addr =  970
 raddr =    0
 uut->o_data = 971 , num_of_clk_passed = 972
+uut->o_primed = 0
+waddr =  972
+i_trigger = 0
 triggered = 0
-waddr = 1111001100
 primed = 0
-stopped = 0
 this_addr =  971
 raddr =    0
 uut->o_data = 972 , num_of_clk_passed = 973
+uut->o_primed = 0
+waddr =  973
+i_trigger = 0
 triggered = 0
-waddr = 1111001101
 primed = 0
-stopped = 0
 this_addr =  972
 raddr =    0
 uut->o_data = 973 , num_of_clk_passed = 974
+uut->o_primed = 0
+waddr =  974
+i_trigger = 0
 triggered = 0
-waddr = 1111001110
 primed = 0
-stopped = 0
 this_addr =  973
 raddr =    0
 uut->o_data = 974 , num_of_clk_passed = 975
+uut->o_primed = 0
+waddr =  975
+i_trigger = 0
 triggered = 0
-waddr = 1111001111
 primed = 0
-stopped = 0
 this_addr =  974
 raddr =    0
 uut->o_data = 975 , num_of_clk_passed = 976
+uut->o_primed = 0
+waddr =  976
+i_trigger = 0
 triggered = 0
-waddr = 1111010000
 primed = 0
-stopped = 0
 this_addr =  975
 raddr =    0
 uut->o_data = 976 , num_of_clk_passed = 977
+uut->o_primed = 0
+waddr =  977
+i_trigger = 0
 triggered = 0
-waddr = 1111010001
 primed = 0
-stopped = 0
 this_addr =  976
 raddr =    0
 uut->o_data = 977 , num_of_clk_passed = 978
+uut->o_primed = 0
+waddr =  978
+i_trigger = 0
 triggered = 0
-waddr = 1111010010
 primed = 0
-stopped = 0
 this_addr =  977
 raddr =    0
 uut->o_data = 978 , num_of_clk_passed = 979
+uut->o_primed = 0
+waddr =  979
+i_trigger = 0
 triggered = 0
-waddr = 1111010011
 primed = 0
-stopped = 0
 this_addr =  978
 raddr =    0
 uut->o_data = 979 , num_of_clk_passed = 980
+uut->o_primed = 0
+waddr =  980
+i_trigger = 0
 triggered = 0
-waddr = 1111010100
 primed = 0
-stopped = 0
 this_addr =  979
 raddr =    0
 uut->o_data = 980 , num_of_clk_passed = 981
+uut->o_primed = 0
+waddr =  981
+i_trigger = 0
 triggered = 0
-waddr = 1111010101
 primed = 0
-stopped = 0
 this_addr =  980
 raddr =    0
 uut->o_data = 981 , num_of_clk_passed = 982
+uut->o_primed = 0
+waddr =  982
+i_trigger = 0
 triggered = 0
-waddr = 1111010110
 primed = 0
-stopped = 0
 this_addr =  981
 raddr =    0
 uut->o_data = 982 , num_of_clk_passed = 983
+uut->o_primed = 0
+waddr =  983
+i_trigger = 0
 triggered = 0
-waddr = 1111010111
 primed = 0
-stopped = 0
 this_addr =  982
 raddr =    0
 uut->o_data = 983 , num_of_clk_passed = 984
+uut->o_primed = 0
+waddr =  984
+i_trigger = 0
 triggered = 0
-waddr = 1111011000
 primed = 0
-stopped = 0
 this_addr =  983
 raddr =    0
 uut->o_data = 984 , num_of_clk_passed = 985
+uut->o_primed = 0
+waddr =  985
+i_trigger = 0
 triggered = 0
-waddr = 1111011001
 primed = 0
-stopped = 0
 this_addr =  984
 raddr =    0
 uut->o_data = 985 , num_of_clk_passed = 986
+uut->o_primed = 0
+waddr =  986
+i_trigger = 0
 triggered = 0
-waddr = 1111011010
 primed = 0
-stopped = 0
 this_addr =  985
 raddr =    0
 uut->o_data = 986 , num_of_clk_passed = 987
+uut->o_primed = 0
+waddr =  987
+i_trigger = 0
 triggered = 0
-waddr = 1111011011
 primed = 0
-stopped = 0
 this_addr =  986
 raddr =    0
 uut->o_data = 987 , num_of_clk_passed = 988
+uut->o_primed = 0
+waddr =  988
+i_trigger = 0
 triggered = 0
-waddr = 1111011100
 primed = 0
-stopped = 0
 this_addr =  987
 raddr =    0
 uut->o_data = 988 , num_of_clk_passed = 989
+uut->o_primed = 0
+waddr =  989
+i_trigger = 0
 triggered = 0
-waddr = 1111011101
 primed = 0
-stopped = 0
 this_addr =  988
 raddr =    0
 uut->o_data = 989 , num_of_clk_passed = 990
+uut->o_primed = 0
+waddr =  990
+i_trigger = 0
 triggered = 0
-waddr = 1111011110
 primed = 0
-stopped = 0
 this_addr =  989
 raddr =    0
 uut->o_data = 990 , num_of_clk_passed = 991
+uut->o_primed = 0
+waddr =  991
+i_trigger = 0
 triggered = 0
-waddr = 1111011111
 primed = 0
-stopped = 0
 this_addr =  990
 raddr =    0
 uut->o_data = 991 , num_of_clk_passed = 992
+uut->o_primed = 0
+waddr =  992
+i_trigger = 0
 triggered = 0
-waddr = 1111100000
 primed = 0
-stopped = 0
 this_addr =  991
 raddr =    0
 uut->o_data = 992 , num_of_clk_passed = 993
+uut->o_primed = 0
+waddr =  993
+i_trigger = 0
 triggered = 0
-waddr = 1111100001
 primed = 0
-stopped = 0
 this_addr =  992
 raddr =    0
 uut->o_data = 993 , num_of_clk_passed = 994
+uut->o_primed = 0
+waddr =  994
+i_trigger = 0
 triggered = 0
-waddr = 1111100010
 primed = 0
-stopped = 0
 this_addr =  993
 raddr =    0
 uut->o_data = 994 , num_of_clk_passed = 995
+uut->o_primed = 0
+waddr =  995
+i_trigger = 0
 triggered = 0
-waddr = 1111100011
 primed = 0
-stopped = 0
 this_addr =  994
 raddr =    0
 uut->o_data = 995 , num_of_clk_passed = 996
+uut->o_primed = 0
+waddr =  996
+i_trigger = 0
 triggered = 0
-waddr = 1111100100
 primed = 0
-stopped = 0
 this_addr =  995
 raddr =    0
 uut->o_data = 996 , num_of_clk_passed = 997
+uut->o_primed = 0
+waddr =  997
+i_trigger = 0
 triggered = 0
-waddr = 1111100101
 primed = 0
-stopped = 0
 this_addr =  996
 raddr =    0
 uut->o_data = 997 , num_of_clk_passed = 998
+uut->o_primed = 0
+waddr =  998
+i_trigger = 0
 triggered = 0
-waddr = 1111100110
 primed = 0
-stopped = 0
 this_addr =  997
 raddr =    0
 uut->o_data = 998 , num_of_clk_passed = 999
+uut->o_primed = 0
+waddr =  999
+i_trigger = 0
 triggered = 0
-waddr = 1111100111
 primed = 0
-stopped = 0
 this_addr =  998
 raddr =    0
 uut->o_data = 999 , num_of_clk_passed = 1000
+uut->o_primed = 0
+waddr = 1000
+i_trigger = 0
 triggered = 0
-waddr = 1111101000
 primed = 0
-stopped = 0
 this_addr =  999
 raddr =    0
 uut->o_data = 1000 , num_of_clk_passed = 1001
+uut->o_primed = 0
+waddr = 1001
+i_trigger = 0
 triggered = 0
-waddr = 1111101001
 primed = 0
-stopped = 0
 this_addr = 1000
 raddr =    0
 uut->o_data = 1001 , num_of_clk_passed = 1002
+uut->o_primed = 0
+waddr = 1002
+i_trigger = 0
 triggered = 0
-waddr = 1111101010
 primed = 0
-stopped = 0
 this_addr = 1001
 raddr =    0
 uut->o_data = 1002 , num_of_clk_passed = 1003
+uut->o_primed = 0
+waddr = 1003
+i_trigger = 0
 triggered = 0
-waddr = 1111101011
 primed = 0
-stopped = 0
 this_addr = 1002
 raddr =    0
 uut->o_data = 1003 , num_of_clk_passed = 1004
+uut->o_primed = 0
+waddr = 1004
+i_trigger = 0
 triggered = 0
-waddr = 1111101100
 primed = 0
-stopped = 0
 this_addr = 1003
 raddr =    0
 uut->o_data = 1004 , num_of_clk_passed = 1005
+uut->o_primed = 0
+waddr = 1005
+i_trigger = 0
 triggered = 0
-waddr = 1111101101
 primed = 0
-stopped = 0
 this_addr = 1004
 raddr =    0
 uut->o_data = 1005 , num_of_clk_passed = 1006
+uut->o_primed = 0
+waddr = 1006
+i_trigger = 0
 triggered = 0
-waddr = 1111101110
 primed = 0
-stopped = 0
 this_addr = 1005
 raddr =    0
 uut->o_data = 1006 , num_of_clk_passed = 1007
+uut->o_primed = 0
+waddr = 1007
+i_trigger = 0
 triggered = 0
-waddr = 1111101111
 primed = 0
-stopped = 0
 this_addr = 1006
 raddr =    0
 uut->o_data = 1007 , num_of_clk_passed = 1008
+uut->o_primed = 0
+waddr = 1008
+i_trigger = 0
 triggered = 0
-waddr = 1111110000
 primed = 0
-stopped = 0
 this_addr = 1007
 raddr =    0
 uut->o_data = 1008 , num_of_clk_passed = 1009
+uut->o_primed = 0
+waddr = 1009
+i_trigger = 0
 triggered = 0
-waddr = 1111110001
 primed = 0
-stopped = 0
 this_addr = 1008
 raddr =    0
 uut->o_data = 1009 , num_of_clk_passed = 1010
+uut->o_primed = 0
+waddr = 1010
+i_trigger = 0
 triggered = 0
-waddr = 1111110010
 primed = 0
-stopped = 0
 this_addr = 1009
 raddr =    0
 uut->o_data = 1010 , num_of_clk_passed = 1011
+uut->o_primed = 0
+waddr = 1011
+i_trigger = 0
 triggered = 0
-waddr = 1111110011
 primed = 0
-stopped = 0
 this_addr = 1010
 raddr =    0
 uut->o_data = 1011 , num_of_clk_passed = 1012
+uut->o_primed = 0
+waddr = 1012
+i_trigger = 0
 triggered = 0
-waddr = 1111110100
 primed = 0
-stopped = 0
 this_addr = 1011
 raddr =    0
 uut->o_data = 1012 , num_of_clk_passed = 1013
+uut->o_primed = 0
+waddr = 1013
+i_trigger = 0
 triggered = 0
-waddr = 1111110101
 primed = 0
-stopped = 0
 this_addr = 1012
 raddr =    0
 uut->o_data = 1013 , num_of_clk_passed = 1014
+uut->o_primed = 0
+waddr = 1014
+i_trigger = 0
 triggered = 0
-waddr = 1111110110
 primed = 0
-stopped = 0
 this_addr = 1013
 raddr =    0
 uut->o_data = 1014 , num_of_clk_passed = 1015
+uut->o_primed = 0
+waddr = 1015
+i_trigger = 0
 triggered = 0
-waddr = 1111110111
 primed = 0
-stopped = 0
 this_addr = 1014
 raddr =    0
 uut->o_data = 1015 , num_of_clk_passed = 1016
+uut->o_primed = 0
+waddr = 1016
+i_trigger = 0
 triggered = 0
-waddr = 1111111000
 primed = 0
-stopped = 0
 this_addr = 1015
 raddr =    0
 uut->o_data = 1016 , num_of_clk_passed = 1017
+uut->o_primed = 0
+waddr = 1017
+i_trigger = 0
 triggered = 0
-waddr = 1111111001
 primed = 0
-stopped = 0
 this_addr = 1016
 raddr =    0
 uut->o_data = 1017 , num_of_clk_passed = 1018
+uut->o_primed = 0
+waddr = 1018
+i_trigger = 0
 triggered = 0
-waddr = 1111111010
 primed = 0
-stopped = 0
 this_addr = 1017
 raddr =    0
 uut->o_data = 1018 , num_of_clk_passed = 1019
+uut->o_primed = 0
+waddr = 1019
+i_trigger = 0
 triggered = 0
-waddr = 1111111011
 primed = 0
-stopped = 0
 this_addr = 1018
 raddr =    0
 uut->o_data = 1019 , num_of_clk_passed = 1020
+uut->o_primed = 0
+waddr = 1020
+i_trigger = 0
 triggered = 0
-waddr = 1111111100
 primed = 0
-stopped = 0
 this_addr = 1019
 raddr =    0
 uut->o_data = 1020 , num_of_clk_passed = 1021
+uut->o_primed = 0
+waddr = 1021
+i_trigger = 0
 triggered = 0
-waddr = 1111111101
 primed = 0
-stopped = 0
 this_addr = 1020
 raddr =    0
 uut->o_data = 1021 , num_of_clk_passed = 1022
+uut->o_primed = 0
+waddr = 1022
+i_trigger = 0
 triggered = 0
-waddr = 1111111110
 primed = 0
-stopped = 0
 this_addr = 1021
 raddr =    0
 uut->o_data = 1022 , num_of_clk_passed = 1023
+uut->o_primed = 0
+waddr = 1023
+i_trigger = 0
 triggered = 0
-waddr = 1111111111
 primed = 0
-stopped = 0
 this_addr = 1022
 raddr =    0
 uut->o_data = 1023 , num_of_clk_passed = 1024
+uut->o_primed = 1
+waddr =    0
+i_trigger = 1
 triggered = 0
-stopped = 0
 this_addr = 1023
 raddr =    0
 uut->o_data = 1024 , num_of_clk_passed = 1025
+uut->o_primed = 1
+waddr =    1
+i_trigger = 0
 triggered = 1
 stopped = 0
 this_addr =    0
 raddr =    0
 uut->o_data = 1025 , num_of_clk_passed = 1026
+uut->o_primed = 1
+waddr =    2
+i_trigger = 0
 triggered = 0
-stopped = 1
 this_addr =    1
 raddr =    0
 uut->o_data = 1026 , num_of_clk_passed = 1027
+uut->o_primed = 1
+waddr =    2
+i_trigger = 0
 triggered = 0
-stopped = 0
-this_addr =    3
+this_addr =    2
 raddr =    1
-uut->o_data = 4 , num_of_clk_passed = 1028
+uut->o_data = 3 , num_of_clk_passed = 1028
+uut->o_primed = 1
 Data in the circular buffer is not correct for buffer items at 3

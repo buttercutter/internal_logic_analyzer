@@ -13,8 +13,10 @@ always @(posedge clk)
 begin
     if (reset) 	
 	waddr <= 0;
-    else
+    else begin
 	waddr <= waddr + `ADDR_WIDTH'(write_enable);   // if write is enabled, then waddr++
+	$display("waddr = %d" , waddr);
+    end
 end
 
 always @(posedge clk)
@@ -28,7 +30,6 @@ begin
     if (reset)	
 	primed <= 1'b0;		// memory is not initialized
     else if (!primed) begin 
-	$display("waddr = %b" , waddr);
 	primed <= &waddr;	// the very *first*(!primed) wrapping around (&waddr) of address space
 	$display("primed = ", primed); 
     end
