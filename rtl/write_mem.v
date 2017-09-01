@@ -21,6 +21,7 @@ end
 
 always @(posedge clk)
 begin
+    $display("i_data = %d" , i_data);
     if (write_enable)	
 	memory[waddr] <= i_data;
 end

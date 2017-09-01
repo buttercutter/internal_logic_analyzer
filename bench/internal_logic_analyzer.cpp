@@ -115,7 +115,7 @@ int main(int argc, char** argv)
 
     unsigned int counter = 0;  // this is the test signal we are going to record into circular buffer
 
-    uut->i_holdoff = 0;//BUFFER_SIZE/2;
+    uut->i_holdoff = 20;//BUFFER_SIZE/2;
     uut->clk = 0;
     uut->eval();
 
