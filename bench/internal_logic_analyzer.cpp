@@ -88,7 +88,7 @@ bool test_buffer()
     	}    
     }
 
-    if (num_of_clk_passed < BUFFER_SIZE + ALIGNMENT_DELAY) {  
+    if (num_of_clk_passed <= BUFFER_SIZE + ALIGNMENT_DELAY) {  
         // test for primed condition
     	if (!((int)uut->o_primed) && (uut->i_trigger) && (uut->i_holdoff == 0)) {
 	    cout << "Memory is not yet fully initialized. Scope could not stop recording at this point of time" << endl;
