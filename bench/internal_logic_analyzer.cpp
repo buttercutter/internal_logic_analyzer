@@ -21,7 +21,10 @@ VerilatedVcdC* tfp = NULL;
 
 vluint64_t time_ps = 0;       // Current simulation time
 
-static const double BUFFER_SIZE = 1024;
+static const double BUFFER_SIZE = 1024;		// size of circular buffer
+static const unsigned int USER_HOLDOFF = 10;	// same value as i_holdoff
+static const unsigned int ALIGNMENT_DELAY = 3;	// due to data stream alignment with i_trigger signal
+
 static double num_of_clk_passed = 0;  // for checking buffer counter data correctness
 
 double sc_time_stamp () {       // Called by $time in Verilog
@@ -64,17 +67,28 @@ void cout_debug_msg()
     cout << "uut->o_primed = " << (int)uut->o_primed << endl; 
 }
 
+// for debugging/development purpose only
+void print_buffer_data()
+{
+    cout << "Printing buffer data !" << endl;
+    for (int k=0; k<BUFFER_SIZE; k++)
+    {
+	cout << uut->internal_logic_analyzer__DOT____Vcellout__wr__memory[k] << endl;
+    }
+}
+
+
 bool test_buffer()
 {
-    if ((num_of_clk_passed >= BUFFER_SIZE) && (num_of_clk_passed <= 2*BUFFER_SIZE)) {
+    if ((num_of_clk_passed >= BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + 1) && (num_of_clk_passed <= 2*BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY)) {
     	// test for counter data correctness in the circular buffer
-    	if (uut->o_data != (num_of_clk_passed-1)) {	
+    	if (((int)uut->o_data + BUFFER_SIZE + ALIGNMENT_DELAY) != (num_of_clk_passed-1)) {	
 	    cout << "Data in the circular buffer is not correct for buffer items at " << (fmod(num_of_clk_passed , (BUFFER_SIZE+1))) << endl;
 	    return false;
     	}    
     }
 
-    if (num_of_clk_passed < BUFFER_SIZE) {
+    if (num_of_clk_passed < BUFFER_SIZE + ALIGNMENT_DELAY) {  
         // test for primed condition
     	if (!((int)uut->o_primed) && (uut->i_trigger) && (uut->i_holdoff == 0)) {
 	    cout << "Memory is not yet fully initialized. Scope could not stop recording at this point of time" << endl;
@@ -115,7 +129,7 @@ int main(int argc, char** argv)
 
     unsigned int counter = 0;  // this is the test signal we are going to record into circular buffer
 
-    uut->i_holdoff = 20;//BUFFER_SIZE/2;
+    uut->i_holdoff = USER_HOLDOFF;
     uut->clk = 0;
     uut->eval();
 
@@ -132,8 +146,10 @@ int main(int argc, char** argv)
 	// test for correct recording operation by reading out the data in circular buffer after (BUFFER_SIZE)th clock cycles
 	bool buffer_is_ok = test_buffer();
 
-	if (!(buffer_is_ok) || (num_of_clk_passed == 2*BUFFER_SIZE)) break;
-	
+	if (!(buffer_is_ok) || (num_of_clk_passed == 2*BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY)) {
+	    print_buffer_data(); // for debugging/development purpose only
+	    break;
+	}
     }
 
     uut->final();               // Done simulating

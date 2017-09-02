@@ -12,11 +12,12 @@ output o_primed;	// '1' indicates memory has been initialized, '0' indicates oth
 
 wire [(`ADDR_WIDTH-1) : 0] waddr;	// memory address for writing purpose
 wire stopped; 	// just a stop flag for stopping memory writing
+wire [(`DATA_WIDTH-1) : 0] data;   // to hold the delayed data stream
 
 reg [(`DATA_WIDTH-1) : 0] ram [(`MEMORY_SIZE-1) : 0]; 	// memory used as circular buffer
 
 // Writing into a circular buffer
-write_mem wr (.clk(clk), .reset(reset), .write_enable(!stopped), .i_data(i_data), .waddr(waddr), .memory(ram), .primed(o_primed)); 
+write_mem wr (.clk(clk), .reset(reset), .write_enable(!stopped), .data(data), .waddr(waddr), .memory(ram), .primed(o_primed)); 
 
 // Reading from a circular buffer
 read_mem rd (.clk(clk), .reset(reset), .read_enable(stopped), .waddr(waddr), .memory(ram), .o_data(o_data));
@@ -25,7 +26,7 @@ read_mem rd (.clk(clk), .reset(reset), .read_enable(stopped), .waddr(waddr), .me
 stop st (.clk(clk), .reset(reset), .primed(o_primed), .i_trigger(i_trigger), .i_holdoff(i_holdoff), .stopped(stopped));
 
 // Adjust the delay for data stream so the triggered and stopped signal lie in the right place, So that when the memory writer stops writing, it stops writing on the correct value.  i.e. A phase calibration
-delay dly (.clk(clk), );
+delay dly (.clk(clk), .i_data(i_data), .data(data));
 
 endmodule
 

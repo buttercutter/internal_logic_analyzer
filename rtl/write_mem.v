@@ -1,9 +1,9 @@
 `include "define.v"
 
-module write_mem (clk, reset, write_enable, i_data, waddr, memory, primed);
+module write_mem (clk, reset, write_enable, data, waddr, memory, primed);
 
 input clk, reset, write_enable;
-input [(`DATA_WIDTH-1) : 0] i_data;
+input [(`DATA_WIDTH-1) : 0] data;
 
 output reg primed = 0;	// to signal whether *all* memory locations have been initialized (written to before) or not
 output reg [(`ADDR_WIDTH-1) : 0] waddr;	// address for memory(buffer) writing
@@ -21,9 +21,9 @@ end
 
 always @(posedge clk)
 begin
-    $display("i_data = %d" , i_data);
+    $display("data = %d" , data);
     if (write_enable)	
-	memory[waddr] <= i_data;
+	memory[waddr] <= data;
 end
 
 always @(posedge clk)
