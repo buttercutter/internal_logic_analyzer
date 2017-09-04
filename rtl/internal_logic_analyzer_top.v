@@ -2,7 +2,7 @@
 
 `include "define.v"
 
-module internal_logic_analyzer(clk, reset, i_trigger, i_holdoff, i_data, o_data, o_primed);  // Used to **log** or write internal FPGA signals into memory
+module internal_logic_analyzer_top(clk, reset, i_trigger, i_holdoff, i_data, o_data, o_primed);  // Used to **log** or write internal FPGA signals into memory
 
 input clk, reset, i_trigger;   	// clock, reset(to signal start writing) and trigger(to signal stop writing) input signals
 input [(`HOLDOFF_WIDTH-1) : 0] i_holdoff;	// a programmable user holdoff value that determines how much more to write upon receiving trigger signal before stopping memory write

@@ -67,16 +67,16 @@ void cout_debug_msg()
     cout << "uut->o_primed = " << (int)uut->o_primed << endl; 
 }
 
-// for debugging/development purpose only
+/* for debugging/development purpose only
 void print_buffer_data()
 {
     cout << "Printing buffer data !" << endl;
     for (int k=0; k<BUFFER_SIZE; k++)
     {
-	cout << uut->internal_logic_analyzer__DOT____Vcellout__wr__memory[k] << endl;
+	cout << uut->internal_logic_analyzer_top__DOT____Vcellout__wr__memory[k] << endl;
     }
 }
-
+*/
 
 bool test_buffer()
 {
@@ -95,11 +95,6 @@ bool test_buffer()
 	    return false;
 	}
     }
-
-    // test for trigger location
-    //if () {
-	//return false;
-    //}
 
     return true;
 }
@@ -147,7 +142,7 @@ int main(int argc, char** argv)
 	bool buffer_is_ok = test_buffer();
 
 	if (!(buffer_is_ok) || (num_of_clk_passed == 2*BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY)) {
-	    print_buffer_data(); // for debugging/development purpose only
+	    //print_buffer_data(); // for debugging/development purpose only
 	    break;
 	}
     }

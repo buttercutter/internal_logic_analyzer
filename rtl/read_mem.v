@@ -21,7 +21,7 @@ end
 
 always @(posedge clk)
 begin
-    $display("this_addr = %d" , this_addr); $display("raddr = %d" , raddr);
+    //$display("this_addr = %d" , this_addr); $display("raddr = %d" , raddr);
     this_addr <= raddr + waddr;// + `ADDR_WIDTH'(read_enable);	// this_addr (read pointer) starts at the next waddr (write pointer).  if read is enabled, this_addr is incremented by '1' (pre-compute the next read pointer)
     o_data <= memory[this_addr];
 end						

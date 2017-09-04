@@ -15,13 +15,13 @@ begin
 	waddr <= 0;
     else begin
 	waddr <= waddr + `ADDR_WIDTH'(write_enable);   // if write is enabled, then waddr++
-	$display("waddr = %d" , waddr);
+	//$display("waddr = %d" , waddr);
     end
 end
 
 always @(posedge clk)
 begin
-    $display("data = %d" , data);
+    //$display("data = %d" , data);
     if (write_enable)	
 	memory[waddr] <= data;
 end
@@ -32,7 +32,7 @@ begin
 	primed <= 1'b0;		// memory is not initialized
     else if (!primed) begin 
 	primed <= &waddr;	// the very *first*(!primed) wrapping around (&waddr) of address space
-	$display("primed = ", primed); 
+	//$display("primed = ", primed); 
     end
 end
 
