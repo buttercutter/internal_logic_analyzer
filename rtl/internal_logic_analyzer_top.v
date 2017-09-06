@@ -26,7 +26,7 @@ read_mem rd (.clk(clk), .reset(reset), .read_enable(stopped), .waddr(waddr), .me
 stop st (.clk(clk), .reset(reset), .primed(o_primed), .i_trigger(i_trigger), .i_holdoff(i_holdoff), .stopped(stopped));
 
 // Adjust the delay for data stream so the triggered and stopped signal lie in the right place, So that when the memory writer stops writing, it stops writing on the correct value.  i.e. A phase calibration
-delay dly (.clk(clk), .i_data(i_data), .data(data));
+delay dly (.clk(clk), .reset(reset), .i_data(i_data), .data(data));
 
 endmodule
 

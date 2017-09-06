@@ -12,8 +12,8 @@ reg [(`HOLDOFF_WIDTH-1) : 0] holdoff_counter = 0;
 
 always @(posedge clk)
 begin
-    //$display("i_trigger = " , i_trigger);
-    //$display("triggered = " , triggered);
+    $display("i_trigger = " , i_trigger);
+    $display("triggered = " , triggered);
     if (reset)	
 	triggered <= 1'b0;
     else if ((i_trigger) && (primed)) 
@@ -30,7 +30,7 @@ end
 
 always @(posedge clk)
 begin
-    //$display("stopped = " , stopped);
+    $display("stopped = " , stopped);
     if (reset)
 	stopped <= 0;
     else if (!stopped)

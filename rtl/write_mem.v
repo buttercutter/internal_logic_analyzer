@@ -11,12 +11,11 @@ output reg [(`DATA_WIDTH-1) : 0] memory [(`MEMORY_SIZE-1) : 0];
 
 always @(posedge clk)
 begin
+    $display("waddr = %d" , waddr);
     if (reset) 	
 	waddr <= 0;
-    else begin
+    else
 	waddr <= waddr + `ADDR_WIDTH'(write_enable);   // if write is enabled, then waddr++
-	//$display("waddr = %d" , waddr);
-    end
 end
 
 always @(posedge clk)
@@ -28,12 +27,11 @@ end
 
 always @(posedge clk)
 begin
+    $display("primed = ", primed);
     if (reset)	
 	primed <= 1'b0;		// memory is not initialized
-    else if (!primed) begin 
-	primed <= &waddr;	// the very *first*(!primed) wrapping around (&waddr) of address space
-	//$display("primed = ", primed); 
-    end
+    else if (!primed) 
+	primed <= &waddr;	// the very *first*(!primed) wrapping around (&waddr) of address space 
 end
 
 endmodule
