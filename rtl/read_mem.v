@@ -13,7 +13,7 @@ reg [(`ADDR_WIDTH-1) : 0] this_addr;
 
 always @(posedge clk)
 begin
-    $display("raddr = %d" , raddr);
+    //$display("raddr = %d" , raddr);
     if (reset)
 	raddr <= 0;
     else 
@@ -24,8 +24,8 @@ always @(posedge clk)
 begin
     this_addr <= raddr + waddr;// + `ADDR_WIDTH'(read_enable);	// this_addr (read pointer) starts at the next waddr (write pointer).  if read is enabled, this_addr is incremented by '1' (pre-compute the next read pointer)
     o_data <= memory[this_addr];
-    $display("this_addr = %d" , this_addr);
-    $display("o_data = %d" , o_data);
+    //$display("this_addr = %d" , this_addr);
+    //$display("o_data = %d" , o_data);
 end						
 
 endmodule

@@ -11,7 +11,7 @@ DEBUG_ON = --debug --trace-dups --gdbbt
 VALGRIND_ON = $(DEBUG_ON) --gdb "valgrind -v --leak-check=yes"
 
 $(TARGET):
-	$(PERL) verilator -Wall -I$(RTLSRC) --cc $(DESIGN_FILES) --trace --exe ../$(@).cpp  -Mdir $(@) -CFLAGS "$(CFLAGS)"
+	$(PERL) verilator -Wall -I$(RTLSRC) --cc $(DESIGN_FILES) --trace --exe ../$(@).cpp  -Mdir $(@) -CFLAGS "$(CFLAGS)" 
 	make -C $(@) -f V$(@)_top.mk
 clean:: 
 	rm -rf *.o $(TARGET)

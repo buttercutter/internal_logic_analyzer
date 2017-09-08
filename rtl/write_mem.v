@@ -11,7 +11,7 @@ output reg [(`DATA_WIDTH-1) : 0] memory [(`MEMORY_SIZE-1) : 0];
 
 always @(posedge clk)
 begin
-    $display("waddr = %d" , waddr);
+    //$display("waddr = %d" , waddr);
     if (reset) 	
 	waddr <= 0;
     else
@@ -27,7 +27,7 @@ end
 
 always @(posedge clk)
 begin
-    $display("primed = ", primed);
+    //$display("primed = ", primed);
     if (reset)	
 	primed <= 1'b0;		// memory is not initialized
     else if (!primed) 
