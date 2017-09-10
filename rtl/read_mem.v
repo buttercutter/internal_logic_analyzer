@@ -22,7 +22,7 @@ end
 
 always @(posedge clk)
 begin
-    this_addr <= raddr + waddr;// + `ADDR_WIDTH'(read_enable);	// this_addr (read pointer) starts at the next waddr (write pointer).  if read is enabled, this_addr is incremented by '1' (pre-compute the next read pointer)
+    this_addr <= raddr + waddr + 1;// + `ADDR_WIDTH'(read_enable);	// this_addr (read pointer) starts at the next waddr (write pointer).  if read is enabled, this_addr is incremented by '1' (pre-compute the next read pointer)
     o_data <= memory[this_addr];
     //$display("this_addr = %d" , this_addr);
     //$display("o_data = %d" , o_data);

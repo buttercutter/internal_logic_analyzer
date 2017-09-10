@@ -22,12 +22,14 @@ VerilatedVcdC* tfp = NULL;
 
 vluint64_t time_ps = 0;       // Current simulation time
 
-static const unsigned int BUFFER_SIZE = 1024;		// size of circular buffer
+static const unsigned int BUFFER_SIZE = 8;		// size of circular buffer
 static const unsigned int USER_HOLDOFF = 0;	// same value as i_holdoff
 static const unsigned int ALIGNMENT_DELAY = 3;	// due to data stream alignment with i_trigger signal
-static const unsigned int RESET_TIMING = 30; 	// number of clock cycles between complete stopping of previous logic sampling process and assertion of reset signal
+static const unsigned int RESET_TIMING = 7; 	// number of clock cycles between complete stopping of previous logic sampling process and assertion of reset signal
 static const bool NOT_TEST_PRIMED_CONDITION = true; // used to observe how the code fails in satisfying primed condition for i_trigger.  (false = test primed condition)
+static const unsigned int TRIGGER_POSITION = BUFFER_SIZE + NOT_TEST_PRIMED_CONDITION; // relative position of i_trigger signal in terms of 'num_of_clk_passed'
 
+static unsigned int num_of_reset_done = 0;
 static unsigned int counter = 1;  // this is the test signal we are going to record into circular buffer
 static int num_of_clk_passed = 0;  // for checking buffer counter data correctness
 static bool assert_trigger_now = false;	// a signal that syncs with uut->i_trigger
@@ -38,7 +40,7 @@ double sc_time_stamp () {       // Called by $time in Verilog
 }
 
 void update_clk(void) {
-	cout << "Start of next clock cycle !" << endl;
+	cout << endl << "Start of next clock cycle !" << endl;
 	uut->clk = 0; 
 	uut->eval(); 
 	TRACE_NEGEDGE; 
@@ -77,11 +79,14 @@ void cout_debug_msg()
     cout << "waddr = " << (int)uut->internal_logic_analyzer_top__DOT__waddr << endl;
     cout << "raddr = " << (int)uut->internal_logic_analyzer_top__DOT__rd__DOT__raddr << endl;
     cout << "this_addr = " << (int)uut->internal_logic_analyzer_top__DOT__rd__DOT__this_addr << endl;
-}
+    cout << "shift_reg[0] = " << (int)uut->internal_logic_analyzer_top__DOT__dly__DOT__shift_reg[0] << endl;
+    cout << "shift_reg[1] = " << (int)uut->internal_logic_analyzer_top__DOT__dly__DOT__shift_reg[1] << endl;
+    cout << "data = " << (int)uut->internal_logic_analyzer_top__DOT__data << endl;
+    cout << "i_trigger = " << assert_trigger_now << endl;
 
 // for debugging/development purpose only
-void print_buffer_data()
-{
+// print_buffer_data
+
     const unsigned int ENTRIES_PER_LINE = 25;
     cout << "Printing buffer data !" << endl;
     for (int k=0; k<BUFFER_SIZE; k++)
@@ -92,28 +97,25 @@ void print_buffer_data()
     cout << endl;
 }
 
-
-bool test_buffer()
+void test_buffer()
 {
-    if ((num_of_clk_passed > BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + 1) && (num_of_clk_passed <= 2*BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY)) {
+    if ((num_of_clk_passed >= BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + NOT_TEST_PRIMED_CONDITION) && (num_of_clk_passed < 2*BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + NOT_TEST_PRIMED_CONDITION)) {
     	// test for counter data correctness in the circular buffer
-    	if (((int)uut->o_data + BUFFER_SIZE + ALIGNMENT_DELAY) != (num_of_clk_passed-1)) {	
+    	if (((int)uut->o_data + BUFFER_SIZE + ALIGNMENT_DELAY) != num_of_clk_passed + 1 - (num_of_reset_done > 0)) {	
 	    cout << "Error: Data in the circular buffer is not correct for buffer items at " << (fmod(num_of_clk_passed , (BUFFER_SIZE+1))) << " at clock cycle " << num_of_clk_passed << endl;
-	    print_buffer_data(); // for debugging/development purpose only
-	    return false;
+	    cout_debug_msg(); // for debugging/development purpose only
+	    exit(1);
     	}    
     }
 
-    if (num_of_clk_passed <= BUFFER_SIZE + ALIGNMENT_DELAY + 1) {  
+    if (num_of_clk_passed <= BUFFER_SIZE) {  
         // test for primed condition
     	if (!((int)uut->o_primed) && (assert_trigger_now) && (USER_HOLDOFF == 0)) {
-	    cout << "Error: Memory is not yet fully initialized. Scope could not stop recording at clock cycle " << num_of_clk_passed << endl;
-	    print_buffer_data(); // for debugging/development purpose only
-	    return false;
+	    cout << "Error: Memory is not yet fully initialized. Scope could not accept asserted trigger signal at clock cycle " << num_of_clk_passed << endl;
+	    cout_debug_msg(); // for debugging/development purpose only
+	    exit(1);
 	}
     }
-
-    return true;
 }
 
 int main(int argc, char** argv)
@@ -137,8 +139,6 @@ int main(int argc, char** argv)
         tfp->open(vcdname.c_str());
     }
 
-    unsigned int num_of_reset_done = 0;
-
     uut->i_holdoff = USER_HOLDOFF;
     uut->i_data = counter;
     uut->reset = 0;
@@ -146,25 +146,20 @@ int main(int argc, char** argv)
 
     while (!Verilated::gotFinish())
     { 
-	update_clk();            // Time passes...
+	update_clk();            // Time passes...	
 
-	cout_debug_msg();
-
-	counter = counter + 1;
-	uut->i_data = counter;
-
-	assert_trigger_now = (num_of_clk_passed == BUFFER_SIZE + NOT_TEST_PRIMED_CONDITION) ? 1 : 0;
-	cout << "i_trigger = " << assert_trigger_now << endl;	
+	assert_trigger_now = (num_of_clk_passed == TRIGGER_POSITION) ? 1 : 0; 
 	uut->i_trigger = assert_trigger_now; 
 
 	// test for correct recording operation by reading out the data in circular buffer
-	bool buffer_is_ok = test_buffer();
+	test_buffer();
 
-	if (!(buffer_is_ok) || (num_of_reset_done==3)) break;	
+	if (DEBUG_ENABLED) cout_debug_msg(); // for debugging/development purpose only
 
-	if (DEBUG_ENABLED) print_buffer_data();
+	counter = counter + 1;
+	uut->i_data = counter;
 	
-	if (num_of_clk_passed == 2*BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + RESET_TIMING) {
+	if (num_of_clk_passed == 2*BUFFER_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + RESET_TIMING + NOT_TEST_PRIMED_CONDITION) {
 	    counter = 1;
 	    num_of_clk_passed = 0;
 	    uut->i_data = counter;
@@ -176,12 +171,14 @@ int main(int argc, char** argv)
 	    cout << "uut->reset = 0" << endl;
 	    num_of_reset_done++;
 
-	    cout_debug_msg();
-	    print_buffer_data(); // for debugging/development purpose only
+	    test_buffer();	
+
+	    if (DEBUG_ENABLED) cout_debug_msg(); // for debugging/development purpose only
 
 	    counter = counter + 1;
 	    uut->i_data = counter;
 	}
+	if (num_of_reset_done==3) break;
     }
 
     uut->final();               // Done simulating
