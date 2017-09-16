@@ -5,7 +5,7 @@ module delay (clk, reset, i_data, data);	// simple shift register module to dela
 input clk, reset;
 input [(`DATA_WIDTH-1) : 0] i_data;
 
-output [(`DATA_WIDTH-1) : 0] data;
+output reg [(`DATA_WIDTH-1) : 0] data;
 
 reg [(`DATA_WIDTH-1) : 0] shift_reg [1:0];
 reg had_reset_before = 0;

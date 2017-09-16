@@ -13,8 +13,7 @@ output o_primed;	// '1' indicates memory has been initialized, '0' indicates oth
 wire [(`ADDR_WIDTH-1) : 0] waddr;	// memory address for writing purpose
 wire stopped; 	// just a stop flag for stopping memory writing
 wire [(`DATA_WIDTH-1) : 0] data;   // to hold the delayed data stream
-
-reg [(`DATA_WIDTH-1) : 0] ram [(`MEMORY_SIZE-1) : 0]; 	// memory used as circular buffer
+wire [(`DATA_WIDTH-1) : 0] ram [(`MEMORY_SIZE-1) : 0]; 	// memory used as circular buffer
 
 // Writing into a circular buffer
 write_mem wr (.clk(clk), .reset(reset), .write_enable(!stopped), .data(data), .waddr(waddr), .memory(ram), .primed(o_primed)); 

@@ -17,7 +17,7 @@ begin
     if (reset)
 	raddr <= 0;
     else 
-	raddr <= raddr + {`ADDR_WIDTH{read_enable}};	// if read is enabled, then raddr++
+	raddr <= raddr + `ADDR_WIDTH'(read_enable);	// if read is enabled, then raddr++
 end
 
 always @(posedge clk)

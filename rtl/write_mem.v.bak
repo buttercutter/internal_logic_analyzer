@@ -15,7 +15,7 @@ begin
     if (reset) 	
 	waddr <= 0;
     else
-	waddr <= waddr + {`ADDR_WIDTH{write_enable}};   // if write is enabled, then waddr++
+	waddr <= waddr + `ADDR_WIDTH'(write_enable);   // if write is enabled, then waddr++
 end
 
 always @(posedge clk)
