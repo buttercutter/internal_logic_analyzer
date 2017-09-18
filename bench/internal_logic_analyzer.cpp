@@ -26,8 +26,8 @@ static const unsigned int MEMORY_SIZE = 8;		// size of circular buffer
 static const unsigned int USER_HOLDOFF = 0;	// same value as i_holdoff
 static const unsigned int ALIGNMENT_DELAY = 3;	// due to data stream alignment with i_trigger signal
 static const unsigned int RESET_TIMING = 7; 	// number of clock cycles between complete stopping of previous logic sampling process and assertion of reset signal
-static const bool NOT_TEST_PRIMED_CONDITION = true; // used to observe how the code fails in satisfying primed condition for i_trigger.  (false = test primed condition)
-static const unsigned int TRIGGER_POSITION = MEMORY_SIZE + NOT_TEST_PRIMED_CONDITION; // relative position of i_trigger signal in terms of 'num_of_clk_passed'
+static const bool TEST_PRIMED_CONDITION = false; // used to observe how the code fails in satisfying primed condition for i_trigger.  (true = test primed condition)
+static const unsigned int TRIGGER_POSITION = MEMORY_SIZE - TEST_PRIMED_CONDITION; // relative position of i_trigger signal in terms of 'counter'
 
 static unsigned int num_of_reset_done = 0;
 static unsigned int counter = 1;  // this is the test signal we are going to record into circular buffer
@@ -79,9 +79,8 @@ void cout_debug_msg()
     cout << "waddr = " << (int)uut->internal_logic_analyzer_top__DOT__waddr << endl;
     cout << "raddr = " << (int)uut->internal_logic_analyzer_top__DOT__raddr << endl;
     cout << "this_addr = " << (int)uut->internal_logic_analyzer_top__DOT__rd__DOT__this_addr << endl;
-    cout << "shift_reg[0] = " << (int)uut->internal_logic_analyzer_top__DOT__dly__DOT__shift_reg[0] << endl;
-    cout << "shift_reg[1] = " << (int)uut->internal_logic_analyzer_top__DOT__dly__DOT__shift_reg[1] << endl;
-    cout << "data = " << (int)uut->internal_logic_analyzer_top__DOT__data << endl;
+    cout << "shift_reg = " << (int)uut->internal_logic_analyzer_top__DOT__dly__DOT__shift_reg << endl;
+    cout << "data_delayed = " << (int)uut->internal_logic_analyzer_top__DOT__data_delayed << endl;
     cout << "i_trigger = " << assert_trigger_now << endl;
 
 // for debugging/development purpose only
@@ -99,16 +98,16 @@ void cout_debug_msg()
 
 void test_buffer()
 {
-    if ((num_of_clk_passed > MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + NOT_TEST_PRIMED_CONDITION) && (num_of_clk_passed <= 2*MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + NOT_TEST_PRIMED_CONDITION)) {
+    if ((counter > MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + TEST_PRIMED_CONDITION) && (counter <= 2*MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + TEST_PRIMED_CONDITION)) {
     	// test for counter data correctness in the circular buffer
-    	if (((int)uut->o_data + MEMORY_SIZE + ALIGNMENT_DELAY) != num_of_clk_passed - (num_of_reset_done > 0)) {	
-	    cout << "Error: Data in the circular buffer is not correct for buffer items at " << (fmod(num_of_clk_passed , (MEMORY_SIZE+1))) << " at clock cycle " << num_of_clk_passed << endl;
+    	if (((int)uut->o_data + MEMORY_SIZE + ALIGNMENT_DELAY) != counter) {	
+	    cout << "Error: Data in the circular buffer is not correct for buffer items at " << (fmod(counter , (MEMORY_SIZE+1))) << " at clock cycle " << num_of_clk_passed << endl;
 	    cout_debug_msg(); // for debugging/development purpose only
 	    exit(1);
     	}    
     }
 
-    if (num_of_clk_passed <= MEMORY_SIZE) {  
+    if (counter <= MEMORY_SIZE) {  
         // test for primed condition
     	if (!((int)uut->o_primed) && (assert_trigger_now) && (USER_HOLDOFF == 0)) {
 	    cout << "Error: Memory is not yet fully initialized. Scope could not accept asserted trigger signal at clock cycle " << num_of_clk_passed << endl;
@@ -121,7 +120,7 @@ void test_buffer()
 int main(int argc, char** argv)
 {
     // turn on trace or not?
-    bool vcdTrace = true;
+    bool vcdTrace = false;
 
     Verilated::commandArgs(argc, argv);   // Remember args
     uut = new Vinternal_logic_analyzer_top;   // Create instance
@@ -148,7 +147,7 @@ int main(int argc, char** argv)
     { 
 	update_clk();            // Time passes...	
 
-	assert_trigger_now = (num_of_clk_passed == TRIGGER_POSITION) ? 1 : 0; 
+	assert_trigger_now = (counter == TRIGGER_POSITION) ? 1 : 0; 
 	uut->i_trigger = assert_trigger_now; 
 
 	// test for correct recording operation by reading out the data in circular buffer
@@ -159,7 +158,7 @@ int main(int argc, char** argv)
 	counter = counter + 1;
 	uut->i_data = counter;
 	
-	if (num_of_clk_passed == 2*MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + RESET_TIMING + NOT_TEST_PRIMED_CONDITION) {
+	if (num_of_clk_passed == 2*MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + RESET_TIMING + TEST_PRIMED_CONDITION) {
 	    counter = 1;
 	    num_of_clk_passed = 0;
 	    uut->i_data = counter;

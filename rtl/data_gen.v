@@ -8,7 +8,7 @@ output reg [(`DATA_WIDTH-1) : 0] data = 0;
 always @(posedge clk)
 begin
     if(reset)
-	data <= 0;
+	data <= 1;  // starts from 1 instead of 0
     else 
 	data <= data + 1;
 end

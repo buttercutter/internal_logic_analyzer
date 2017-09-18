@@ -12,7 +12,7 @@ begin
     //$display("{`ADDR_WIDTH{write_enable}} = ", {`ADDR_WIDTH{write_enable}});
     //$display("waddr = %d" , waddr);
     if (reset) 	
-	waddr <= 0;
+	waddr <= 1;
     else
 	waddr <= (write_enable) ? (waddr + 1) : waddr;  // if write is enabled, then waddr++
 end
