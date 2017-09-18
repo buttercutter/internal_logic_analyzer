@@ -1,0 +1,1270 @@
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 0 , num_of_clk_passed = 1
+counter = 1
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 1
+raddr = 0
+this_addr = 0
+shift_reg = 1
+data_delayed = 0
+i_trigger = 0
+Printing buffer data !
+0 0 0 0 0 0 0 0 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 0 , num_of_clk_passed = 2
+counter = 2
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 2
+data_delayed = 1
+i_trigger = 0
+Printing buffer data !
+0 0 0 0 0 0 0 0 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 0 , num_of_clk_passed = 3
+counter = 3
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 3
+raddr = 2
+this_addr = 0
+shift_reg = 3
+data_delayed = 2
+i_trigger = 0
+Printing buffer data !
+0 0 1 0 0 0 0 0 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 4
+counter = 4
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 4
+raddr = 3
+this_addr = 0
+shift_reg = 4
+data_delayed = 3
+i_trigger = 0
+Printing buffer data !
+0 0 1 2 0 0 0 0 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 5
+counter = 5
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 5
+raddr = 4
+this_addr = 0
+shift_reg = 5
+data_delayed = 4
+i_trigger = 0
+Printing buffer data !
+0 0 1 2 3 0 0 0 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 6
+counter = 6
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 6
+raddr = 5
+this_addr = 0
+shift_reg = 6
+data_delayed = 5
+i_trigger = 0
+Printing buffer data !
+0 0 1 2 3 4 0 0 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 7
+counter = 7
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 7
+raddr = 6
+this_addr = 0
+shift_reg = 7
+data_delayed = 6
+i_trigger = 0
+Printing buffer data !
+0 0 1 2 3 4 5 0 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 8
+counter = 8
+uut->o_primed = 1
+triggered = 0
+stopped = 0
+waddr = 0
+raddr = 7
+this_addr = 0
+shift_reg = 8
+data_delayed = 7
+i_trigger = 1
+Printing buffer data !
+0 0 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 9
+counter = 9
+uut->o_primed = 1
+triggered = 1
+stopped = 0
+waddr = 1
+raddr = 0
+this_addr = 0
+shift_reg = 9
+data_delayed = 8
+i_trigger = 0
+Printing buffer data !
+7 0 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 10
+counter = 10
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 10
+data_delayed = 9
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 8 , num_of_clk_passed = 11
+counter = 11
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 2
+this_addr = 1
+shift_reg = 11
+data_delayed = 10
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 12
+counter = 12
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 3
+this_addr = 2
+shift_reg = 12
+data_delayed = 11
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 13
+counter = 13
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 4
+this_addr = 3
+shift_reg = 13
+data_delayed = 12
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 14
+counter = 14
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 5
+this_addr = 4
+shift_reg = 14
+data_delayed = 13
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 15
+counter = 15
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 6
+this_addr = 5
+shift_reg = 15
+data_delayed = 14
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 16
+counter = 16
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 7
+this_addr = 6
+shift_reg = 16
+data_delayed = 15
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 17
+counter = 17
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 0
+this_addr = 7
+shift_reg = 17
+data_delayed = 16
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 18
+counter = 18
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 18
+data_delayed = 17
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 8 , num_of_clk_passed = 19
+counter = 19
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 2
+this_addr = 1
+shift_reg = 19
+data_delayed = 18
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 20
+counter = 20
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 3
+this_addr = 2
+shift_reg = 20
+data_delayed = 19
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 21
+counter = 21
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 4
+this_addr = 3
+shift_reg = 21
+data_delayed = 20
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 22
+counter = 22
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 5
+this_addr = 4
+shift_reg = 22
+data_delayed = 21
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 23
+counter = 23
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 6
+this_addr = 5
+shift_reg = 23
+data_delayed = 22
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 24
+counter = 24
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 7
+this_addr = 6
+shift_reg = 24
+data_delayed = 23
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 25
+counter = 25
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 0
+this_addr = 7
+shift_reg = 25
+data_delayed = 24
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 26
+counter = 26
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 26
+data_delayed = 25
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+uut->reset = 1
+
+Start of next clock cycle !
+Clock Updated !
+uut->reset = 0
+uut->o_data = 8 , num_of_clk_passed = 1
+counter = 1
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 1
+raddr = 2
+this_addr = 0
+shift_reg = 1
+data_delayed = 26
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 2
+counter = 2
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 2
+data_delayed = 1
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 26 , num_of_clk_passed = 3
+counter = 3
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 3
+raddr = 2
+this_addr = 0
+shift_reg = 3
+data_delayed = 2
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 4
+counter = 4
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 4
+raddr = 3
+this_addr = 0
+shift_reg = 4
+data_delayed = 3
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 5
+counter = 5
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 5
+raddr = 4
+this_addr = 0
+shift_reg = 5
+data_delayed = 4
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 6
+counter = 6
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 6
+raddr = 5
+this_addr = 0
+shift_reg = 6
+data_delayed = 5
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 7
+counter = 7
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 7
+raddr = 6
+this_addr = 0
+shift_reg = 7
+data_delayed = 6
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 8
+counter = 8
+uut->o_primed = 1
+triggered = 0
+stopped = 0
+waddr = 0
+raddr = 7
+this_addr = 0
+shift_reg = 8
+data_delayed = 7
+i_trigger = 1
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 9
+counter = 9
+uut->o_primed = 1
+triggered = 1
+stopped = 0
+waddr = 1
+raddr = 0
+this_addr = 0
+shift_reg = 9
+data_delayed = 8
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 10
+counter = 10
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 10
+data_delayed = 9
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 8 , num_of_clk_passed = 11
+counter = 11
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 2
+this_addr = 1
+shift_reg = 11
+data_delayed = 10
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 12
+counter = 12
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 3
+this_addr = 2
+shift_reg = 12
+data_delayed = 11
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 13
+counter = 13
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 4
+this_addr = 3
+shift_reg = 13
+data_delayed = 12
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 14
+counter = 14
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 5
+this_addr = 4
+shift_reg = 14
+data_delayed = 13
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 15
+counter = 15
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 6
+this_addr = 5
+shift_reg = 15
+data_delayed = 14
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 16
+counter = 16
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 7
+this_addr = 6
+shift_reg = 16
+data_delayed = 15
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 17
+counter = 17
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 0
+this_addr = 7
+shift_reg = 17
+data_delayed = 16
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 18
+counter = 18
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 18
+data_delayed = 17
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 8 , num_of_clk_passed = 19
+counter = 19
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 2
+this_addr = 1
+shift_reg = 19
+data_delayed = 18
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 20
+counter = 20
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 3
+this_addr = 2
+shift_reg = 20
+data_delayed = 19
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 21
+counter = 21
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 4
+this_addr = 3
+shift_reg = 21
+data_delayed = 20
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 22
+counter = 22
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 5
+this_addr = 4
+shift_reg = 22
+data_delayed = 21
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 23
+counter = 23
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 6
+this_addr = 5
+shift_reg = 23
+data_delayed = 22
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 24
+counter = 24
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 7
+this_addr = 6
+shift_reg = 24
+data_delayed = 23
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 25
+counter = 25
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 0
+this_addr = 7
+shift_reg = 25
+data_delayed = 24
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 26
+counter = 26
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 26
+data_delayed = 25
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+uut->reset = 1
+
+Start of next clock cycle !
+Clock Updated !
+uut->reset = 0
+uut->o_data = 8 , num_of_clk_passed = 1
+counter = 1
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 1
+raddr = 2
+this_addr = 0
+shift_reg = 1
+data_delayed = 26
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 2
+counter = 2
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 2
+data_delayed = 1
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 26 , num_of_clk_passed = 3
+counter = 3
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 3
+raddr = 2
+this_addr = 0
+shift_reg = 3
+data_delayed = 2
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 4
+counter = 4
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 4
+raddr = 3
+this_addr = 0
+shift_reg = 4
+data_delayed = 3
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 5
+counter = 5
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 5
+raddr = 4
+this_addr = 0
+shift_reg = 5
+data_delayed = 4
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 6
+counter = 6
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 6
+raddr = 5
+this_addr = 0
+shift_reg = 6
+data_delayed = 5
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 7
+counter = 7
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 7
+raddr = 6
+this_addr = 0
+shift_reg = 7
+data_delayed = 6
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 8
+counter = 8
+uut->o_primed = 1
+triggered = 0
+stopped = 0
+waddr = 0
+raddr = 7
+this_addr = 0
+shift_reg = 8
+data_delayed = 7
+i_trigger = 1
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 9
+counter = 9
+uut->o_primed = 1
+triggered = 1
+stopped = 0
+waddr = 1
+raddr = 0
+this_addr = 0
+shift_reg = 9
+data_delayed = 8
+i_trigger = 0
+Printing buffer data !
+7 26 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 10
+counter = 10
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 10
+data_delayed = 9
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 8 , num_of_clk_passed = 11
+counter = 11
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 2
+this_addr = 1
+shift_reg = 11
+data_delayed = 10
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 12
+counter = 12
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 3
+this_addr = 2
+shift_reg = 12
+data_delayed = 11
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 13
+counter = 13
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 4
+this_addr = 3
+shift_reg = 13
+data_delayed = 12
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 14
+counter = 14
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 5
+this_addr = 4
+shift_reg = 14
+data_delayed = 13
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 15
+counter = 15
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 6
+this_addr = 5
+shift_reg = 15
+data_delayed = 14
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 16
+counter = 16
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 7
+this_addr = 6
+shift_reg = 16
+data_delayed = 15
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 17
+counter = 17
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 0
+this_addr = 7
+shift_reg = 17
+data_delayed = 16
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 18
+counter = 18
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 18
+data_delayed = 17
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 8 , num_of_clk_passed = 19
+counter = 19
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 2
+this_addr = 1
+shift_reg = 19
+data_delayed = 18
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 1 , num_of_clk_passed = 20
+counter = 20
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 3
+this_addr = 2
+shift_reg = 20
+data_delayed = 19
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 2 , num_of_clk_passed = 21
+counter = 21
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 4
+this_addr = 3
+shift_reg = 21
+data_delayed = 20
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 3 , num_of_clk_passed = 22
+counter = 22
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 5
+this_addr = 4
+shift_reg = 22
+data_delayed = 21
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 4 , num_of_clk_passed = 23
+counter = 23
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 6
+this_addr = 5
+shift_reg = 23
+data_delayed = 22
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 5 , num_of_clk_passed = 24
+counter = 24
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 7
+this_addr = 6
+shift_reg = 24
+data_delayed = 23
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 6 , num_of_clk_passed = 25
+counter = 25
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 0
+this_addr = 7
+shift_reg = 25
+data_delayed = 24
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+
+Start of next clock cycle !
+Clock Updated !
+uut->o_data = 7 , num_of_clk_passed = 26
+counter = 26
+uut->o_primed = 1
+triggered = 1
+stopped = 1
+waddr = 2
+raddr = 1
+this_addr = 0
+shift_reg = 26
+data_delayed = 25
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
+uut->reset = 1
+
+Start of next clock cycle !
+Clock Updated !
+uut->reset = 0
+uut->o_data = 8 , num_of_clk_passed = 1
+counter = 1
+uut->o_primed = 0
+triggered = 0
+stopped = 0
+waddr = 1
+raddr = 2
+this_addr = 0
+shift_reg = 1
+data_delayed = 26
+i_trigger = 0
+Printing buffer data !
+7 8 1 2 3 4 5 6 
