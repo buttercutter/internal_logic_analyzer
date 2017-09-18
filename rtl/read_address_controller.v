@@ -19,7 +19,7 @@ end
 
 always @(posedge clk)
 begin
-    raddr <= this_addr + waddr;// + 1;// + `ADDR_WIDTH'(read_enable);	// raddr (read pointer) starts at the next waddr (write pointer).  if read is enabled, raddr is incremented by '1' (pre-compute the next read pointer)
+    raddr <= this_addr + waddr + 1;  // raddr (read pointer) starts at the next waddr (write pointer).  raddr is incremented by '1' (pre-compute the next read pointer)
     //$display("raddr = %d" , raddr);
 end						
 
