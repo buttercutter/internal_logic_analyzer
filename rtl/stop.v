@@ -25,7 +25,7 @@ begin
     if (reset)	
 	holdoff_counter <= 0;
     else 	
-	holdoff_counter <= holdoff_counter + {`HOLDOFF_WIDTH{triggered}};   // starts counter only after scope is triggered
+	holdoff_counter <= (triggered) ? (holdoff_counter + 1) : holdoff_counter;   // starts counter only after scope is triggered
 end
 
 always @(posedge clk)

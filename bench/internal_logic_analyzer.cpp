@@ -77,7 +77,7 @@ void cout_debug_msg()
     cout << "triggered = " << (int)uut->internal_logic_analyzer_top__DOT__st__DOT__triggered << endl;
     cout << "stopped = " << (int)uut->internal_logic_analyzer_top__DOT__stopped << endl;
     cout << "waddr = " << (int)uut->internal_logic_analyzer_top__DOT__waddr << endl;
-    cout << "raddr = " << (int)uut->internal_logic_analyzer_top__DOT__rd__DOT__raddr << endl;
+    cout << "raddr = " << (int)uut->internal_logic_analyzer_top__DOT__raddr << endl;
     cout << "this_addr = " << (int)uut->internal_logic_analyzer_top__DOT__rd__DOT__this_addr << endl;
     cout << "shift_reg[0] = " << (int)uut->internal_logic_analyzer_top__DOT__dly__DOT__shift_reg[0] << endl;
     cout << "shift_reg[1] = " << (int)uut->internal_logic_analyzer_top__DOT__dly__DOT__shift_reg[1] << endl;
@@ -92,7 +92,7 @@ void cout_debug_msg()
     for (int k=0; k<MEMORY_SIZE; k++)
     {
 	if (k==ENTRIES_PER_LINE) cout << endl;
-	cout << uut->internal_logic_analyzer_top__DOT____Vcellout__wr__memory[k] << " ";
+	cout << uut->internal_logic_analyzer_top__DOT__mem__DOT__memory[k] << " ";
     }
     cout << endl;
 }

@@ -3,7 +3,7 @@ TARGET=internal_logic_analyzer
 RTLSRC=../rtl
 all: $(TARGET)
 
-DESIGN_FILES=$(TARGET)_top.v read_mem.v write_mem.v stop.v
+DESIGN_FILES=$(TARGET)_top.v memory_block.v read_address_controller.v write_address_controller.v stop.v
 LDFLAGS=
 CFLAGS=-g -O3
 
