@@ -12,11 +12,11 @@ wire data_out_is_valid;
 
 always @(posedge clk)
 begin
-    if(((data_out + `MEMORY_SIZE + `ALIGNMENT_DELAY) != (data_in + 1)) && data_out_is_valid)  // due to "delay.v"
+    if(((data_out + `MEMORY_SIZE + `ALIGNMENT_DELAY) != data_in) && data_out_is_valid)  // due to "delay.v"
 	test_failed <= 1;
 end
 
-assign data_out_is_valid = (data_in >= `MEMORY_SIZE + `USER_HOLDOFF + `ALIGNMENT_DELAY) && 
-			   (data_in < `MEMORY_SIZE + `MEMORY_SIZE + `USER_HOLDOFF + `ALIGNMENT_DELAY);
+assign data_out_is_valid = (data_in > `MEMORY_SIZE + `USER_HOLDOFF + `ALIGNMENT_DELAY) && 
+			   (data_in <= `MEMORY_SIZE + `MEMORY_SIZE + `USER_HOLDOFF + `ALIGNMENT_DELAY);
 
 endmodule

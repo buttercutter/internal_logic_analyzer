@@ -3,7 +3,7 @@
 module data_gen (clk, reset, data);   // generates 'data' which is basically an incrementing counter
 
 input clk, reset;
-output reg [(`DATA_WIDTH-1) : 0] data = 0;
+output reg [(`DATA_WIDTH-1) : 0] data = 1;  // the first data to be written to memory is '1' instead of '0'
 
 always @(posedge clk)
 begin

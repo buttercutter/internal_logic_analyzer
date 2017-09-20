@@ -98,9 +98,9 @@ void cout_debug_msg()
 
 void test_buffer()
 {
-    if ((counter >= MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + TEST_PRIMED_CONDITION) && (counter < 2*MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + TEST_PRIMED_CONDITION)) {
+    if ((counter > MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + TEST_PRIMED_CONDITION) && (counter <= 2*MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + TEST_PRIMED_CONDITION)) {
     	// test for counter data correctness in the circular buffer
-    	if (((int)uut->o_data + MEMORY_SIZE + ALIGNMENT_DELAY) != (counter+1)) {	
+    	if (((int)uut->o_data + MEMORY_SIZE + ALIGNMENT_DELAY) != counter) {	
 	    cout << "Error: Data in the circular buffer is not correct for buffer items at " << (fmod(counter , (MEMORY_SIZE+1))) << " at clock cycle " << num_of_clk_passed << endl;
 	    cout_debug_msg(); // for debugging/development purpose only
 	    exit(1);
@@ -150,14 +150,14 @@ int main(int argc, char** argv)
 	assert_trigger_now = (counter == TRIGGER_POSITION) ? 1 : 0; 
 	uut->i_trigger = assert_trigger_now; 
 
+	counter = counter + 1;
+	uut->i_data = counter;
+	
 	// test for correct recording operation by reading out the data in circular buffer
 	test_buffer();
 
 	if (DEBUG_ENABLED) cout_debug_msg(); // for debugging/development purpose only
 
-	counter = counter + 1;
-	uut->i_data = counter;
-	
 	if (num_of_clk_passed == 2*MEMORY_SIZE + USER_HOLDOFF + ALIGNMENT_DELAY + RESET_TIMING + TEST_PRIMED_CONDITION) {
 	    counter = 1;
 	    num_of_clk_passed = 0;
