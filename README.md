@@ -9,9 +9,9 @@ internal_logic_analyzer_top(clk, reset, i_trigger, i_holdoff, i_data, o_data, o_
 
 * reset : a signal to restart the logic sampling proccess once stopped by i_trigger
 
-* i_trigger : a signal to trigger the stopping of logic sampling process 
+* i_trigger : a signal to trigger the stopping of logic sampling process, to be asserted for one clock cycle 
 
-* i_holdoff : a signal is used to delay the stopping of logic sampling process upon i_trigger is aserted for one clock cycle
+* i_holdoff : this is the amount of delay in terms of clock cycles between assertion of i_trigger signal and the stopping of logic sampling process
 
 * i_data : this is the FPGA signal that we are interested in capturing/sampling
 
